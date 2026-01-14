@@ -26,10 +26,7 @@
 3. Kubernetes creates a **virtual IP (ClusterIP)**
 4. Traffic sent to the Service is routed to matching Pods
 
-Client → Service (Virtual IP) → kube-proxy → Pod IP
-
-yaml
-Copy code
+# Client → Service (Virtual IP) → kube-proxy → Pod IP
 
 > A Service is **virtual** — it does not run containers or processes.
 
