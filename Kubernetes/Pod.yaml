@@ -9,3 +9,5 @@ spec:
     ports:
     - containerPort: 80
 
+# kubectl apply -f pod.yaml
+# kubectl get pod nginx -o yaml / kubectl get pod -o wide
