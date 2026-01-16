@@ -1,3 +1,4 @@
+#FOR RC
 apiVersion: v1
 kind: ReplicationController
 metadata:
@@ -16,3 +17,4 @@ spec:
         image: nginx
         ports:
         - containerPort: 80
+#FOR RS
