@@ -24,6 +24,7 @@ kind: ReplicaSet
 metadata:
   name: nginx-rs
 spec:
+  replicas: 5
 
   selector:
     matchLabels:
