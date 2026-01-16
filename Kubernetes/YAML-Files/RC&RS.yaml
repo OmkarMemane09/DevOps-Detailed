@@ -17,4 +17,27 @@ spec:
         image: nginx
         ports:
         - containerPort: 80
+
 #FOR RS
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: nginx-rs
+spec:
+
+  selector:
+    matchLabels:
+      app: nginx
+    matchExpressions: 
+      - {key: app, operator: In, values: [nginx]} 
+
+  template:   # from this to last is pod template
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80   
