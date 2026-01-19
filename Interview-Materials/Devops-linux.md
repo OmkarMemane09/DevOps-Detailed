@@ -758,3 +758,155 @@ Never guess — always check logs and system state first.
 
 ---
 
+# Linux DevOps  Scenario-Based 
+
+## 1. A web service returns 502 Bad Gateway after deployment. What do you check?
+Check the service logs, upstream service status, reverse proxy configuration, and firewall rules.
+
+## 2. Docker container fails to start. How do you troubleshoot?
+Check `docker logs`, validate image existence, check ports, environment variables, and dependencies.
+
+## 3. Application is slow after deployment. How do you investigate?
+Check CPU/memory usage (`top`), logs for errors, database response times, and network latency.
+
+## 4. Disk is full on the server. How do you find large files?
+Use `df -h` to check partitions and `du -sh *` to locate large directories.
+
+## 5. Cron job didn’t execute. How do you debug?
+Check cron logs (`/var/log/cron`), file permissions, script path, and environment variables.
+
+## 6. SSH connections fail. What do you check?
+Verify SSH service, firewall, port, and user authentication. Check `/var/log/auth.log`.
+
+## 7. Process consumes 100% CPU. How do you handle it?
+Identify process via `top/htop`, check its purpose, consider `nice/renice`, and terminate if safe.
+
+## 8. Need to transfer large files efficiently between servers. How?
+Use `rsync -avz` or `scp` with compression enabled.
+
+## 9. Application cannot connect to database. What’s your first step?
+Check database service status, network connectivity, credentials, and firewall rules.
+
+## 10. Logs show repeated permission denied errors. How to fix?
+Audit file ownership/permissions, check SELinux/AppArmor, and user group membership.
+
+## 11. Service works manually but fails with systemd. Why?
+Check systemd unit environment, working directory, permissions, and dependency order.
+
+## 12. Config change breaks service. How to revert?
+Restore previous config backup, reload service (`systemctl daemon-reload`), and restart.
+
+## 13. Multiple users report slow performance. How to diagnose?
+Check CPU, memory, I/O usage, processes, and network throughput.
+
+## 14. Deployment breaks the system. How to rollback?
+Use previous application release, restore database snapshot, and verify service status.
+
+## 15. Environment variables not recognized in scripts. Why?
+Check if `export` was used, script is sourced, or shell is non-interactive.
+
+## 16. Users cannot access directories. What to do?
+Check directory ownership, permissions, ACLs, and group memberships.
+
+## 17. Network interface doesn’t come up. How to debug?
+Check `ifconfig/ip addr`, logs (`dmesg`), driver modules, and `/etc/network/interfaces`.
+
+## 18. High memory usage crashes app. How to investigate?
+Check `free -h`, `top`, application logs, and potential memory leaks.
+
+## 19. Port is already in use. How do you find the process?
+Use `ss -tulnp` or `lsof -i :port` and terminate or change port.
+
+## 20. Application logs grow too fast. What is the solution?
+Configure `logrotate` with rotation and compression policies.
+# Linux DevOps – Real-Time Scenario-Based Questions & Answers (21-50)
+
+## 21. Server load is high, but no single process is obvious. What do you do?
+Check `top` for zombie processes, I/O wait (`iostat`), and memory usage. Investigate background jobs and cron tasks.
+
+## 22. Database backup failed overnight. How do you troubleshoot?
+Check cron logs, backup script logs, disk space, permissions, and database connectivity.
+
+## 23. A service randomly crashes. How do you find the cause?
+Check logs (`journalctl`), memory dumps, system resources, recent config changes, and dependent services.
+
+## 24. After an update, application dependencies break. How to fix?
+Check package versions, rollback update if necessary, reinstall dependencies, and validate environment variables.
+
+## 25. Users report intermittent network failures. What steps do you take?
+Ping tests, check routing tables, inspect network interface status, firewall rules, and DNS resolution.
+
+## 26. File disappeared from server. How do you recover?
+Check trash or backup, use `find` to locate, restore from `rsync` or snapshot.
+
+## 27. Service won’t start due to missing dependency. How do you resolve?
+Check service logs, identify missing dependency, install or start it, and restart the service.
+
+## 28. Application fails with “Out of memory”. What’s your action?
+Check memory usage (`free -h`), adjust limits, optimize application, or add swap.
+
+## 29. Permission errors while running scripts as root. How to debug?
+Check SELinux/AppArmor status, script ownership, and shebang correctness.
+
+## 30. Cannot resolve domain names. How to fix?
+Check `/etc/resolv.conf`, test with `nslookup/dig`, verify DNS server availability.
+
+## 31. Logs show repeated authentication failures. What do you do?
+Check `/var/log/auth.log`, verify user accounts, disable suspicious IPs, and enforce stronger passwords.
+
+## 32. Cron job runs but script fails silently. Why?
+Check absolute paths, permissions, environment variables, and redirect output to a log.
+
+## 33. A process is stuck in D state. What is it and how to handle?
+It’s uninterruptible sleep (usually I/O). Investigate the I/O subsystem and consider reboot if necessary.
+
+## 34. Application cannot bind to port. How do you resolve?
+Check if port is in use (`ss -tulnp`), verify permissions (<1024 requires root), or change port.
+
+## 35. You need to monitor server in real-time. Which tools?
+`top`, `htop`, `iotop`, `netstat/ss`, `vmstat`, `dstat`, `journalctl -f`.
+
+## 36. File permissions need temporary escalation for a script. How?
+Use `sudo`, adjust ACLs temporarily, or run script as root.
+
+## 37. Disk I/O is slow. How to identify cause?
+Use `iostat`, `iotop`, check for heavy log writes, backup processes, or unoptimized databases.
+
+## 38. Application environment variable changes not applied. Why?
+Check if service was restarted, variable exported properly, and shell type.
+
+## 39. User cannot login via SSH. How to debug?
+Check `/etc/ssh/sshd_config`, firewall rules, user account status, and `auth.log`.
+
+## 40. Application hangs during startup. What steps?
+Check logs, permissions, missing dependencies, database connectivity, and system resources.
+
+## 41. Server crashes intermittently. How do you investigate?
+Check kernel logs (`dmesg`), hardware status, memory errors, CPU temperature, and recent changes.
+
+## 42. You need to synchronize files between two servers daily. How?
+Use `rsync` with cron, or a configuration management tool like Ansible.
+
+## 43. Service fails after reboot. What could be wrong?
+Service not enabled (`systemctl enable`), dependency missing, or incorrect systemd unit configuration.
+
+## 44. Application logs huge amount of debug info in production. Solution?
+Adjust log level, configure log rotation, or redirect debug logs to separate files.
+
+## 45. Database connection times out intermittently. How to troubleshoot?
+Check network, firewall, database performance, connection limits, and DNS resolution.
+
+## 46. Multiple applications compete for resources. How to manage?
+Use `nice/renice` for CPU, `ulimit` for processes/files, or cgroups for resource control.
+
+## 47. Service stuck in failed state. How do you recover?
+Check logs (`journalctl -u service`), restart service, fix underlying cause, then verify.
+
+## 48. Application fails only in non-interactive shell. Why?
+Environment variables missing, PATH differences, or shell-specific scripts.
+
+## 49. User reports slow file access on NFS mount. How to debug?
+Check network latency, NFS server status, mount options, and caching.
+
+## 50. You need to automate system health checks. How?
+Write shell scripts to check CPU, memory, disk, services, and logs; schedule via cron and notify via email/slack.
