@@ -1,4 +1,4 @@
-# Linux Basics & Command Line – Interview Q&A (DevOps)
+# Linux Basics 
 
 ## 1. What is Linux and why is it preferred in DevOps?
 Linux is an open-source operating system widely used in DevOps due to its stability, security, automation support, and compatibility with cloud and container tools.
@@ -61,7 +61,7 @@ Using `man` or `--help`.
 Ctrl+C stops a process, Ctrl+Z suspends it, Ctrl+D logs out or ends input.
 
 ---
-# Linux File System & Permissions – Interview Q&A (DevOps)
+# Linux File System & Permissions 
 
 ## 1. What is the Linux file system?
 It is a hierarchical structure used to organize files and directories starting from the root (`/`).
@@ -124,7 +124,7 @@ A data structure storing metadata about a file.
 Incorrect permissions can break applications and cause security issues.
 
 ---
-# Linux Users & Groups – Interview Q&A (DevOps)
+# Linux Users & Groups 
 
 ## 1. What is a user in Linux?
 A user is an entity that can log in and perform operations on the system.
@@ -187,7 +187,7 @@ Using the `passwd` command.
 It reduces security risks by granting only required permissions.
 
 ---
-# Linux Process & System Management – Interview Q&A (DevOps)
+# Linux Process & System Management 
 
 ## 1. What is a process in Linux?
 A process is a running instance of a program.
@@ -250,7 +250,7 @@ A terminated process whose entry still exists in process table.
 To ensure system stability, performance, and service availability.
 
 ---
-# Linux Networking Basics – Interview Q&A (DevOps)
+# Linux Networking Basics 
 
 ## 1. What is networking in Linux?
 It enables communication between systems over a network.
@@ -314,7 +314,7 @@ Applications, cloud services, and containers rely on network communication.
 
 ---
 
-# Linux Shell Scripting – Interview Q&A (DevOps)
+# Linux Shell Scripting 
 
 ## 1. What is a shell script?
 A shell script is a file containing a sequence of Linux commands executed automatically.
@@ -377,7 +377,7 @@ Stops script execution if any command fails.
 Automating backups, log cleanup, deployments, and health checks.
 
 ---
-# Linux Logs & Troubleshooting – Interview Q&A (DevOps)
+# Linux Logs & Troubleshooting 
 
 ## 1. What are logs in Linux?
 Logs are records of system and application events used for monitoring and troubleshooting.
@@ -440,7 +440,7 @@ They help detect issues, debug failures, and maintain system reliability.
 Check logs before making any changes.
 
 ---
-# Linux Services & Daemons (systemd) – Interview Q&A (DevOps)
+# Linux Services & Daemons (systemd) 
 
 ## 1. What is a service in Linux?
 A service is a background process that performs a specific system or application task.
@@ -504,7 +504,7 @@ Applications depend on services for availability, automation, and uptime.
 
 ---
 
-# Linux Package Management – Interview Q&A (DevOps)
+# Linux Package Management 
 
 ## 1. What is package management?
 It is the process of installing, updating, upgrading, and removing software on Linux systems.
@@ -567,7 +567,7 @@ Ensures consistent environments and automated deployments.
 Dependency conflicts or outdated repositories.
 
 ---
-# Linux Archiving & Backup – Interview Q&A (DevOps)
+# Linux Archiving & Backup 
 
 ## 1. What is archiving in Linux?
 Archiving combines multiple files into a single file for storage or transfer.
@@ -631,7 +631,7 @@ It ensures data recovery and business continuity.
 
 ---
 
-# Linux Environment Variables & Configs – Interview Q&A (DevOps)
+# Linux Environment Variables & Configs 
 
 ## 1. What are environment variables?
 Key-value pairs used to configure application and system behavior.
@@ -694,7 +694,7 @@ Passed using `-e` flag or `.env` files.
 They enable secure, flexible, and environment-specific deployments.
 
 ---
-# Linux Real-World Troubleshooting Scenarios – DevOps
+# Linux Real-World Troubleshooting Scenarios 
 
 ## 1. A service is down. What is your first step?
 Check `systemctl status service-name` and then logs.
