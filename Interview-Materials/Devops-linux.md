@@ -910,3 +910,96 @@ Check network latency, NFS server status, mount options, and caching.
 
 ## 50. You need to automate system health checks. How?
 Write shell scripts to check CPU, memory, disk, services, and logs; schedule via cron and notify via email/slack.
+
+---
+# Linux Troubleshooting Scenarios – DevOps Interview Q&A
+
+## 1. A Linux server is slow — how do you start troubleshooting?
+Check CPU, memory, disk I/O, running processes (`top`, `htop`, `iotop`), and system logs.
+
+## 2. CPU is 100% — how do you identify the root cause?
+Use `top` or `htop` to find the process, analyze its resource usage, and check logs for abnormal behavior.
+
+## 3. Memory is full — what steps will you take?
+Check `free -h`, running processes, memory leaks, swap usage, and optimize or restart heavy processes.
+
+## 4. Disk is 100% — how do you free space safely?
+Use `df -h` and `du -sh *` to locate large files, remove unnecessary files, clear logs, and check old backups.
+
+## 5. A service is down — how do you bring it back online?
+Check status with `systemctl status service`, review logs, start with `systemctl start service`, and enable if needed.
+
+## 6. SSH is not working — how do you troubleshoot?
+Check SSH service, firewall rules, port configuration, `/etc/ssh/sshd_config`, and authentication logs.
+
+## 7. A process is stuck — how do you kill it?
+Use `ps` or `top` to find PID, then `kill PID` or `kill -9 PID` if necessary.
+
+## 8. Logs are not getting generated — what do you check?
+Verify logging configuration, permissions of log directories, disk space, and service status.
+
+## 9. A user cannot login — how do you fix it?
+Check account status (`passwd -S`), shell configuration, `/etc/passwd`, group memberships, and PAM settings.
+
+## 10. Application is not starting after reboot — what do you do?
+Ensure the service is enabled (`systemctl enable`), check dependencies, review logs, and validate configuration files.
+
+## 11. How do you find which process is using a port?
+Use `ss -tulnp` or `lsof -i :port_number`.
+
+## 12. How do you troubleshoot network issues in Linux?
+Ping test, check IP configuration (`ip addr`), routes (`ip route`), DNS resolution (`dig/nslookup`), and firewall rules.
+
+## 13. Files got deleted — how do you recover them?
+Restore from backup, snapshots, or recovery tools like `extundelete` if filesystem supports it.
+
+## 14. Server rebooted automatically — how do you find the reason?
+Check `journalctl -b -1`, `/var/log/messages`, `dmesg`, and uptime logs.
+
+## 15. High I/O wait — how do you troubleshoot?
+Use `iostat` and `iotop` to find heavy processes, check disks, mounts, and optimize I/O-heavy applications.
+
+## 16. A cron job is not running — what do you check?
+Check cron logs, script permissions, absolute paths, and environment variables.
+
+## 17. Root filesystem is full — what is your action plan?
+Clean old logs, remove unnecessary files, check backups, and expand disk or partitions if needed.
+
+## 18. A service keeps crashing — how do you debug?
+Check service logs, dependencies, recent configuration changes, resource limits, and system logs.
+
+## 19. Logs are filling disk — how do you control it?
+Configure `logrotate`, compress old logs, and adjust application log levels.
+
+## 20. A process is consuming too much memory — what do you do?
+Analyze process behavior, restart or kill it if safe, optimize the application, or allocate more memory.
+
+## 21. How do you find recently modified files?
+Use `find /path -type f -mtime -N` or `ls -ltr` to track changes.
+
+## 22. A server got compromised — what are your first steps?
+Isolate the server, check logs for intrusion, disable user accounts, and assess damage before restoring.
+
+## 23. How do you safely restart a production server?
+Notify users, stop services gracefully, backup critical data, then reboot using `shutdown -r`.
+
+## 24. How do you trace application startup failure?
+Check logs, dependencies, config files, environment variables, and required ports.
+
+## 25. How do you identify kernel-related issues?
+Check `dmesg`, `/var/log/kern.log`, system crashes, and kernel updates or patches.
+
+## 26. How do you troubleshoot DNS problems on Linux?
+Verify `/etc/resolv.conf`, test with `dig`/`nslookup`, check firewall and network connectivity.
+
+## 27. How do you handle a server that won’t boot?
+Check BIOS/boot logs, rescue mode, initramfs errors, and filesystem integrity.
+
+## 28. How do you investigate random server crashes?
+Analyze `dmesg`, logs, hardware health, recent changes, and core dumps.
+
+## 29. How do you validate system health after recovery?
+Check CPU, memory, disk usage, services status, logs, and network connectivity.
+
+## 30. How do you prepare a Linux server for production?
+Update packages, configure users and permissions, secure SSH, install monitoring, enable backups, and harden firewall.
