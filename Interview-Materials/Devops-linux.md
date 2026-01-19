@@ -60,3 +60,701 @@ Using `man` or `--help`.
 ## 20. What do Ctrl+C, Ctrl+Z, Ctrl+D do?
 Ctrl+C stops a process, Ctrl+Z suspends it, Ctrl+D logs out or ends input.
 
+---
+# Linux File System & Permissions – Interview Q&A (DevOps)
+
+## 1. What is the Linux file system?
+It is a hierarchical structure used to organize files and directories starting from the root (`/`).
+
+## 2. What is the root directory?
+The top-level directory (`/`) from which all other directories branch.
+
+## 3. Explain `/bin` and `/sbin`.
+`/bin` contains essential user commands, `/sbin` contains system administration commands.
+
+## 4. What is `/etc` used for?
+Stores system-wide configuration files.
+
+## 5. Purpose of `/var` directory?
+Holds variable data like logs, mail, and spool files.
+
+## 6. What is `/home` directory?
+Contains personal directories of users.
+
+## 7. Difference between file and directory?
+A file stores data, a directory stores references to files and other directories.
+
+## 8. What are Linux file permissions?
+Rules that define read, write, and execute access for users.
+
+## 9. Explain `r`, `w`, `x` permissions.
+Read (`r`) allows viewing, write (`w`) allows modification, execute (`x`) allows execution.
+
+## 10. What are user, group, and others?
+Permission categories that define access for owner, group members, and everyone else.
+
+## 11. What does `chmod` do?
+Changes file or directory permissions.
+
+## 12. Difference between numeric and symbolic permissions?
+Numeric uses numbers (755), symbolic uses letters (`u+r`, `g-w`).
+
+## 13. What does permission 755 mean?
+Owner has full access, group and others have read and execute access.
+
+## 14. What is `chown` used for?
+Changes file or directory ownership.
+
+## 15. What is `chgrp`?
+Changes the group ownership of a file or directory.
+
+## 16. What is a hidden file?
+A file starting with `.` and not shown by default in `ls`.
+
+## 17. What is a symbolic link?
+A shortcut pointing to another file or directory.
+
+## 18. Difference between soft link and hard link?
+Soft link points to path, hard link points to inode.
+
+## 19. What is inode?
+A data structure storing metadata about a file.
+
+## 20. Why permissions are critical in DevOps?
+Incorrect permissions can break applications and cause security issues.
+
+---
+# Linux Users & Groups – Interview Q&A (DevOps)
+
+## 1. What is a user in Linux?
+A user is an entity that can log in and perform operations on the system.
+
+## 2. What is a group in Linux?
+A group is a collection of users used to manage permissions collectively.
+
+## 3. Why are users and groups important?
+They provide security, access control, and isolation in multi-user systems.
+
+## 4. What is the root user?
+The superuser with full administrative privileges.
+
+## 5. What is UID?
+User ID, a unique number assigned to each user.
+
+## 6. What is GID?
+Group ID, a unique number assigned to each group.
+
+## 7. Difference between root and normal user?
+Root has unrestricted access; normal users have limited permissions.
+
+## 8. How do you create a user?
+Using the `useradd` command.
+
+## 9. How do you delete a user?
+Using the `userdel` command.
+
+## 10. How do you create a group?
+Using the `groupadd` command.
+
+## 11. How do you add a user to a group?
+Using `usermod -aG groupname username`.
+
+## 12. What is `/etc/passwd`?
+Stores basic user account information.
+
+## 13. What is `/etc/shadow`?
+Stores encrypted user passwords securely.
+
+## 14. What is `/etc/group`?
+Stores group information.
+
+## 15. What is sudo?
+Allows a permitted user to execute commands as root.
+
+## 16. Difference between `su` and `sudo`?
+`su` switches user, `sudo` executes a single command as root.
+
+## 17. What is a system user?
+A non-login user used to run system services.
+
+## 18. How do you check logged-in users?
+Using `who` or `w`.
+
+## 19. How do you change a user password?
+Using the `passwd` command.
+
+## 20. Why is least privilege important?
+It reduces security risks by granting only required permissions.
+
+---
+# Linux Process & System Management – Interview Q&A (DevOps)
+
+## 1. What is a process in Linux?
+A process is a running instance of a program.
+
+## 2. What is a PID?
+Process ID, a unique number assigned to each process.
+
+## 3. Difference between process and thread?
+A process is independent, a thread is a lightweight unit within a process.
+
+## 4. How do you view running processes?
+Using `ps`, `top`, or `htop`.
+
+## 5. What does the `ps -ef` command do?
+Displays all running processes with full details.
+
+## 6. What is `top` used for?
+Real-time monitoring of system processes and resources.
+
+## 7. Difference between `top` and `htop`?
+`htop` is more interactive and user-friendly.
+
+## 8. What is a foreground process?
+A process that runs directly in the terminal.
+
+## 9. What is a background process?
+A process running without blocking the terminal.
+
+## 10. How do you run a process in background?
+Using `&` at the end of the command.
+
+## 11. What is `kill` command?
+Used to terminate a process using its PID.
+
+## 12. Difference between `kill` and `kill -9`?
+`kill` sends SIGTERM, `kill -9` forcefully stops a process.
+
+## 13. What are signals in Linux?
+Signals are messages sent to control process behavior.
+
+## 14. What is load average?
+Average system load over time.
+
+## 15. How do you check memory usage?
+Using `free -h`.
+
+## 16. How do you check CPU usage?
+Using `top` or `htop`.
+
+## 17. What is `nice` and `renice`?
+Commands to set or change process priority.
+
+## 18. What is `uptime`?
+Shows how long the system has been running.
+
+## 19. What is a zombie process?
+A terminated process whose entry still exists in process table.
+
+## 20. Why process management is important in DevOps?
+To ensure system stability, performance, and service availability.
+
+---
+# Linux Networking Basics – Interview Q&A (DevOps)
+
+## 1. What is networking in Linux?
+It enables communication between systems over a network.
+
+## 2. What is an IP address?
+A unique identifier assigned to a device on a network.
+
+## 3. Difference between IPv4 and IPv6?
+IPv4 uses 32-bit addresses, IPv6 uses 128-bit addresses.
+
+## 4. What is a port?
+A logical endpoint used to identify services.
+
+## 5. What is DNS?
+Domain Name System that resolves domain names to IP addresses.
+
+## 6. How do you check network connectivity?
+Using `ping`.
+
+## 7. What does `ifconfig` or `ip addr` do?
+Displays network interface details.
+
+## 8. Difference between `netstat` and `ss`?
+`ss` is faster and modern; `netstat` is legacy.
+
+## 9. What is `curl` used for?
+Testing APIs and transferring data over network.
+
+## 10. What is `wget`?
+Downloads files from the internet.
+
+## 11. What is a firewall?
+Controls incoming and outgoing network traffic.
+
+## 12. What is `iptables`?
+A Linux firewall utility for packet filtering.
+
+## 13. What is `ufw`?
+User-friendly firewall management tool.
+
+## 14. How do you check open ports?
+Using `netstat -tuln` or `ss -tuln`.
+
+## 15. What is localhost?
+The local machine address (127.0.0.1).
+
+## 16. What is a subnet?
+A smaller network within a larger network.
+
+## 17. What is a gateway?
+A device that routes traffic between networks.
+
+## 18. What is TCP and UDP?
+TCP is reliable and connection-oriented; UDP is faster but connectionless.
+
+## 19. How do you check DNS resolution?
+Using `nslookup` or `dig`.
+
+## 20. Why networking is critical in DevOps?
+Applications, cloud services, and containers rely on network communication.
+
+---
+
+# Linux Shell Scripting – Interview Q&A (DevOps)
+
+## 1. What is a shell script?
+A shell script is a file containing a sequence of Linux commands executed automatically.
+
+## 2. Why is shell scripting important in DevOps?
+It enables automation of repetitive tasks, deployments, monitoring, and maintenance.
+
+## 3. What is a shebang?
+`#!/bin/bash` specifies the interpreter to execute the script.
+
+## 4. How do you make a script executable?
+Using `chmod +x script.sh`.
+
+## 5. How do you run a shell script?
+Using `./script.sh` or `bash script.sh`.
+
+## 6. What are variables in shell scripting?
+Variables store data and are accessed using `$variable_name`.
+
+## 7. Difference between local and environment variables?
+Local variables are script-specific; environment variables are available system-wide.
+
+## 8. How do you take user input in a script?
+Using the `read` command.
+
+## 9. What are positional parameters?
+Arguments passed to scripts accessed as `$1`, `$2`, etc.
+
+## 10. What is an if-else statement?
+A conditional block used for decision making.
+
+## 11. What are loops in shell scripting?
+Used to repeat tasks (`for`, `while`, `until`).
+
+## 12. What is a function in shell scripting?
+A reusable block of code that performs a specific task.
+
+## 13. What is exit status?
+A value returned by a command indicating success (`0`) or failure (non-zero).
+
+## 14. What is `$?`?
+Stores the exit status of the last executed command.
+
+## 15. What is cron?
+A job scheduler used to run scripts at scheduled times.
+
+## 16. How do you schedule a cron job?
+Using `crontab -e`.
+
+## 17. What is stdout and stderr?
+Standard output and standard error streams.
+
+## 18. What is redirection in scripts?
+Redirecting output or input using `>`, `>>`, `<`, `2>`.
+
+## 19. What is `set -e`?
+Stops script execution if any command fails.
+
+## 20. Give a real DevOps use case of shell scripting.
+Automating backups, log cleanup, deployments, and health checks.
+
+---
+# Linux Logs & Troubleshooting – Interview Q&A (DevOps)
+
+## 1. What are logs in Linux?
+Logs are records of system and application events used for monitoring and troubleshooting.
+
+## 2. Where are logs stored in Linux?
+Mostly under the `/var/log` directory.
+
+## 3. What is `/var/log/syslog`?
+Contains general system activity logs.
+
+## 4. What is `/var/log/messages`?
+Stores system messages related to services and kernel events.
+
+## 5. What is `journalctl`?
+A command to view logs managed by systemd.
+
+## 6. How do you view recent logs?
+Using `tail -f logfile` or `journalctl -xe`.
+
+## 7. What does `journalctl -u service` do?
+Shows logs for a specific service.
+
+## 8. What is log rotation?
+The process of archiving and deleting old logs to save disk space.
+
+## 9. What tool manages log rotation?
+`logrotate`.
+
+## 10. How do you check why a service failed?
+Using `systemctl status service-name` and logs.
+
+## 11. What is `dmesg`?
+Displays kernel-related messages.
+
+## 12. How do you troubleshoot high disk usage?
+Check logs, use `du`, `df`, and identify large files.
+
+## 13. How do you troubleshoot a service not starting?
+Check logs, permissions, ports, and dependencies.
+
+## 14. What does `tail -f` do?
+Continuously monitors a log file in real time.
+
+## 15. How do you search logs for errors?
+Using `grep "error"` on log files.
+
+## 16. What is a common cause of application failure?
+Permission issues, port conflicts, or missing dependencies.
+
+## 17. How do you debug a crashed process?
+Check logs, core dumps, and system resources.
+
+## 18. What is stderr?
+Standard error stream where error messages are written.
+
+## 19. Why logs are critical in DevOps?
+They help detect issues, debug failures, and maintain system reliability.
+
+## 20. What is the first step in troubleshooting?
+Check logs before making any changes.
+
+---
+# Linux Services & Daemons (systemd) – Interview Q&A (DevOps)
+
+## 1. What is a service in Linux?
+A service is a background process that performs a specific system or application task.
+
+## 2. What is a daemon?
+A daemon is a service that runs continuously in the background.
+
+## 3. What is systemd?
+systemd is the init system used to manage services and system startup.
+
+## 4. What is `systemctl`?
+A command used to control and manage systemd services.
+
+## 5. How do you start a service?
+Using `systemctl start service-name`.
+
+## 6. How do you stop a service?
+Using `systemctl stop service-name`.
+
+## 7. How do you restart a service?
+Using `systemctl restart service-name`.
+
+## 8. How do you check service status?
+Using `systemctl status service-name`.
+
+## 9. How do you enable a service at boot?
+Using `systemctl enable service-name`.
+
+## 10. How do you disable a service?
+Using `systemctl disable service-name`.
+
+## 11. What is the difference between start and enable?
+Start runs the service now; enable starts it on boot.
+
+## 12. What is a unit file?
+A configuration file that defines how a service is managed by systemd.
+
+## 13. Where are systemd unit files located?
+`/etc/systemd/system` and `/lib/systemd/system`.
+
+## 14. What is a target in systemd?
+A group of services representing a system state.
+
+## 15. What is the default target?
+Usually `multi-user.target` or `graphical.target`.
+
+## 16. How do you reload systemd after changes?
+Using `systemctl daemon-reload`.
+
+## 17. How do you list all services?
+Using `systemctl list-units --type=service`.
+
+## 18. How do you troubleshoot a failed service?
+Check status, logs, permissions, ports, and dependencies.
+
+## 19. What is a masked service?
+A service that is completely disabled and cannot be started.
+
+## 20. Why services management is critical in DevOps?
+Applications depend on services for availability, automation, and uptime.
+
+---
+
+# Linux Package Management – Interview Q&A (DevOps)
+
+## 1. What is package management?
+It is the process of installing, updating, upgrading, and removing software on Linux systems.
+
+## 2. What is a package?
+A packaged bundle of software, dependencies, and metadata.
+
+## 3. What is a package manager?
+A tool that automates software management (e.g., apt, yum, dnf).
+
+## 4. What is `apt`?
+A package manager used in Debian-based systems like Ubuntu.
+
+## 5. What is `yum`?
+A package manager used in RHEL/CentOS systems.
+
+## 6. What is `dnf`?
+The modern replacement for `yum` with better performance and dependency handling.
+
+## 7. How do you install a package using apt?
+Using `apt install package-name`.
+
+## 8. How do you remove a package?
+Using `apt remove` or `yum remove`.
+
+## 9. Difference between `remove` and `purge`?
+`remove` deletes the package, `purge` deletes package and config files.
+
+## 10. How do you update package lists?
+Using `apt update`.
+
+## 11. How do you upgrade installed packages?
+Using `apt upgrade`.
+
+## 12. What is a repository?
+A remote server that stores software packages.
+
+## 13. Where are repository configs stored?
+`/etc/apt/sources.list` or `/etc/yum.repos.d/`.
+
+## 14. What is dependency resolution?
+Automatically installing required libraries for a package.
+
+## 15. How do you search for a package?
+Using `apt search` or `yum search`.
+
+## 16. How do you check installed packages?
+Using `dpkg -l` or `rpm -qa`.
+
+## 17. What is RPM?
+A package format used by RedHat-based systems.
+
+## 18. What is dpkg?
+Low-level Debian package management tool.
+
+## 19. Why package management is important in DevOps?
+Ensures consistent environments and automated deployments.
+
+## 20. Common package-related issue in production?
+Dependency conflicts or outdated repositories.
+
+---
+# Linux Archiving & Backup – Interview Q&A (DevOps)
+
+## 1. What is archiving in Linux?
+Archiving combines multiple files into a single file for storage or transfer.
+
+## 2. What is backup?
+Backup is creating a copy of data to restore in case of failure or loss.
+
+## 3. Difference between archive and backup?
+Archive groups files; backup ensures data recovery.
+
+## 4. What is `tar`?
+A utility to create and extract archive files.
+
+## 5. How do you create a tar archive?
+Using `tar -cvf archive.tar files`.
+
+## 6. How do you extract a tar archive?
+Using `tar -xvf archive.tar`.
+
+## 7. What is gzip?
+A compression tool used to reduce file size.
+
+## 8. Difference between `.tar` and `.tar.gz`?
+`.tar` is archived only; `.tar.gz` is archived and compressed.
+
+## 9. What does `tar -czvf` do?
+Creates a compressed tar archive.
+
+## 10. How do you extract `.tar.gz`?
+Using `tar -xzvf file.tar.gz`.
+
+## 11. What is zip?
+A compression and archiving tool.
+
+## 12. How do you create a zip file?
+Using `zip archive.zip files`.
+
+## 13. How do you extract a zip file?
+Using `unzip archive.zip`.
+
+## 14. What is rsync?
+A tool for efficient file synchronization and backups.
+
+## 15. Why is rsync preferred for backups?
+It transfers only changed files, saving time and bandwidth.
+
+## 16. What is incremental backup?
+Backs up only data changed since the last backup.
+
+## 17. What is full backup?
+Backs up all data every time.
+
+## 18. How do you automate backups?
+Using shell scripts and cron jobs.
+
+## 19. What is a common backup mistake?
+Not testing backups for restoration.
+
+## 20. Why backup is critical in DevOps?
+It ensures data recovery and business continuity.
+
+---
+
+# Linux Environment Variables & Configs – Interview Q&A (DevOps)
+
+## 1. What are environment variables?
+Key-value pairs used to configure application and system behavior.
+
+## 2. Why are environment variables important?
+They allow configuration without changing application code.
+
+## 3. How do you view environment variables?
+Using `printenv` or `env`.
+
+## 4. How do you view a specific variable?
+Using `echo $VARIABLE_NAME`.
+
+## 5. How do you set an environment variable temporarily?
+Using `export VAR=value`.
+
+## 6. How do you unset an environment variable?
+Using `unset VAR`.
+
+## 7. Difference between local and environment variables?
+Local variables are shell-specific; environment variables are inherited by child processes.
+
+## 8. What is PATH variable?
+Defines directories where executables are searched.
+
+## 9. Where are environment variables stored permanently?
+In `.bashrc`, `.bash_profile`, `.profile`, or `/etc/environment`.
+
+## 10. Difference between `.bashrc` and `.bash_profile`?
+`.bashrc` runs for interactive shells; `.bash_profile` runs on login.
+
+## 11. What is `/etc/environment`?
+System-wide environment variable configuration file.
+
+## 12. How do you make variables available to all users?
+Define them in `/etc/environment` or `/etc/profile`.
+
+## 13. What are configuration files?
+Files that define application or service settings.
+
+## 14. Where are config files usually stored?
+Mostly under `/etc`.
+
+## 15. Why should configs not be hardcoded?
+Hardcoding makes apps insecure and hard to maintain.
+
+## 16. How do you manage configs in DevOps?
+Using environment variables, config files, and secret managers.
+
+## 17. What is a secret?
+Sensitive data like passwords, API keys, or tokens.
+
+## 18. Why should secrets not be stored in code?
+It creates serious security risks.
+
+## 19. How are env variables used in Docker?
+Passed using `-e` flag or `.env` files.
+
+## 20. Why env variables are critical in DevOps?
+They enable secure, flexible, and environment-specific deployments.
+
+---
+# Linux Real-World Troubleshooting Scenarios – DevOps
+
+## 1. A service is down. What is your first step?
+Check `systemctl status service-name` and then logs.
+
+## 2. Application is running but not accessible on browser.
+Check service status, port listening, firewall, and network connectivity.
+
+## 3. Server disk is suddenly full. What do you do?
+Use `df -h`, `du -sh`, check logs under `/var/log`.
+
+## 4. High CPU usage on server.
+Use `top` or `htop` to identify the process and analyze it.
+
+## 5. High memory usage causing app crash.
+Check `free -h`, process memory usage, and logs.
+
+## 6. Service fails after reboot.
+Check if it is enabled using `systemctl enable`.
+
+## 7. Permission denied error in application.
+Verify file ownership and permissions using `ls -l`.
+
+## 8. Port already in use error.
+Find the process using `ss -tulnp` and stop or change port.
+
+## 9. Application not starting after deployment.
+Check logs, config files, environment variables, and permissions.
+
+## 10. User cannot run sudo commands.
+Check sudo access in `/etc/sudoers`.
+
+## 11. DNS resolution not working.
+Check `/etc/resolv.conf`, test with `nslookup` or `dig`.
+
+## 12. Cron job not running.
+Check cron logs, script permissions, and absolute paths.
+
+## 13. Logs growing too fast.
+Configure log rotation using `logrotate`.
+
+## 14. Service starts but exits immediately.
+Check logs, missing dependencies, and config errors.
+
+## 15. SSH connection refused.
+Check SSH service status, firewall, and port 22.
+
+## 16. Environment variable not working in service.
+Ensure it is defined in service unit file or system-wide config.
+
+## 17. Deployment works manually but fails in script.
+Check PATH, permissions, and non-interactive shell issues.
+
+## 18. File deleted accidentally. What now?
+Restore from backup or snapshot.
+
+## 19. System very slow after recent change.
+Review recent installs, updates, and logs.
+
+## 20. First rule of Linux troubleshooting?
+Never guess — always check logs and system state first.
+
+---
+
