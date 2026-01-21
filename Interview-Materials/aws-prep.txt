@@ -1,0 +1,311 @@
+**Basic EC2 Concepts**
+
+What is Amazon EC2?
+Amazon EC2 (Elastic Compute Cloud) provides resizable compute capacity in the cloud, allowing users to run virtual servers (instances) for applications with scalable resources.
+​
+
+What can you do with EC2?
+EC2 enables web-scale computing, hosting applications, scaling capacity up/down, and paying only for used resources, reducing time to boot servers to minutes.
+​
+
+How quickly do EC2 instances boot?
+Typically under 10 minutes from RunInstances API call to boot start, depending on AMI size and launch history.
+​
+
+What is an AMI?
+Amazon Machine Image (AMI) is a template containing OS, software, and configurations for launching EC2 instances.
+​
+
+Difference between EBS-backed and Instance Store-backed instances?
+EBS-backed persists root volume data after stop/start; Instance Store is ephemeral, data lost on stop/terminate.
+​
+​
+
+Instance Types and Purchasing Options
+What are EC2 instance types?
+Categories like t3/t4g (general), m5/m6i (balanced), c5/c6g (compute-optimized), r5/r6i (memory-optimized), p3/p4 (GPU).
+​
+
+Difference between On-Demand, Reserved, and Spot Instances?
+On-Demand: pay per use; Reserved: commit for discount; Spot: bid on spare capacity for up to 90% savings, interruptible.
+​
+
+What are Burstable Performance Instances (T-series)?
+Provide baseline CPU with burst ability via CPU credits; ideal for variable workloads like web servers.
+​
+
+What are Graviton instances (e.g., C6g, T4g)?
+Arm-based AWS Graviton processors offering up to 40% better price-performance for compute-intensive tasks.
+​
+
+When to use Compute Optimized (C-series) instances?
+For high-performance web servers, HPC, batch processing, video encoding, ML inference.
+​
+
+Networking and Connectivity
+How do you connect to a Linux EC2 instance?
+Use SSH with .pem key (ssh -i key.pem ec2-user@ip); or Session Manager (IAM-based, no open ports).
+​
+
+How to connect to Windows EC2?
+Use RDP after decrypting Administrator password with .pem key via console.
+​
+
+What is an Elastic IP?
+Static public IPv4 address you control; persists across stop/start, unlike dynamic public IPs.
+​
+
+Difference between public and private IP in EC2?
+Public IP: internet-routable, changes on stop/start; Private IP: VPC-internal only.
+​
+
+What are Security Groups?
+Virtual firewall for instances: stateful, instance-level, allow rules only (e.g., port 22 inbound SSH).
+
+Security and Access
+Difference between Security Groups and NACLs?
+SGs: instance-level, stateful, allow only; NACLs: subnet-level, stateless, allow/deny.
+​
+
+How to secure EC2 instances?
+Use SGs/NACLs for traffic control, IAM roles (no credentials), Session Manager, regular patching via SSM.
+​
+
+What are IAM roles for EC2?
+Temporary permissions attached to instances for AWS service access without hardcoding keys.
+​
+
+How to encrypt data on EC2?
+Use encrypted EBS volumes, EFS encryption, enable IMDSv2, KMS for keys.
+​
+
+What is EC2 Instance Metadata Service (IMDS)?
+HTTP endpoint (169.254.169.254) providing instance data; use IMDSv2 for security.
+​
+
+Storage (EBS and Instance Store)
+What is EBS?
+Block storage for EC2: persistent, attachable volumes (gp3, io2), snapshots for backups.
+​
+
+What is Instance Store?
+Ephemeral local storage: high I/O, lost on stop/terminate/reboot.
+​
+
+How to create EBS snapshot?
+Via console/CLI/API: consistent snapshot with AWS Backup or application quiescing.
+​
+
+Can you resize EC2 instance type?
+Yes: stop instance, change type in console/CLI, start (EBS-backed only).
+​
+
+What happens to ephemeral storage on stop/terminate?
+Data lost on both; preserve with EBS.
+​
+
+Auto Scaling and High Availability
+What is EC2 Auto Scaling?
+Automatically adjusts instance count based on demand using scaling policies (target tracking, step).
+​
+​
+
+How to make EC2 highly available?
+Multi-AZ deployment, ASG, ELB/ALB, stateless apps, data in EBS/RDS/S3.
+​
+
+What are Placement Groups?
+Cluster (low latency), Spread (high availability), Partition (HPC fault tolerance).
+​
+
+What is Launch Template vs Launch Configuration?
+Templates: newer, versioned, support mixed instances; Configurations: legacy.
+​
+
+How does Auto Scaling work?
+ASG defines min/max/desired capacity; CloudWatch alarms trigger scaling.
+​
+
+Monitoring and Troubleshooting
+How to monitor EC2 performance?
+CloudWatch metrics (CPU, network), alarms, detailed monitoring ($/instance).
+​
+
+EC2 at 100% CPU, app slow - fix?
+Check top/htop/ps, scale ASG, rightsize to C-series, CloudWatch alarms at 90%.
+​
+
+Troubleshoot EC2 not reachable via SSH?
+Check SG (port 22), NACLs, route tables, subnet (public?), key pair, instance status.
+​
+
+Instance stopped unexpectedly?
+Check Personal Health Dashboard, CloudTrail, ASG policies.
+​
+
+Disk full on EC2?
+Run df -h, check logs, rotate logs, expand EBS volume.
+​
+
+Advanced Features
+What is EC2 Hibernate?
+Pauses instance, saves RAM to root EBS, faster resume than stop/start.
+​
+
+What is Enhanced Networking?
+SR-IOV for higher throughput/packets/sec; ENA adapter on modern instances.
+​
+
+What is Elastic Fabric Adapter (EFA)?
+Low-latency network for HPC/ML; supports SHMEM/OS-bypass.
+​
+
+Multiple ENIs on EC2?
+Yes, for multi-homing, failover, traffic separation (e.g., mgmt/data networks).
+​
+
+What happens on EC2 stop/start?
+EBS persists, public IP changes (use EIP), instance store lost.
+​
+
+Billing, Limits, and Best Practices
+EC2 vCPU limits?
+Regional limits (e.g., 1152 vCPUs for standard families); request increases via quotas.
+​
+
+How to optimize EC2 costs?
+Right-sizing, Spot/Reserved/Savings Plans, ASG, T3 burstable.
+​
+
+Email limits from EC2?
+Port 25 throttled by default; request removal or use SES.
+​
+
+SLA for EC2?
+99.99% monthly uptime for EC2/EBS in a region.
+​
+
+What OS supported on EC2?
+Amazon Linux, Ubuntu, RHEL, Windows, SUSE, etc.
+​
+
+DevOps-Specific Scenarios
+Deploy app across AZs for HA?
+ASG multi-AZ subnets, ALB, health checks, persistent data external.
+
+Troubleshoot ALB unhealthy EC2?
+Verify SG allows ALB ephemeral ports (1024-65535), app logs, health check path.
+​
+
+Automate EC2 with CloudFormation?
+Define instance, SG, user data in YAML/JSON template; stack creates resources.
+​
+
+EC2 lifecycle management?
+ASG for provision/terminate, CloudWatch Events/Lambda for custom hooks.
+​
+
+Migrate on-prem to EC2?
+Assess app/network, use AWS MGN/VM Import, test multi-AZ, optimize sizing.
+​
+Connectivity and Access Scenarios
+EC2 instance unreachable via SSH despite correct key.
+Verify SG inbound port 22 from your IP, NACLs allow 22/1024-65535, public subnet with IGW route, instance running (status checks), correct user (ec2-user/ubuntu). Use VPC Reachability Analyzer.
+
+New EC2 loses public IP after stop/start.
+Public IPs are dynamic; associate Elastic IP before launch or attach post-start. Use ENI for persistence or ASG with EIPs.
+​
+
+Windows EC2 RDP connection fails.
+Decrypt admin password with .pem in console, ensure SG allows 3389 TCP, NACLs open, instance in public subnet. Check Windows Firewall.
+​
+
+EC2 in private subnet needs internet access.
+Attach NAT Gateway/Instance in public subnet; configure private route table 0.0.0.0/0 to NAT. No public IP needed.
+​
+
+High latency connecting to EC2 across regions.
+Deploy in same region/AZ, use Direct Connect/VPN for hybrid, CloudFront for static, check VPC peering if multi-VPC.
+​
+
+Performance and Scaling Scenarios
+EC2 CPU at 100%, app slow during traffic spikes.
+Enable detailed CloudWatch monitoring, identify process with top/htop, scale ASG with CPU>70% policy, rightsize to C-series, add ELB.
+
+ALB shows 502 Bad Gateway intermittently on EC2.
+Check app logs for timeouts/OOM, increase keep-alive timeouts, verify SG allows ALB ephemeral ports (1024-65535), health check path/status.
+​
+
+EC2 instance fails system status check.
+Underlying host issue; stop/start or replace via ASG. If instance status fail: reboot, check kernel logs (/var/log/messages), update AMI.
+​
+
+Disk I/O bottleneck on EC2 database.
+Monitor CloudWatch VolumeQueueLength>1, migrate to io2/gp3 EBS, RAID0 instance store, or RDS with Provisioned IOPS.
+​
+
+Memory exhausted causing OOM kills on EC2.
+Check dmesg for kills, monitor CloudWatch memory (custom metric via agent), rightsize to R-series, tune app limits, or containerize.
+​
+
+High Availability and Recovery Scenarios
+Single EC2 fails; make web app highly available.
+Deploy ASG across 2+ AZs, ALB/ELB for traffic distribution, health checks, stateless app, RDS Multi-AZ for state.
+
+Disaster recovery for EC2 app across regions.
+Pilot Light: minimal EC2 in DR region; Warm standby: scaled-down ASG; use Route53 failover, AMI snapshots, EBS cross-region copy.
+​
+
+ASG terminates healthy instances unexpectedly.
+Check scaling policies/cooldowns, instance refresh, health check grace period, CloudWatch alarms, termination lifecycle hooks.
+​
+
+EC2 data lost after reboot.
+Instance store ephemeral; attach/move to EBS beforehand. Enable EBS encryption, use snapshots for backups.
+​
+
+Load balancer traffic uneven across EC2 instances.
+Enable sticky sessions if needed, check instance weights (advanced ALB), deregister unhealthy, monitor CloudWatch TargetResponseTime.
+​
+
+Security and Compliance Scenarios
+Unauthorized SSH access detected on EC2.
+Rotate key pairs, restrict SG to bastion/Jump host, enable CloudTrail/VPC Flow Logs, use SSM Session Manager (no keys/ports), MFA IAM.
+​
+
+EC2 IAM role not granting S3 access.
+Attach correct policy/role to instance, trust policy allows EC2 service, use instance profile, test with curl metadata service.
+​
+
+Sensitive data exposed on EC2 public IP.
+Move to private subnet, use ALB, enable WAF, IMDSv2, encrypt EBS/EFS, scan with Inspector.
+​
+
+Cost and Optimization Scenarios
+High EC2 bill despite low usage.
+Check running instances/ASGs, NAT Gateway data transfer, EBS snapshots, rightsize with Compute Optimizer, switch to Spot/Reserved.
+​
+
+Optimize fleet for predictable workload.
+Use Reserved Instances/Savings Plans (1/3yr), ASG min capacity, Scheduled Scaling, T3 for burstable.
+​
+
+Advanced DevOps Scenarios
+Automate patching for 100 EC2 instances zero-downtime.
+Patch Manager in SSM: maintenance windows, approval rules, ASG rolling updates (max unavailable %), test groups first.
+​
+
+EC2 app needs GPU for ML inference.
+Launch p3/g4dn instances, attach EFA/ENI if needed, use Deep Learning AMIs, scale with ASG.
+​
+
+Migrate legacy VM to EC2.
+Use AWS MGN for continuous replication, VM Import/Export for one-time, test cutover, optimize instance type post-migration.
+​
+
+EC2 hibernation fails.
+Requires EBS-backed, encrypted root if enabled, no swapfile, Nitro-based instance, hibernation enabled at launch.
+​
+
+Troubleshoot VPC Flow Logs showing dropped EC2 traffic.
+Analyze rejects: SG/NACL misconfigs, IGW ACLs, route tables; use Reachability Analyzer, enable logging on ENI/VPC.
