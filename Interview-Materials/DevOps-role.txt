@@ -1,0 +1,318 @@
+1. Tell me about your roles and responsibilities (DevOps)
+
+Strong answer:
+
+In my DevOps role, I was responsible for automating infrastructure, CI/CD pipelines, and ensuring reliable application delivery. I worked on provisioning AWS infrastructure using Terraform, managing Kubernetes workloads, setting up monitoring and logging, and handling deployments with minimal downtime. I also collaborated with developers to containerize applications, troubleshoot production issues, and improve system reliability and security.
+
+What interviewers actually listen for:
+
+Automation (Terraform, CI/CD)
+
+Cloud + Kubernetes
+
+Ownership during failures
+
+❌ Weak answer: “I worked on AWS, Docker, Kubernetes”
+That tells them nothing.
+
+2. How can you tell a subnet is public or private?
+
+Exact answer:
+A subnet is public if:
+
+Its route table has a route 0.0.0.0/0 → Internet Gateway (IGW)
+
+A subnet is private if:
+
+It does NOT route traffic directly to IGW
+
+Usually routes 0.0.0.0/0 → NAT Gateway
+
+How to check practically:
+
+AWS Console → VPC → Subnets → Route Table
+
+
+❗ Public/private is NOT decided by subnet name.
+If you say that, you fail.
+
+3. What is Load Balancer in AWS & differences?
+
+Load Balancer: Distributes traffic across multiple targets for availability and scalability.
+
+Types:
+
+ALB (Application LB)
+
+Layer 7 (HTTP/HTTPS)
+
+Path & host-based routing
+
+Used with microservices, Kubernetes (Ingress)
+
+NLB (Network LB)
+
+Layer 4 (TCP/UDP)
+
+Ultra-low latency, static IP
+
+Used for high-performance workloads
+
+CLB (Classic)
+
+Legacy, avoid unless forced
+
+Interview tip:
+If you say “ALB is for web apps, NLB for performance”, you’re safe.
+
+4. AWS keys/passwords leaked — what action would you take?
+
+Correct incident response order:
+
+Immediately deactivate the compromised keys
+
+Rotate keys and passwords
+
+Check CloudTrail for suspicious activity
+
+Identify blast radius (EC2, S3, IAM changes)
+
+Apply least-privilege IAM policies
+
+Enable MFA
+
+Post-incident review
+
+❌ Saying “I will change password” only = amateur.
+
+5. NAT Gateway vs Internet Gateway
+Feature	IGW	NAT GW
+Internet access	Inbound + Outbound	Outbound only
+Used by	Public subnet	Private subnet
+Security	Exposed	Safer
+Needs public IP	Yes	Yes (for NAT itself)
+6. Why NAT Gateway is in a public subnet?
+
+Because:
+
+NAT Gateway needs internet access
+
+It must talk to IGW
+
+Private subnets route traffic to NAT, not internet directly
+
+If NAT were in private subnet → no internet → useless.
+
+7. git pull vs git fetch
+
+git fetch → Downloads changes without merging
+
+git pull → git fetch + git merge
+
+Professional workflow:
+
+git fetch origin
+git diff origin/main
+git merge origin/main
+
+
+❌ Blind git pull in production branches = red flag.
+
+8. Use of git cherry-pick
+
+Used to apply a specific commit from one branch to another.
+
+Example:
+
+git cherry-pick <commit-id>
+
+
+Use case:
+
+Hotfix from dev → prod
+
+Avoid merging entire branch
+
+❗ Overuse = messy history.
+
+9. Kubernetes commands you have used
+
+Group them like this (interviewers love structure):
+
+Basic:
+
+kubectl get pods/nodes/svc
+kubectl describe pod <name>
+kubectl logs <pod>
+
+
+Deployment:
+
+kubectl apply -f file.yaml
+kubectl delete -f file.yaml
+kubectl rollout status deployment/app
+kubectl rollout undo deployment/app
+
+
+Debugging:
+
+kubectl exec -it pod -- bash
+kubectl get events
+
+10. Why pods fail to start on a node?
+
+Common reasons:
+
+Insufficient CPU/memory
+
+ImagePullBackOff
+
+Node not ready
+
+Taints & tolerations
+
+CNI/network issue
+
+Volume mount failure
+
+Debug flow:
+
+kubectl describe pod
+kubectl describe node
+kubectl get events
+
+11. How do you troubleshoot ImagePullBackOff?
+
+Steps:
+
+kubectl describe pod
+
+Check image name & tag
+
+Check registry access
+
+Verify imagePullSecrets
+
+Test pulling image manually on node
+
+12. Causes of ImagePullBackOff
+
+Wrong image name/tag
+
+Private registry auth missing
+
+Registry down
+
+Network/DNS issue
+
+Rate limits (Docker Hub)
+
+13. StatefulSet vs Deployment vs DaemonSet
+Feature	Deployment	StatefulSet	DaemonSet
+Identity	No	Yes	No
+Use case	Stateless apps	Databases	Node agents
+Volumes	Shared	Stable per pod	Optional
+Scaling	Easy	Ordered	Per node
+14. Do Deployments use volumes? Which volumes used?
+
+Yes.
+
+Common volumes:
+
+emptyDir
+
+configMap
+
+secret
+
+persistentVolumeClaim
+
+Real-world:
+Deployment + PVC for apps that need storage.
+
+15. How is HPA set up & which component manages metrics?
+
+Setup:
+
+HPA uses CPU/memory/custom metrics
+
+Requires Metrics Server
+
+Flow:
+
+Metrics Server → kube-apiserver → HPA → Deployment
+
+
+Logs are NOT used by HPA.
+If you say logs, you’re wrong.
+
+16. Provisioner vs Provider (Terraform)
+
+Provider → Talks to APIs (AWS, Azure)
+
+Provisioner → Executes scripts (local-exec, remote-exec)
+
+❗ Provisioners are last resort, not best practice.
+
+17. How to remove Terraform drift?
+
+Steps:
+
+terraform plan
+
+Identify drift
+
+Either:
+
+Update code
+
+Or terraform apply to re-align
+
+Best practice:
+
+Avoid manual changes in cloud
+
+Lock down permissions
+
+18. What if Terraform state file is deleted?
+
+Terraform loses tracking
+
+Resources still exist
+
+You risk duplicate creation or deletion
+
+Recovery:
+
+terraform import
+
+
+Worst case: rebuild infra manually.
+
+19. How did you manage Terraform state reliability?
+
+Correct answer:
+
+Remote backend (S3)
+
+Versioning enabled
+
+State locking via DynamoDB
+
+Restricted access
+
+❌ Local state file = junior mistake.
+
+20. How team handles modules & how many used?
+
+Good answer:
+
+We used Terraform modules for reusable components like VPC, EC2, ALB, EKS, and IAM. Each module was versioned and stored in a central repository. In our project, we used around 5–8 modules to maintain consistency and reduce duplication.
+
+Interviewers care about:
+
+Reusability
+
+Versioning
+
+Clean structure
