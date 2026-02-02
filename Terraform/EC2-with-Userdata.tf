@@ -17,6 +17,15 @@ systemctl start nginx
 echo "Hello Im Omkar" > /var/www/html/index.html
 EOF
 
+#   user_data = base64encode(<<EOF
+# #!/bin/bash
+# apt update -y
+# apt install -y nginx
+# systemctl enable nginx
+# systemctl start nginx
+# echo "Hello Im Omkar" > /var/www/html/index.html
+# EOF
+# )
   tags = {
     Name = "terraform"
   }
