@@ -2,12 +2,8 @@ provider "aws" {
   region = "ap-south-1"
 }
 
-resource "aws_security_group" "securitygroup" {
-  name        = "securitygroup"
-
-  tags = {
-    Name = "securitygroup"
-  }
+resource "aws_security_group" "example" {
+  name = "securitygroup"
 
   ingress {
     from_port   = 80
@@ -19,7 +15,7 @@ resource "aws_security_group" "securitygroup" {
   ingress {
     from_port   = 22
     to_port     = 22
-    protocol    = "tcp"   
+    protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
 
@@ -29,27 +25,22 @@ resource "aws_security_group" "securitygroup" {
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
   }
+
+  tags = {
+    Name = "securitygroup"
+  }
 }
 
-resource "aws_instance" "terraform" {
-  ami           = "ami-123456"
-  instance_type = "t2.micro"
+resource "aws_instance" "web_server" {
+  ami                    = "ami-019715e0d74f695be"
+  instance_type          = "t2.nano"
+  vpc_security_group_ids = [aws_security_group.example.id]
 
-  vpc_security_group_ids = [aws_security_group.securitygroup.id]
-  user data = base64encode(<<-EOF
-              #!/bin/bash
-              apt update -y
-              sudo yum install -y Nginx
-              echo "<h1>Welcome to Terraform</h1>" > /var/www/html/index.html
-              sudo systemctl start nginx
-              sudo systemctl enable nginx
-              
-   EOF
-)
   tags = {
     Name = "terraform"
   }
 }
+
 output "instance_public_ip" {
-  value = aws_instance.terraform.public_ip
+  value = aws_instance.web_server.public_ip
 }
