@@ -33,3 +33,32 @@ Can you attach a single EBS volume to multiple EC2 instances at the same time?
 32.how to take the backup in ec2 instance in linux 
 33.what is port no dynamodb
 34.what is devops abd why we need the devops profile.
+DevOps Interview Experience – Round 2 | Key Learnings 🚀
+Recently, I completed Round 2 of a DevOps interview, and it was heavily focused on real-world scenarios, architecture decisions, and troubleshooting mindset rather than just definitions.
+Sharing the questions and key takeaways—it might help fellow DevOps aspirants 👇
+1. What is a Security Group in EC2?
+2. What is the difference between public and private EC2 instances?
+3. Suppose a web EC2 instance should be publicly accessible, while application and database EC2 instances remain private. How would you configure the subnets and security?
+4. Suppose you need to handle millions of requests per second. Which load balancer would you use, and why?
+5. How do you resolve merge conflicts?
+6. You committed code to the wrong branch. How would you fix it?
+7. How do you implement parallel stages in Jenkins?
+8. What are quality gates? Or, how do you confirm that a built artifact is good?
+9. During a deployment, your CI/CD pipeline fails unexpectedly. What approach would you take to troubleshoot and fix the problem?
+10. One container needs to communicate with another container. How would you do it?
+11. How do you update configuration without rebuilding Docker images?
+12. How do you reduce Docker image size?
+13. Have you deployed any application to EKS? If yes, how?
+14. Suppose one service is responding slowly while other services are healthy. How would you troubleshoot the issue?
+15. Describe the blue-green deployment strategy. What benefits and potential challenges do you see when implementing it in a cloud environment?
+16. What is the toughest challenge you have faced while working with EKS clusters?
+17. Describe how you manage infrastructure changes using tools like Terraform. What challenges have you encountered?
+18. What monitoring tools have you used? Can you explain which components you monitored?
+19. How do you investigate and troubleshoot an issue when a server is very slow?
+🔑 Key Learnings:
+- Interviewers value problem-solving mindset over just tools
+- Strong understanding of architecture & trade-offs is essential
+- Real-time troubleshooting and decision-making really matter
+- Hands-on experience with AWS, Docker, Kubernetes, CI/CD, and Terraform is a big plus
+- Grateful for the learning experience 🙌
+- Still learning, still improving, and staying consistent 💪
