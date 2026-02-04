@@ -1,0 +1,59 @@
+1. A user gets Permission denied while accessing a file. How will you identify and fix it?
+
+2. Disk space on / is full. How will you find what is consuming space?
+
+3. A Linux server is slow. What are the first checks you will perform?
+
+4. A service is not starting after a server reboot. How will you troubleshoot it?
+
+5. A process is consuming 100% CPU. How will you identify and stop it safely?
+
+6. A file was deleted accidentally and there is no backup. What options do you have?
+
+7. A user cannot log in via SSH. What checks will you perform?
+
+8. A website is down, but the server is running. What Linux-level checks will you do?
+
+9. Log files are growing rapidly and disk is filling up. How will you handle this?
+
+10. You need to give a user access to only one directory. How will you configure it securely?
+
+11. Server time is incorrect and causing application issues. How will you fix it?
+
+12.After editing a config file, a service won’t start. How will you debug and recover?
+
+ 13.A filesystem is mounted but not accessible. What could be the reasons?
+
+14. You want a script to run automatically every day. How will you schedule it?
+
+15. A user claims they deleted an important file. How will you verify what happened?
+
+16. A background process needs to be stopped. How will you do it?
+
+17. An application port is not reachable. How will you verify if it is listening?
+
+18. Multiple users are logged in. How will you check who is logged in and from where?
+
+19. You need to monitor application logs in real time. What command will you use?
+
+20. Disk usage looks normal in df, but space is still missing. What will you check next?
+
+21. A service is running but not responding. How will you troubleshoot?
+
+22. You want to restrict a user from switching to root. How will you do it?
+
+23. A file was modified unexpectedly. How will you find when and by whom?
+
+24. A system reboot is required after patching. How will you check uptime and reboot safely?
+
+25. You want to find files larger than 1GB. How will you do it?
+
+26. A service should start automatically after reboot. What steps will you follow?
+
+27. A user gets command not found. What could be the reasons?
+
+28. A directory has thousands of files and commands are slow. How will you handle this?
+
+29 You need to copy files securely between two Linux servers. What method will you choose?
+
+30. System memory is almost full. How will you analyze and fix it?
