@@ -1,0 +1,35 @@
+Can you attach a single EBS volume to multiple EC2 instances at the same time?
+2. what is EBS
+3. How to access the S3 bucket privately?
+4. What is VPC? 
+5. How many VPC can we create in one Region.
+6. What is called VPC peering?
+7. what is Subnet
+8. What are the types of autoscaling in aws ?
+9. What is called Public Subnet and Private Subnet.
+10.what is route-table
+11.What is called Cloud Formation?
+12.what is a public key and private key? 
+13.Purpose and use of s3?
+14.Difference between S3 & Glacier?
+15.Difference between EC2 and ECS?
+16.Why you won’t go with EC2 for installing a Database? Why RDS?
+17.Difference between NaCl and SG?
+18.Explian S3 lifecycle?
+19.what is ELB? and how to many type please explain in depth 
+20.Can you increase the size of the root volume without shutting down the instance?
+21.What is lambda?
+21.how to connect ec2 and DynomoDB
+22.What is cloud watch and why we using grafana 
+23.what is IAM ? and explain roles and policy
+24.what is Route 53
+25.What is Transit Gateway
+26.What is Internet Gateway
+27.what is differnece between Edge Location and Availability zone and regions
+28.What is SNS
+29.what is SQS
+30.what is port no sql
+31.what is port no mysql
+32.how to take the backup in ec2 instance in linux 
+33.what is port no dynamodb
+34.what is devops abd why we need the devops profile.
