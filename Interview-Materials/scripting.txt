@@ -1,0 +1,74 @@
+Q1. What is a shell script?
+A: A shell script is a file containing commands executed by the shell.
+
+Q2. How do you make a script executable?
+A: chmod +x script.sh
+
+Q3. How do you run a shell script?
+A: ./script.sh or bash script.sh
+
+Q4. How do you pass arguments to a script?
+A: $1, $2, $3 … for positional arguments
+
+Q5. How do you get total number of arguments in a script?
+A: $#
+
+🛠 Advanced Shell Scripting
+
+Q6. Difference between sh and bash scripts?
+A: bash supports advanced features like arrays, functions, and arithmetic operations.
+
+Q7. How do you write a function in bash?
+A:
+
+myfunc() {
+ echo "Hello"
+}
+myfunc
+
+Q8. How do you handle errors in scripts?
+A: Use exit, $?, or set -e
+
+Q9. How do you schedule script execution?
+A: Using cron jobs or at command
+
+Q10. How do you debug a shell script?
+A: bash -x script.sh
+
+
+🌐 Environment Variables
+
+Q11. What is an environment variable?
+A: A variable that stores system or user-specific configuration.
+
+Q12. How do you list all environment variables?
+A: env or printenv
+
+Q13. How do you create a temporary environment variable?
+A: export VAR=value
+
+Q14. How do you make environment variables permanent?
+A: Add them to ~/.bashrc or /etc/profile
+
+Q15. Difference between local and environment variable?
+A: Local exists only in current shell; environment variable is inherited by child processes.
+
+🔐 SELinux Basics
+
+Q16. What is SELinux?
+A: Security-Enhanced Linux enforces mandatory access control policies.
+
+Q17. How to check SELinux status?
+A: getenforce
+
+Q18. How to temporarily disable SELinux?
+A: setenforce 0
+
+Q19. Common SELinux modes?
+A: Enforcing, Permissive, Disabled
+
+
+⚡ Troubleshooting & Performance Tuning
+
+Q20. Commands to monitor system performance?
+A: top, htop, vmstat, iostat, sar
