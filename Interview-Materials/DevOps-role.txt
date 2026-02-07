@@ -1,3 +1,15 @@
+𝐃𝐞𝐯𝐎𝐩𝐬 𝐅𝐮𝐧𝐝𝐚𝐦𝐞𝐧𝐭𝐚𝐥𝐬 𝐘𝐨𝐮 𝐌𝐮𝐬𝐭 𝐎𝐰𝐧
+1. What’s the real difference between CPU bottleneck vs I/O bottleneck, and how do you identify each?
+2. Why do systems fail even when CPU and memory look fine?
+3. What actually happens when a Kubernetes Pod restarts?
+4. Difference between readiness and liveness probes, and how each can break production.
+5. What problem does infrastructure as code solve, and when can it become dangerous?
+6. How does Terraform state work, and what happens when it drifts?
+7. What’s the difference between horizontal and vertical scaling, and when should you avoid autoscaling?
+8. Why do deployments succeed but users still see errors?
+9. How do you decide between rollback vs hotfix during an incident?
+10. What’s the difference between metrics, logs, and traces, and when do you start with each?
+
 1. Tell me about your roles and responsibilities (DevOps)
 
 Strong answer:
