@@ -35,6 +35,25 @@ Can you attach a single EBS volume to multiple EC2 instances at the same time?
 34.what is devops abd why we need the devops profile.
 DevOps Interview Experience – Round 2 | Key Learnings 🚀
 Recently, I completed Round 2 of a DevOps interview, and it was heavily focused on real-world scenarios, architecture decisions, and troubleshooting mindset rather than just definitions.
+🔵 1. Which cloud platform (AWS, Azure, or GCP) have you worked with the most? Describe a migration project you led.
+
+🔵 2. How do you design a cloud architecture that is both cost-efficient and highly available?
+
+🔵 3. Explain the difference between IaaS, PaaS, and SaaS using examples from your own experience.
+
+🔵 4. Walk me through how you would set up disaster recovery and backup for a critical cloud application.
+
+🔵 5. Tell me about a time when a cloud deployment failed. What went wrong and how did you fix it?
+
+🔵 6. How do you monitor cloud infrastructure and ensure security and compliance?
+
+🔵 7. Can you explain auto-scaling? In which scenarios have you used it in production?
+
+🔵 8. Describe your experience with Infrastructure as Code tools like Terraform or CloudFormation.
+
+🔵 9. How would you optimize cloud costs for a company experiencing a 30% month-on-month increase in cloud spend?
+
+🔵 10. What security measures do you implement by default when provisioning cloud resources?
 Sharing the questions and key takeaways—it might help fellow DevOps aspirants 👇
 1. What is a Security Group in EC2?
 2. What is the difference between public and private EC2 instances?
