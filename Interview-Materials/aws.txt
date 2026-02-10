@@ -1,4 +1,55 @@
-Can you attach a single EBS volume to multiple EC2 instances at the same time?
+
+
+Explain the difference between Security Groups and NACLs in AWS.
+How would you design a highly available multi-region architecture on AWS?
+What is the difference between Application Load Balancer and Network Load Balancer?
+How does Auto Scaling work, and how can you optimize costs with it?
+Explain EBS volume types and when you would use each.
+How would you secure an S3 bucket for sensitive data?
+What are S3 storage classes? How do you choose the right one?
+Difference between RDS Multi-AZ and Read Replica?
+How do you implement backup and restore for RDS?
+Explain VPC Peering vs Transit Gateway.
+How do you monitor AWS resources with CloudWatch?
+How does CloudFormation differ from Terraform?
+When would you use AWS Lambda over EC2?
+Explain the concept of Elastic IP.
+How would you set up Route 53 for blue/green deployments?
+How does CloudFront caching work?
+How do you encrypt data at rest and in transit in AWS?
+Explain IAM roles vs IAM users vs IAM groups.
+How do you use KMS for encryption?
+How do you troubleshoot EC2 instance boot failures?
+How to attach an existing EBS volume to a new EC2 instance?
+Explain AWS Shared Responsibility Model.
+What are placement groups in EC2?
+Explain the use of NAT Gateway.
+How would you design a disaster recovery strategy in AWS?
+Difference between public and private subnet?
+How do you secure access to an RDS database?
+What is the lifecycle policy in S3?
+How do you monitor Lambda functions?
+How do you connect on-premise systems with AWS VPC?
+Explain AWS cost optimization best practices.
+What is the difference between ELB Classic, ALB, and NLB?
+Explain how to implement a WAF in AWS.
+How do you integrate CloudWatch with SNS for alerts?
+What’s the difference between AWS Config and CloudTrail?
+What is DynamoDB’s partition key and sort key?
+When to use DynamoDB vs RDS?
+How would you implement DynamoDB Auto Scaling?
+Explain DynamoDB Streams and its use case.
+How would you migrate an on-prem database to RDS?
+Explain EBS Snapshots and how to use them for recovery.
+How do you implement high availability for ECS?
+Difference between ECS and EKS?
+Explain IAM policy JSON structure.
+How do you secure sensitive parameters in CloudFormation?
+What is VPC Flow Logs and how would you use them?
+How do you manage cross-account access in AWS?
+What’s the difference between Instance Store and EBS?
+How would you enforce compliance policies in AWS?
+Explain how to use Systems Manager Parameter Store.Can you attach a single EBS volume to multiple EC2 instances at the same time?
 2. what is EBS
 3. How to access the S3 bucket privately?
 4. What is VPC? 
