@@ -9,6 +9,73 @@
 8. Why do deployments succeed but users still see errors?
 9. How do you decide between rollback vs hotfix during an incident?
 10. What’s the difference between metrics, logs, and traces, and when do you start with each?
+Day-to-Day & Cloud Basics
+1. Explain your day-to-day activities as a DevOps/SRE engineer.
+2. What is cloud migration?
+3. What is a VPC?
+4. What is a subnet and a NAT Gateway?
+5. If the private IP you were using is no longer available, what steps will you take?
+6. Explain the different types of block storage.
+7. What is Amazon S3?
+8. What are S3 storage classes, and which one have you used?
+9. What will you do if a file upload fails?
+10. Where is cache used in AWS?
+11. What is the difference between NLB & ALB
+
+Git, Versioning & Automation
+12. Which branching strategy have you worked with in your project?
+13. Write a command to create a branch in Git.
+14. Why is versioning important?
+15. What automation tools have you used?
+
+Jenkins & CI/CD
+16. What are the components of Jenkins?
+17. What are agents in Jenkins?
+18. How do you secure your CI/CD pipeline?
+19. Explain the stages in a CI/CD pipeline.
+20. Write the stages of a typical CI/CD pipeline.
+21. What is the difference between on and job in a YAML pipeline?
+
+Terraform
+22. What are data blocks in Terraform?
+23. What are Terraform modules?
+24. How do you secure your Terraform code?
+25. What is a UAT environment in Terraform?
+
+Docker
+26. Write a simple Dockerfile.
+27. What is the difference between CMD and ENTRYPOINT?
+
+Kubernetes
+28. Explain Kubernetes architecture.
+29. How did you deploy an application on Kubernetes?
+30. Write basic Kubernetes commands.
+31. How do you secure a Kubernetes application?
+32. What is HPA (Horizontal Pod Autoscaling)?
+33. What are Config Maps and Secrets?
+34. What is a Persistent Volume?
+35. What steps do you follow if a pod fails?
+36. Why do pod restarts?
+37. Why do we perform rollbacks?
+38. What will you do if a CrashLoopBackOff occurs?
+39. Through which Kubernetes service did you expose the application?
+
+Monitoring & SRE
+40. What monitoring tools have you used?
+41. How do metrics get into Prometheus?
+42. How did you identify issues from an SRE perspective?
+43. Explain what you have worked on in AWS CloudWatch.
+
+Python Scripting
+44. What is the difference between a list and a tuple in Python?
+45. Create a list and replace the value at the second position with another value.
+46. Write a Python function that prints: “Hello, please enter your name”.
+47. Write a Python script to notify when a server goes down.
+48. Write a Python script to list the first 10 S3 buckets in AWS.
+
+Bash & Linux
+49. Write a simple Bash script you have used in your project.
+50. What is the sed command used for?
 
 1. Tell me about your roles and responsibilities (DevOps)
 
