@@ -106,7 +106,7 @@ resource "aws_eks_node_group" "node_ec2" {
     max_size     = 3
   }
 
-  ami_type        = "AL2_x86_64"
+  ami_type        = "AL2_ARM_64"
   instance_types = ["c7i-flex.large"]
   capacity_type  = "ON_DEMAND"
   disk_size      = 20
