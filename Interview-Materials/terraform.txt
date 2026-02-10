@@ -1,0 +1,20 @@
+1️⃣ What is Terraform State and why does Terraform need it?
+2️⃣ What happens if Terraform is executed without a state file?
+3️⃣ Difference between local state and remote state?
+4️⃣ What is state locking? When does it activate?
+5️⃣ Which backends support state locking (S3, AzureRM, Consul, etc.)?
+6️⃣ Why should you NEVER push terraform.tfstate to Git?
+7️⃣ What sensitive information might appear inside the state file?
+8️⃣ How do you migrate state from local to remote backend?
+9️⃣ What is terraform state mv used for?
+🔟 How do you remove a resource from state without deleting it from cloud?
+1️⃣1️⃣ How do you import an existing cloud resource into state?
+1️⃣2️⃣ What issues occur when multiple engineers apply Terraform without locking enabled?
+1️⃣3️⃣ How do workspaces manage multiple state files?
+1️⃣4️⃣ How do you inspect Terraform state (commands/tools)?
+1️⃣5️⃣ What is the purpose of terraform_remote_state?
+1️⃣6️⃣ How can you recover a corrupted or drifted state file?
+1️⃣7️⃣ What do serial and lineage represent in state?
+1️⃣8️⃣ Best practices to secure Terraform state (encryption, IAM, versioning)?
+1️⃣9️⃣ What is state drift and how do you detect it?
+2️⃣0️⃣ When should you split Terraform into multiple states/backends?
