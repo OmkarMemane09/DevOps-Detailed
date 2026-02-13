@@ -1,0 +1,77 @@
+1. How does DNS resolution work inside a pod?
+→ And what do you check when a service isn’t reachable by name?
+
+2. Walk me through what the controller manager does during a Deployment.
+→ No rollout status. Reconciliation logic.
+
+3. What happens if a node with local storage gets autoscaled down?
+→ Be careful. This one causes data loss in prod more often than you’d think.
+
+4. Post-deploy, latency spikes for 30% of users. No errors. No logs. What now?
+→ Your answer reveals if you know how to triage chaos.
+
+5. How do you enforce runtime security in Kubernetes?
+→ PSP? AppArmor? OPA? Most people just hope for the best.
+
+6. HPA vs VPA vs Karpenter; when would you NOT use each?
+→ Bonus: How would you simulate HPA behavior in staging?
+
+7. Tell me about the last outage you debugged in Kubernetes.
+→ No postmortem? You weren’t there.
+🟣 Round 1: Technical Screening
+
+🔹 CI/CD & Jenkins
+1️⃣ Explain your end-to-end CI/CD workflow. Which type of Jenkins pipeline do you use and why?
+2️⃣ Difference between Declarative and Scripted Jenkins pipelines.
+3️⃣ How do you define and trigger Jenkins pipelines?
+4️⃣ What are Jenkins Shared Libraries? How are they structured and used in Jenkinsfiles?
+
+🔹 Build & Deployment
+5️⃣ What types of applications have you deployed using Jenkins pipelines?
+6️⃣ Which deployment tools have you used (Docker, Kubernetes, Helm, Terraform)?
+7️⃣ If a Jenkins pipeline runs but the build does not trigger, what could be the reasons?
+8️⃣ What is a webhook, and how is it used in a CI/CD pipeline?
+
+🔹 Kubernetes
+9️⃣ How do you create and manage Kubernetes clusters using Terraform?
+🔟 What is the role of the master (control plane) and worker nodes?
+1️⃣1️⃣ What common Kubernetes errors have you faced (CrashLoopBackOff, ImagePullBackOff), and how did you resolve them?
+1️⃣2️⃣ How do you access a running pod, and how do you define Kubernetes objects?
+
+🔹 Containers & Helm
+1️⃣3️⃣ Explain the folder structure of a Helm chart.
+1️⃣4️⃣ What are the stages involved in building a Docker image?
+1️⃣5️⃣ What is the difference between ENTRYPOINT and CMD in Docker?
+
+🔹 Cloud Services
+1️⃣6️⃣ How do you connect and manage services such as Databases, EC2, EKS, and ECS?
+1️⃣7️⃣ What is the command used to connect to a running ECS container?
+1️⃣8️⃣ Which container registry do you use to store Docker images?
+
+
+🟣 Round 2: In-Depth Technical Screening
+🔹 Git & Release Management
+1️⃣ Which branching strategy do you follow (GitFlow / Trunk-based), and how do you avoid breaking the release branch?
+2️⃣ If a critical bug is found in production, what is your approach to fixing it?
+
+🔹 Advanced CI/CD
+3️⃣ Explain your complete deployment workflow from code commit to production.
+4️⃣ What stages do you define in your Jenkins pipeline to ensure code quality?
+5️⃣ How do you design and reuse Jenkins Shared Libraries?
+
+🔹 Security & Compliance
+6️⃣ How do you perform Docker image vulnerability scanning during build time and at the registry level?
+7️⃣ Which security tools or plugins have you used for image scanning?
+
+🔹 Docker & Infrastructure
+8️⃣ How do you pass environment variables during Docker build and runtime?
+9️⃣ Which services or registries do you use to store Docker images?
+
+🔹 Cloud & Secrets
+🔟 How do you establish secure connections with databases?
+1️⃣1️⃣ How do you authenticate to EKS clusters and securely manage secrets?
+
+🔹 Serverless & Signing
+1️⃣2️⃣ How do you create and deploy AWS Lambda functions?
+1️⃣3️⃣ What are the different ways to push artifacts to AWS Lambda?
+1️⃣4️⃣ What is email signing and Helm chart signing? Which tools are used?
