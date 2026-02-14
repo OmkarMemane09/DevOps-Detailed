@@ -9,6 +9,45 @@
 8. Why do deployments succeed but users still see errors?
 9. How do you decide between rollback vs hotfix during an incident?
 10. What’s the difference between metrics, logs, and traces, and when do you start with each?
+🔹 Terraform
+
+What is a Terraform state file and why is it important?
+How does Terraform state locking work?
+What is the difference between local and remote backend?
+How do you import an existing resource into Terraform?
+What happens if the Terraform state file is deleted?
+What is a Terraform module?
+How do you call a local module?
+What is the purpose of terraform taint or -replace?
+How does Terraform handle dependencies between resources?
+What are workspaces in Terraform?
+
+AWS
+What is Assume Role and how does it work?
+What is AWS STS?
+Difference between IAM policy and Trust policy?
+How does cross-account access work in AWS?
+What is a Service Control Policy (SCP)?
+What happens if SCP denies but IAM allows?
+How do you securely copy S3 data between two AWS accounts?
+How does IAM role attached to EC2 work?
+Difference between public subnet vs private subnet?
+what is EBS, S3, EFS?
+
+🔹 Docker
+Write a Dockerfile for a simple web application.
+Difference between CMD and ENTRYPOINT?
+What is the difference between COPY and ADD?
+How do you reduce Docker image size?
+What are Docker layers?
+how to get running container ip address?
+
+🔹 Scenario-Based
+How do you design highly available infrastructure in AWS?
+How do you handle secret management securely?
+What are best practices for production Terraform usage?
+How do you troubleshoot a server that is not reachable?
+How do you design cross-account governance in AWS?
 Day-to-Day & Cloud Basics
 1. Explain your day-to-day activities as a DevOps/SRE engineer.
 2. What is cloud migration?
