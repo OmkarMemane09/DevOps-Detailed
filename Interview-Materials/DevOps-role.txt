@@ -9,6 +9,29 @@
 8. Why do deployments succeed but users still see errors?
 9. How do you decide between rollback vs hotfix during an incident?
 10. What’s the difference between metrics, logs, and traces, and when do you start with each?
+
+1.  Roles and responsibilities
+2. Explain about  your current project
+3. Explain the concept of pipeline as a code in Jenkins
+4. How you will manually trigger the Jenkins job in the manual checking is required for developer
+5. What are agents and runners
+6. How you will deploy the new Jenkins deployment by zero down time
+7. Explain the concept of how will create multi stage jobs in Jenkins
+8. Docker images vs docker container
+9. Kubernetes deployment vs stateful sets
+10. Pod struck in crash loopback error how will you troubleshoot
+11. One job working fine in dev environment and not working in production how will you troubleshoot
+12. One stage is failed in Jenkins pipeline due to credentials issue how you will make it work
+13. One pod not reachable to other pod in Kubernetes
+14. Explain the deployment strategy used in your organisation
+15. How you will create monitoring dashboard for your organisation
+16. Explain logs, metrics and traces
+17. Write a script to alert cpu utilisation is 80%
+18. How you will alert cpu utilisation is 80% in prometues
+19. Graphana dashboard is responding slow , how will you troubleshoot
+20. Explain the branching strategy in your organisation
+21. How do you ensure zero-downtime deployments?
+22. what is the difference between liveness and readiness probes
 🔹 Terraform
 
 What is a Terraform state file and why is it important?
