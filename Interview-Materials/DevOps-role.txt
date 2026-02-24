@@ -9,7 +9,44 @@
 8. Why do deployments succeed but users still see errors?
 9. How do you decide between rollback vs hotfix during an incident?
 10. What’s the difference between metrics, logs, and traces, and when do you start with each?
+🔹 AWS
+Explain how you would design a highly available EC2 architecture across multiple AZs for a web application.
+How would you migrate a running EC2 instance to another region with minimal downtime?
+If your EC2 instance is not reachable via SSH, what troubleshooting steps would you perform?
+Your web application experiences unpredictable traffic spikes. How would you configure auto scaling policies to handle this while optimizing costs?
+Explain a scenario where scheduled scaling is more appropriate than dynamic scaling.
+Your S3 bucket storing critical backups becomes unavailable. How would you recover?
+You want to audit all IAM users and roles for compliance. How would you do this?
+Your organization needs to grant cross-account access to a partner. How would you implement it?
+How would you secure S3 data in transit and at rest for compliance?
+How would you connect an on-premises network securely to your VPC?
+How would you deploy Lambda functions across multiple environments securely?
 
+🔹 Docker
+How do you handle multi-cloud Docker deployments with compliance restrictions?
+You need live-patching of Docker host kernel without downtime. How do you achieve it?
+How do you troubleshoot container DNS resolution failures?
+How do you enforce policy-as-code for Docker security?
+
+🔹 Kubernetes (K8s)
+Your Ingress controller crashes repeatedly under heavy load. How do you stabilize it?
+An entire Kubernetes region goes down. How do you failover workloads?
+All pods in one namespace suddenly fail readiness checks. What’s your step to troubleshoot?
+Your cluster is hit by a massive traffic surge, and HPA cannot scale pods fast enough. How do you handle it?
+A node hosting critical workloads crashes permanently. How do you ensure workloads recover automatically?
+A Pod is stuck in ImagePullBackOff. How do you troubleshoot?
+
+🔹 Terraform
+Your Terraform apply succeeded, but some resources are not behaving as expected. How do you debug?
+How do you run Terraform safely in CI/CD pipelines?
+Your Terraform state file is getting too large. How do you manage it?
+A team needs to provision infra in 10 AWS regions simultaneously. How do you structure it?
+You want faster Terraform runs in large projects. What optimizations would you apply?
+A production deployment failed halfway, leaving some resources created and others not. How do you recover?
+
+🔹 Prometheus & Grafana
+How do you implement Kubernetes cluster-level monitoring using Prometheus?
+How can you integrate Prometheus with Alertmanager and Slack for real-time notifications?
 1.  Roles and responsibilities
 2. Explain about  your current project
 3. Explain the concept of pipeline as a code in Jenkins
