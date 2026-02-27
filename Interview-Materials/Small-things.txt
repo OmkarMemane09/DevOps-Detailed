@@ -1,0 +1,11 @@
+✅ Main Ways to Install Packages Inside Docker
+
+There are 3 major package managers you keep seeing:
+
+Command	Used In	OS Type
+apt -	Ubuntu / Debian	Debian-based
+apk -	Alpine Linux	Alpine
+yum -  / dnf	CentOS / RHEL / Amazon Linux	RedHat-based
+pip - 	Python packages	Language-level
+npm - 	Node.js packages	Language-level
+gem	 - Ruby packages	Language-level
