@@ -9,3 +9,5 @@ yum -  / dnf	CentOS / RHEL / Amazon Linux	RedHat-based
 pip - 	Python packages	Language-level
 npm - 	Node.js packages	Language-level
 gem	 - Ruby packages	Language-level
+OS level Package manager - yum , apt , apk
+Language level - pip , npm go
