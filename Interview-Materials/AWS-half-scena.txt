@@ -87,3 +87,364 @@ Rationale: This packs instances close together inside a single Availability Zone
 Answer: No.
 
 Rationale: Data on Instance Store (ephemeral storage) is lost forever when an instance is stopped or terminated. (Note: Only EBS volumes can persist data after termination).
+-------------------------------------
+AWS Revision: Amazon EBS (Scenario-Based Q&A)
+1. Scenario: You have a database that requires a consistent performance of 15,000 IOPS. Which EBS volume type should you choose?
+
+Answer: Provisioned IOPS SSD (io1 or io2).
+
+Rationale: General Purpose SSD (gp3) has a limit on baseline IOPS (up to 16,000, but performance can vary), whereas Provisioned IOPS is designed specifically for I/O intensive workloads that require sustained performance.
+
+2. Scenario: You have a large data warehouse workload that involves massive, sequential read/writes. Cost is a major factor, and you don't need fast random access. Which volume type is best?
+
+Answer: Throughput Optimized HDD (st1).
+
+Rationale: st1 is a low-cost HDD designed for frequently accessed, throughput-intensive workloads like MapReduce, Kafka, and log processing.
+
+3. Scenario: You want to create a backup of your EBS volume that is stored geographically redundantly. How do you do this?
+
+Answer: Create an EBS Snapshot.
+
+Rationale: Snapshots are incremental backups stored in Amazon S3, which is inherently replicated across multiple Availability Zones within a region.
+
+4. Scenario: You need to move an EBS volume from Availability Zone us-east-1a to us-east-1b. Can you just detach and reattach it?
+
+Answer: No.
+
+Rationale: EBS volumes are locked to a specific AZ. To move one, you must take a Snapshot, then create a new volume from that snapshot in the destination AZ.
+
+5. Scenario: Your application’s storage needs have grown. How can you increase the size of an existing EBS volume without stopping the EC2 instance?
+
+Answer: Use Elastic Volumes.
+
+Rationale: You can modify volume type, size, and IOPS dynamically while the volume is in use. You may just need to extend the file system at the OS level afterward.
+
+6. Scenario: You have a "Gold" backup of a 1TB volume (a Snapshot). You create a new volume from it. Why might the performance be slow for the first few minutes?
+
+Answer: The volume is being "Lazy Loaded" from S3.
+
+Rationale: Data is pulled from S3 to EBS only when accessed. To prevent this, you can use Fast Snapshot Restore (FSR) or "pre-warm" the drive by reading all blocks.
+
+7. Scenario: You are deleting an EC2 instance, but you realize the attached EBS data volume was also deleted. Why did this happen and how do you prevent it next time?
+
+Answer: The DeleteOnTermination attribute was set to True.
+
+Rationale: By default, the Root volume is set to delete on termination. You must set this attribute to False if you want the volume to persist after the instance is gone.
+
+8. Scenario: You need to share an EBS volume between two different EC2 instances simultaneously for a clustered Linux application. Which feature do you use?
+
+Answer: EBS Multi-Attach.
+
+Rationale: This is supported only on specific volume types (io1/io2) and allows multiple Nitro-based instances to attach to a single volume.
+
+9. Scenario: You have a very rarely accessed archive of data on an EBS volume. You want the absolute lowest cost possible. Which volume type?
+
+Answer: Cold HDD (sc1).
+
+Rationale: sc1 is the lowest-cost magnetic storage intended for infrequent access.
+
+10. Scenario: You need to ensure that all data "at rest" and "in transit" between the instance and the volume is encrypted. How do you do this for an existing unencrypted volume?
+
+Answer: You cannot encrypt an existing volume directly. You must Snapshot the volume, then Copy the Snapshot while selecting the "Encryption" option, and finally create a new volume from the encrypted copy.
+
+11. Scenario: You are using a gp2 volume and have exhausted your "Burst Balance." What happens to your performance?
+
+Answer: It drops to the Baseline Performance (3 IOPS per GB, with a minimum of 100 IOPS).
+
+Rationale: gp2 uses a bucket-credit system for bursting. Upgrading to gp3 is usually recommended to avoid this, as gp3 provides a consistent 3,000 IOPS regardless of size.
+
+12. Scenario: Which AWS service can you use to automate the creation and deletion of EBS Snapshots based on a schedule?
+
+Answer: Amazon Data Lifecycle Manager (DLM).
+
+Rationale: DLM provides a simple, automated way to back up data stored on EBS volumes.
+
+13. Scenario: You have an EC2 instance in a Stopped state. Are you still being charged for EBS?
+
+Answer: Yes.
+
+Rationale: While you aren't charged for EC2 CPU/RAM when stopped, you are still consuming storage space in the AWS data center, so EBS charges continue.
+
+14. Scenario: You need to capture a "point-in-time" crash-consistent backup of a volume while the instance is still running. Is this possible?
+
+Answer: Yes.
+
+Rationale: You can take a snapshot while the volume is attached, but for a "clean" backup, it is recommended to pause disk I/O or unmount the volume briefly.
+
+15. Scenario: What is the main difference between EBS and Instance Store?
+
+Answer: Persistence.
+
+Rationale: EBS is network-attached storage that persists even if the instance is stopped/restarted. Instance Store is physically attached to the host and data is lost if the instance is stopped or fails.
+-------------------------------------
+1. Scenario: You have a fleet of 10 EC2 instances across three different Availability Zones that all need to read and write to the same set of configuration files. Which storage should you use?
+
+Answer: Amazon EFS.
+
+Rationale: Unlike EBS (which is usually 1-to-1), EFS is a regional service that allows hundreds of instances to connect simultaneously via the NFS protocol.
+
+2. Scenario: Your application’s storage needs fluctuate wildly, from 10GB to 5TB and back. You don’t want to manually resize volumes. What is the best fit?
+
+Answer: Amazon EFS.
+
+Rationale: EFS is "elastic"—it automatically grows and shrinks as you add or remove files. You only pay for what you use.
+
+3. Scenario: You are comparing EFS to EBS for a high-performance database. Which one generally offers lower latency?
+
+Answer: EBS.
+
+Rationale: EBS is block storage connected via a dedicated network (NVMe/SATA), whereas EFS is file storage accessed over a standard network (NFS), which introduces slightly higher latency.
+
+4. Scenario: You need to share files between a Linux EC2 instance and an on-premises server via a Direct Connect or VPN. Is this possible with EFS?
+
+Answer: Yes.
+
+Rationale: On-premises servers can mount EFS file systems as long as there is a network connection to the VPC and the correct Mount Targets are configured.
+
+5. Scenario: You want to save money on files that haven't been accessed in 30 days. Which EFS feature handles this automatically?
+
+Answer: EFS Lifecycle Management.
+
+Rationale: You can set a policy to move infrequently accessed files to the EFS Infrequent Access (IA) storage class, which is significantly cheaper.
+
+6. Scenario: You have a workload that performs a massive amount of small, parallel operations (like a big data analytics engine). Which EFS Performance Mode should you choose?
+
+Answer: Max I/O mode.
+
+Rationale: While "General Purpose" is the default, "Max I/O" scales to higher levels of aggregate throughput and operations per second, though with slightly higher latencies.
+
+7. Scenario: You want to minimize costs for a development environment where data doesn't need to be replicated across multiple AZs. Which EFS storage class should you use?
+
+Answer: EFS One Zone.
+
+Rationale: Unlike standard EFS (which replicates across 3+ AZs), One Zone stores data in a single AZ, reducing costs by up to 47%.
+
+8. Scenario: You are trying to mount an EFS volume on a Windows EC2 instance. Will it work?
+
+Answer: No (standard EFS).
+
+Rationale: EFS supports the NFS v4 protocol, which is native to Linux. For Windows shared storage, you should use Amazon FSx for Windows File Server.
+
+9. Scenario: You need your EFS throughput to scale based on the amount of data you have stored. Which Throughput Mode is this?
+
+Answer: Bursting Throughput.
+
+Rationale: In this default mode, throughput scales as the size of your file system grows.
+
+10. Scenario: You have a small amount of data (10GB) but need a constant, high throughput of 100MiB/s regardless of the storage size. Which mode do you select?
+
+Answer: Provisioned Throughput.
+
+Rationale: This allows you to pay for a specific throughput speed independent of how much data you are actually storing.
+
+11. Scenario: What is required within each Availability Zone for an EC2 instance to connect to an EFS file system?
+
+Answer: A Mount Target.
+
+Rationale: A Mount Target provides an IP address in a specific subnet that the EC2 instance uses to communicate with the EFS service.
+
+12. Scenario: Your EC2 instance is in AZ-A, but the EFS Mount Target is in AZ-B. Will this work, and is it recommended?
+
+Answer: It will work, but it is not recommended.
+
+Rationale: Accessing a mount target in a different AZ incurs inter-AZ data transfer costs and increases latency. Always use the mount target in the same AZ.
+
+13. Scenario: How do you control which EC2 instances can "talk" to the EFS Mount Target?
+
+Answer: Security Groups.
+
+Rationale: You must add an inbound rule to the EFS Mount Target's Security Group allowing traffic on TCP Port 2049 (NFS) from the EC2 instance's Security Group.
+
+14. Scenario: You deleted a file on EFS by mistake. Can you recover it using a "recycle bin" feature?
+
+Answer: Yes, if EFS Replication or AWS Backup was enabled.
+
+Rationale: EFS doesn't have a built-in "trash can," but you can use AWS Backup to create recovery points or use EFS Replication to a second file system.
+
+15. Scenario: Does EFS provide encryption for data at rest?
+
+Answer: Yes.
+
+Rationale: You can enable encryption at rest using AWS KMS when the file system is created.
+---------------------------------------
+
+1. Scenario: You created a new VPC and a subnet. You launched an EC2 instance with a Public IP, but you cannot SSH into it or ping it. What is the most likely missing component?
+
+Answer: An Internet Gateway (IGW).
+
+Rationale: A VPC is isolated by default. To have "Public" access, you must attach an IGW to the VPC and add a route in the Route Table (0.0.0.0/0) pointing to that IGW.
+
+2. Scenario: You have a database in a Private Subnet that needs to download software updates from the internet but must NOT be reachable from the outside. What do you need?
+
+Answer: A NAT Gateway (or NAT Instance).
+
+Rationale: A NAT Gateway lives in a Public Subnet and allows instances in Private Subnets to initiate outbound traffic while blocking unsolicited inbound traffic.
+
+3. Scenario: You want to block a specific, malicious IP address from accessing your entire subnet. Where is the best place to do this?
+
+Answer: Network ACL (NACL).
+
+Rationale: Security Groups are "Allow" only. NACLs support both "Allow" and "Deny" rules and operate at the subnet level.
+
+4. Scenario: You have two VPCs (VPC-A and VPC-B) in the same account and region. You want them to communicate using private IP addresses as if they were on the same network. What do you set up?
+
+Answer: VPC Peering.
+
+Rationale: VPC Peering creates a direct network connection between two VPCs. Note: Transitive peering is not supported (A to B, B to C does not mean A can talk to C).
+
+5. Scenario: You need to connect 50 different VPCs and your on-premises data center together in a "hub-and-spoke" model. What service simplifies this?
+
+Answer: AWS Transit Gateway.
+
+Rationale: Peering 50 VPCs would require hundreds of individual connections. Transit Gateway acts as a central router to simplify complex networking.
+
+6. Scenario: Your EC2 instance needs to access S3 privately without traversing the public internet or using a NAT Gateway. Which VPC feature should you use?
+
+Answer: VPC Endpoint (Gateway Type).
+
+Rationale: S3 and DynamoDB use Gateway Endpoints (free), which allow private communication from your VPC to the service.
+
+7. Scenario: You want to capture information about the IP traffic going to and from network interfaces in your VPC for security auditing. What do you enable?
+
+Answer: VPC Flow Logs.
+
+Rationale: Flow logs record metadata about IP traffic, which can be sent to CloudWatch Logs or S3 for analysis.
+
+8. Scenario: You are designing a VPC and need to choose a CIDR block. Which range is a standard private IP range (RFC 1918)?
+
+Answer: 10.0.0.0/16 (or 172.16.0.0/12, 192.168.0.0/16).
+
+Rationale: These ranges are reserved for private networks and won't conflict with public internet addresses.
+
+9. Scenario: You have a web server (Security Group A) and a Database (Security Group B). How do you allow the web server to talk to the DB on port 3306 without hardcoding IP addresses?
+
+Answer: Create an Inbound Rule in SG-B that allows Port 3306 where the Source is SG-A.
+
+Rationale: Referencing a Security Group ID as a source is the best practice; it allows any instance associated with SG-A to talk to SG-B regardless of their IP.
+
+10. Scenario: What is the difference between a Public Subnet and a Private Subnet?
+
+Answer: The Route Table.
+
+Rationale: A Public Subnet has a route to an Internet Gateway (0.0.0.0/0 -> IGW). A Private Subnet does not.
+
+11. Scenario: You have a Network ACL with Rule #100: "Allow all" and Rule #50: "Deny all." What happens to the traffic?
+
+Answer: Traffic is Denied.
+
+Rationale: NACLs process rules in numerical order, starting from the lowest number. Since 50 is lower than 100, the Deny rule is applied first.
+
+12. Scenario: Are Security Groups stateful or stateless? What does that mean?
+
+Answer: Stateful.
+
+Rationale: If you allow an inbound request, the return traffic is automatically allowed, regardless of outbound rules. (NACLs are stateless).
+
+13. Scenario: You need to connect your on-premises office to AWS with a consistent, high-bandwidth, dedicated physical connection (not over the internet). What do you use?
+
+Answer: AWS Direct Connect (DX).
+
+Rationale: Unlike Site-to-Site VPN, Direct Connect is a physical fiber connection that bypasses the internet for better performance and security.
+
+14. Scenario: How many IP addresses does AWS reserve in every subnet you create?
+
+Answer: 5.
+
+Rationale: AWS reserves the first four and the last one IP address in every subnet (e.g., .0, .1, .2, .3, and .255).
+
+15. Scenario: You want to ensure your application is highly available within a VPC. What is the minimum requirement?
+
+Answer: Deploy resources across at least two different Availability Zones (subnets in different AZs).
+
+Rationale: If one AZ (data center) goes down, the resources in the other AZ remain functional.
+
+----------------------------
+
+1. Scenario: You are running a website that handles standard HTTP and HTTPS traffic. You need to route requests to different target groups based on the URL path (e.g., /images vs /api). Which load balancer should you use?
+
+Answer: Application Load Balancer (ALB).
+
+Rationale: ALBs operate at Layer 7 (Application Layer) and support content-based routing, including path-based and host-based routing.
+
+2. Scenario: Your application requires extreme performance, low latency, and must handle millions of requests per second with static IP addresses. Which load balancer is the best fit?
+
+Answer: Network Load Balancer (NLB).
+
+Rationale: NLBs operate at Layer 4 (Transport Layer) and are designed for high-performance, ultra-low latency, and can be assigned Elastic IPs.
+
+3. Scenario: You have an ASG with a "Desired Capacity" of 3, a "Minimum" of 2, and a "Maximum" of 5. If one instance fails its health check and is terminated, how many instances will the ASG immediately try to launch?
+
+Answer: One.
+
+Rationale: The ASG will always try to maintain the "Desired Capacity." Since the failure dropped the count to 2, it will launch one more to reach 3.
+
+4. Scenario: You want to ensure that a user’s session data (stored locally on an instance) is preserved by sending that specific user to the same instance for the duration of their session. What ELB feature do you enable?
+
+Answer: Sticky Sessions (Session Affinity).
+
+Rationale: Sticky sessions bind a user's session to a specific target instance using cookies.
+
+5. Scenario: Your ASG is scaling up and down too frequently because the CPU metric is fluctuating. How can you prevent the ASG from launching or terminating instances too quickly after a previous scaling action?
+
+Answer: Increase the Scaling Cooldown period.
+
+Rationale: The cooldown period ensures that the ASG doesn't launch or terminate additional instances before the previous ones have had time to stabilize the load.
+
+6. Scenario: You have instances in two different Availability Zones. AZ-A has 5 instances and AZ-B has 1 instance. How do you ensure the load is distributed 50/50 between the two AZs?
+
+Answer: Enable Cross-Zone Load Balancing.
+
+Rationale: This feature allows the load balancer to distribute traffic evenly across all registered instances in all enabled AZs, regardless of how many instances are in each zone.
+
+7. Scenario: You need to update the instance type (e.g., from t2.micro to t3.medium) for all instances in an existing ASG. Where do you make this change?
+
+Answer: Create a new Launch Template (or Launch Configuration) and update the ASG to use it.
+
+Rationale: Launch Templates are immutable for an active instance; to change the "blueprint," you must provide a new version or template to the ASG.
+
+8. Scenario: An instance is healthy according to EC2 (it's "Running"), but the web server software inside it has crashed. How can the ASG know to replace it?
+
+Answer: Set the ASG Health Check Type to "ELB" instead of "EC2."
+
+Rationale: An EC2 health check only looks at the hardware/OS level. An ELB health check tests if the application is actually responding to pings.
+
+9. Scenario: You want to maintain a constant average CPU utilization of 40% across your entire fleet. Which scaling policy should you use?
+
+Answer: Target Tracking Scaling.
+
+Rationale: You select a metric (like average CPU) and a target value, and AWS handles the math of adding or removing instances to hit that target.
+
+10. Scenario: You have a big sale starting exactly at 9:00 AM on Friday. You know traffic will spike instantly. Which scaling method is best?
+
+Answer: Scheduled Scaling.
+
+Rationale: Since you know the exact time of the spike, you can tell the ASG to increase the desired capacity at 8:55 AM so the instances are ready.
+
+11. Scenario: You want to run your web application as cheaply as possible using a mix of On-Demand and Spot instances within the same ASG. Is this possible?
+
+Answer: Yes, using Launch Templates.
+
+Rationale: Modern ASGs allow you to define a "Purchase Option" strategy to combine Spot and On-Demand instances to optimize costs.
+
+12. Scenario: Your Application Load Balancer is returning a "504 Gateway Timeout" error. What is the most likely cause?
+
+Answer: The Target (EC2 instance) failed to respond within the idle timeout period.
+
+Rationale: A 504 error usually means the app is struggling to process the request or the database is hanging; it's an application-tier issue, not an ELB configuration issue.
+
+13. Scenario: When an ASG scales in (terminates an instance), which instance does it usually pick first by default?
+
+Answer: The instance launched from the oldest Launch Configuration or the one in the AZ with the most instances.
+
+Rationale: ASG termination policies aim to balance the group across AZs and move the fleet toward the newest configuration.
+
+14. Scenario: You need to perform a "Blue/Green" deployment. How can the ELB help?
+
+Answer: You can have two Target Groups (Blue and Green). You swap the Listener Rules on the ELB to point traffic from the old version to the new version instantly.
+
+15. Scenario: What is the "Termination Lifecycle Hook" used for in an ASG?
+
+Answer: To perform cleanup tasks (like uploading logs to S3) before the instance is fully terminated.
+
+Rationale: Lifecycle hooks put the instance in a "Wait" state so you can run scripts before the instance is deleted.
+------------------------
