@@ -1,0 +1,89 @@
+1. Scenario: Your company needs to run a high-performance database that requires consistent, very high IOPS. Which EC2 instance family should you prioritize?
+
+Answer: The Storage Optimized (I-type) family.
+
+Rationale: Instances like the i3 or i4g are designed for workloads that require high, sequential read and write access to very large data sets on local storage.
+
+2. Scenario: You have a web application with a predictable baseline load, but it occasionally spikes for 30 minutes. You want the most cost-effective way to handle this without over-provisioning. What should you use?
+
+Answer: Burstable Performance Instances (T-family) with T2/T3 Unlimited credits.
+
+Rationale: T-instances provide a baseline level of CPU performance with the ability to burst above that baseline when needed using CPU credits.
+
+3. Scenario: A legacy application must run on a specific physical server to comply with strict licensing requirements that tied the license to the hardware UUID. Which EC2 tenancy should you choose?
+
+Answer: Dedicated Hosts.
+
+Rationale: Unlike Dedicated Instances, Dedicated Hosts give you visibility and control over how instances are placed on a physical server, allowing you to use your existing per-socket or per-core software licenses.
+
+4. Scenario: You want to run a batch processing job that is not time-sensitive and can be interrupted at any time. How can you save up to 90% on costs?
+
+Answer: Use Spot Instances.
+
+Rationale: Spot instances use spare AWS capacity and are significantly cheaper, but AWS can reclaim them with a 2-minute notice.
+
+5. Scenario: Your development team is launching 50 instances for a 3-year project. The usage will be constant 24/7. Which pricing model offers the best long-term discount?
+
+Answer: Standard Reserved Instances (3-year term).
+
+Rationale: Committing to a specific instance family and region for a long term provides the highest discount compared to On-Demand or 1-year terms.
+
+6. Scenario: An instance is unreachable via SSH. You suspect a misconfigured firewall. Which EC2 feature should you check first?
+
+Answer: Security Groups.
+
+Rationale: Security Groups act as a virtual firewall at the instance level; you must ensure port 22 (SSH) is open for your specific IP address.
+
+7. Scenario: You need to pass a script to an EC2 instance to install Apache automatically when the instance boots up for the first time. Where do you put this script?
+
+Answer: EC2 User Data.
+
+Rationale: User Data scripts run only during the first boot cycle of the instance to automate configuration tasks.
+
+8. Scenario: You are moving an application from a "testing" VPC to a "production" VPC. You want to keep the exact same software configuration and data. What is the fastest way to do this?
+
+Answer: Create an AMI (Amazon Machine Image) from the test instance.
+
+Rationale: An AMI captures the state of the root volume and configuration, allowing you to launch an identical instance in a different VPC or Region.
+
+9. Scenario: You want to ensure that your EC2 instances in a cluster are placed on distinct underlying hardware to minimize the risk of simultaneous failure. Which placement strategy should you use?
+
+Answer: Spread Placement Group.
+
+Rationale: A Spread Placement Group ensures that each instance is placed on distinct racks, each with its own network and power source.
+
+10. Scenario: Your EC2 instance needs to securely access an S3 bucket. What is the AWS best practice for granting this access?
+
+Answer: Attach an IAM Role to the EC2 instance.
+
+Rationale: Using IAM Roles (Instance Profiles) avoids the need to store long-term AWS access keys (secret/access keys) directly on the instance.
+
+11. Scenario: You stopped an EC2 instance and started it again. The public IP address changed, breaking your DNS record. How do you prevent this?
+
+Answer: Assign an Elastic IP (EIP).
+
+Rationale: An Elastic IP is a static, public IPv4 address that remains associated with your account even when the instance is stopped.
+
+12. Scenario: You need to run an application that requires 20Gbps network bandwidth between instances. Which feature must be supported and enabled?
+
+Answer: Enhanced Networking (ENA).
+
+Rationale: Enhanced networking provides higher bandwidth, higher packet per second (PPS) performance, and consistently lower inter-instance latencies.
+
+13. Scenario: An instance is performing poorly. You want to see the CPU utilization over the last 24 hours. Where do you look?
+
+Answer: Amazon CloudWatch.
+
+Rationale: EC2 sends basic metrics (like CPU, Disk I/O, Network) to CloudWatch automatically at 5-minute intervals.
+
+14. Scenario: You are launching an instance and want to ensure it has the highest possible networking performance for a distributed "tightly coupled" High-Performance Computing (HPC) workload. Which placement group do you use?
+
+Answer: Cluster Placement Group.
+
+Rationale: This packs instances close together inside a single Availability Zone to achieve low-latency network performance.
+
+15. Scenario: You have an On-Demand instance that you accidentally terminated. Can you recover the data that was on the local Instance Store volume?
+
+Answer: No.
+
+Rationale: Data on Instance Store (ephemeral storage) is lost forever when an instance is stopped or terminated. (Note: Only EBS volumes can persist data after termination).
