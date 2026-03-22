@@ -1,4 +1,54 @@
 𝐃𝐞𝐯𝐎𝐩𝐬 𝐅𝐮𝐧𝐝𝐚𝐦𝐞𝐧𝐭𝐚𝐥𝐬 𝐘𝐨𝐮 𝐌𝐮𝐬𝐭 𝐎𝐰𝐧
+🐳 Docker
+ 1. Main Docker Network Types
+ 2. What is the use of Dockerfile?
+ 3. Why do we use Dockerfile?
+ 4. Dockerfile Instructions
+
+⸻
+
+⚙️ Terraform
+ 5. How do you execute a script even if the resource is not created?
+ 6. What is Terraform State File? Why is it used?
+ 7. What are terraform block and required_providers?
+ 8. What is remote-exec in Terraform?
+ 9. What is null_resource in Terraform?
+
+⸻
+
+☸️ Kubernetes
+ 10. Worker Node keeps restarting – how to resolve?
+ 11. Which Kubernetes resource is used to store tokens, secrets, and passwords?
+ 12. Readiness Probe in Kubernetes?
+ 13. Liveness Probe vs Readiness Probe
+ 14. Storage resources in a Pod
+ 15. ReplicaSet manifest
+ 16. NodePort range
+ 17. ClusterIP vs NodePort
+ 18. Default namespaces in Kubernetes
+
+⸻
+
+🔐 Networking & Security
+ 19. On what basis do we use SSL termination?
+ 20. What is SSL termination?
+
+⸻
+
+☁️ AWS
+ 21. Difference between Application Load Balancer and Network Load Balancer
+ 22. What is Amazon Route 53?
+ 23. Is Elastic IP single per AWS account?
+ 24. What are Security Groups?
+ 25. What is NACL?
+ 26. What is User Data in EC2?
+
+⸻
+
+💡 Tip:
+Most questions were fundamental but scenario-based follow-ups were deep. Make sure your basics are strong + you can explain real-time use cases.
+
+⸻
 1. What’s the real difference between CPU bottleneck vs I/O bottleneck, and how do you identify each?
 2. Why do systems fail even when CPU and memory look fine?
 3. What actually happens when a Kubernetes Pod restarts?
