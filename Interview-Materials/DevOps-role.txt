@@ -42,7 +42,28 @@
  24. What are Security Groups?
  25. What is NACL?
  26. What is User Data in EC2?
+******EC2 INTERVIEW QUESTIONS******
 
+1. How do you troubleshoot high CPU usage in an EC2 instance?
+ 2. How do you recover a stopped EC2 instance that won’t start? 
+3. How do you resize an EC2 instance without downtime? 
+4. How do you attach and mount a new EBS volume to an EC2 instance? 
+5. How do you create a custom AMI from an EC2 instance? 
+6. How do you recover deleted data from an EC2 instance? 
+7. How do you handle EC2 key pair loss? 
+8. How do you connect to EC2 through a Bastion host? 
+9. How do you troubleshoot slow SSH connections to EC2? 
+10. How do you schedule EC2 instances to stop/start automatically? 
+11. How do you migrate an EC2 instance between subnets or AZs? 
+12. How do you use user data to install software automatically? 
+13. How do you check system logs for EC2 boot errors? 
+14. How do you increase EC2 root volume size? 
+15. How do you enable detailed monitoring for EC2 instances? 
+16. How do you troubleshoot failed EC2 instance status checks? 
+17. How do you share an AMI with another AWS account? 
+18. How do you attach multiple network interfaces to an EC2 instance? 
+19. How do you recover corrupted EBS volumes from snapshots? 
+20. How do you monitor EC2 disk I/O performance?
 ⸻
 
 💡 Tip:
