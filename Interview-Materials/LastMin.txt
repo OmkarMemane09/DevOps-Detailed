@@ -1,0 +1,20 @@
+1. Explain how CI/CD works end-to-end in a production environment.
+2. Difference between Blue-Green and Canary deployments - when do you use each?
+3. How does Kubernetes schedule a Pod? Walk me through the control-plane process.
+4. How do you debug a CrashLoopBackOff or pending pod in Kubernetes?
+5. What happens when a Terraform apply fails halfway?
+6. How do you handle secrets securely in Kubernetes or Terraform?
+7. Explain state locking in Terraform - why is it important?
+8. How would you design logging and monitoring for a microservices architecture?
+9. How do you reduce AWS costs without compromising performance?
+10. How do you secure a CI/CD pipeline?
+11. What is GitOps and how is it different from traditional CI/CD?
+12. How would you recover from a failed deployment in production?
+13. Explain the difference between service mesh (Istio/Linkerd) and an ingress controller.
+14. How do containers communicate inside Kubernetes?
+15. What’s the difference between ReplicaSet, Deployment and StatefulSet?
+16. When would you use SQS over Kafka or vice-versa?
+17. Explain horizontal vs vertical scaling in real infra scenarios.
+18. Describe how you’d set up observability (logs, metrics, traces).
+19. What’s the difference between mutable and immutable infrastructure?
+20. Your service goes down at 2 AM. How do you approach troubleshooting?
