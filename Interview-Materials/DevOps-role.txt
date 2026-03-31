@@ -4,7 +4,23 @@
  2. What is the use of Dockerfile?
  3. Why do we use Dockerfile?
  4. Dockerfile Instructions
-
+1. Can you brief your self and your project and responsibilities?
+2. How do you migrate a git based repo from one of its kind to another git based repo(like GitHub to GitLab) along with its commit history? what are the steps you follow?
+3. Application on AWS EC2 behind the loadbalancer suddenly unavailable, how do you troubleshoot
+4. AWS billing increased suddenly, how do you identify the costs
+5. A developer asking Ec2 instance for his local deployment, how you will achieve and what type of instance you create and give it to them.
+6. In kubernetes a pod is going to crashloopbackoff, how do you troubleshoot.
+7. Kubernetes deployment done successfully but unable to access the application externally, how do you troubleshoot.
+8. When kubernetes node fails what will happen.
+9. In pod configuration what we should do from Production perspective
+10. What is Git and why we are using it and what is branching strategy
+11. How do you write in yaml to create a ci/cd pipeline from scratch to test and deploy from Dev to UAT
+12. what is maven and explain about repositories
+13. I have a senerio to deploy an application on 100 servers using Ansible, how do you perform it.
+14. Docker containers stopped suddenly after starting, how do you troubleshoot
+15. Jenkins pipeline deployment failed in production but working in Dev, how do you troubleshoot and fix the issues.
+16. What is argocd and why we are using it
+17. what is Gitops
 ⸻
 
 ⚙️ Terraform
