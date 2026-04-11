@@ -1,13 +1,13 @@
-# ☁️ Microsoft Azure — Virtual Machines & Core Infrastructure Notes
+#  Microsoft Azure — Virtual Machines & Core Infrastructure Notes
 
 
 ## 1. Azure Regions & Availability Zones
 
-### 🌍 What is an Azure Region?
+###  What is an Azure Region?
 
 An **Azure Region** is a specific **geographic location** around the world where Microsoft has built data centers. Each region is a cluster of data centers connected through a dedicated low-latency network.
 
-> 💡 Azure has **60+ regions** across the globe — more than any other cloud provider.
+>  Azure has **60+ regions** across the globe — more than any other cloud provider.
 
 ---
 
