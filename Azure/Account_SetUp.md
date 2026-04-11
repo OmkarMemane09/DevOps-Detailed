@@ -15,7 +15,6 @@
 Azure competes with **AWS (Amazon)** and **GCP (Google Cloud)** as one of the top 3 cloud providers in the world.
 
 ---
-
 ## 2. What is the Azure Free Tier?
 
 Azure offers a **Free Account** that includes:
