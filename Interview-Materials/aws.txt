@@ -1,4 +1,22 @@
-
+What is AWS and why is it used?
+What are the core services of AWS?
+What is EC2 and when do you use it?
+What is S3 and what is it used for?
+What is IAM in AWS?
+What is VPC and why is it important?
+What is RDS in AWS?
+What is Auto Scaling in AWS?
+What is Elastic Load Balancer (ELB)?
+What is the difference between public and private subnet?
+What is a Security Group?
+What is the difference between Security Group and NACL?
+What is CloudWatch in AWS?
+What is Route 53?
+What is EBS in AWS?
+What is the difference between EBS and S3?
+How do you connect to an EC2 instance?
+What is a key pair in AWS?
+What are availability zones in AWS?
 
 Explain the difference between Security Groups and NACLs in AWS.
 How would you design a highly available multi-region architecture on AWS?
