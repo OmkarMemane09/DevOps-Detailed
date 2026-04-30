@@ -1,4 +1,24 @@
 𝐃𝐞𝐯𝐎𝐩𝐬 𝐅𝐮𝐧𝐝𝐚𝐦𝐞𝐧𝐭𝐚𝐥𝐬 𝐘𝐨𝐮 𝐌𝐮𝐬𝐭 𝐎𝐰𝐧
+What is the difference between CI and CD?
+How does a CI/CD pipeline work in real projects?
+What happens when a deployment fails?
+How do you troubleshoot a production issue?
+What is Docker and why is it used?
+What is the difference between container and VM?
+What is Kubernetes and why is it needed?
+What is a Pod in Kubernetes?
+What is Infrastructure as Code (IaC)?
+What is Terraform used for?
+What is a VPC in AWS?
+What is the difference between public and private subnet?
+What is IAM and why is it important?
+What is load balancing?
+What is auto scaling in cloud?
+What is monitoring and why is it required?
+What is logging in DevOps?
+What are common production issues?
+How do you handle system downtime?
+What are best practices in DevOps?
 1. How do you reduce AWS costs without compromising performance?
 2.Have you ever deployed a Docker container on AWS Lambda?If yes briefly explain?
 3.Explain the difference between service mesh (Istio/Linkerd) and an ingress controller?
