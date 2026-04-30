@@ -1,6 +1,6 @@
 # Shell Scripting Basics
 
-## 1. Shell vs Terminal vs Console
+##  Shell vs Terminal vs Console
 
 ### Shell
 - A **shell** is a command interpreter.
@@ -18,7 +18,7 @@
 
 ---
 
-## 2. Types of Shells in Linux
+##  Types of Shells in Linux
 
 | Shell | Description |
 |------|------------|
@@ -30,7 +30,7 @@
 
 ---
 
-## 3. Shell Functions
+##  Shell Functions
 
 Functions allow reuse of code in scripts.
 
@@ -47,7 +47,7 @@ greet() {
 greet
 
 ```
-## 4. How to Switch Shell
+##  How to Switch Shell
 
 ### Check current shell:
 ```bash
@@ -63,7 +63,7 @@ cat /etc/shells
 chsh -s /bin/zsh
 ```
 
-### 5. Advantages of Shell
+###  Advantages of Shell
 
 **Automates repetitive tasks**
 
@@ -75,7 +75,7 @@ chsh -s /bin/zsh
 
 **Useful for DevOps, automation, deployments**
 
-### 6. What is Shell Script?
+### What is Shell Script?
 
 A shell script is a file containing a series of commands executed by the shell.
 
@@ -99,7 +99,7 @@ Example:
 #!/usr/bin/env bash
 ```
 
-## 8. How to Run a Script
+##  How to Run a Script
 
 **Step 1: Create file**
 nano script.sh
@@ -114,7 +114,7 @@ chmod +x script.sh
 Step 4: Run script
 ./script.sh
 
-**9. Ways to Run a Script**
+**Ways to Run a Script**
 
 #### Method 1: Using bash
 ```bash
@@ -136,12 +136,7 @@ OR
 ```bash
 . script.sh
 ```
-## Difference Between Execution Methods
-|Method |	Description |
-|bash script.sh  |	Runs in new shell|
-|sh script.sh  |	Runs using sh shell|
-|./script.sh  |  Uses shebang interpreter|
-|source script.sh  |	Runs in current shell|
+
 
 ##  Key Notes
 Always use shebang for portability
