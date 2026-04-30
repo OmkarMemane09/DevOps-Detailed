@@ -1,0 +1,267 @@
+
+Introduction of project
+Project : Combination
+           Frontend
+           Backend
+           Database
+ Support based:
+ 
+ Tech Stacks:
+         Frontend:
+             Angular Js
+             webservers
+                 apache
+                 nginx
+                 aws s3 buckets
+ 
+         Backend:
+              SpringBoot
+              Application server
+                 Tomact
+                 Jboss
+                 wildfly
+ 
+         Database:
+              MongoDB
+ 
+ 
+ Project Architecture:
+         Microservice Based:
+            15 Frontends
+            15 Backends
+ 
+ Tech Stacks:
+         Frontend: Angular JS
+         Backend: Spring Boot
+         Database: MongoDB
+ 
+ 
+ Domain Names:
+         Domain: CRM Application (Coustomer relationship management)
+         Domain Name: dyl.com
+         Application type: CRM application
+         Location: America
+ 
+         Domain: Airlines
+         Domain Name: iata.org
+         Application: Airlines
+         Location: Canada
+ 
+         Domain: Realestate
+         Domain Name: Inbestment.com
+         Application: Marketing
+         Location: Germany
+ 
+         Domain: Ecommerce
+         Domain Name: igp.com
+         Application: Ecommerce
+         Location: Mumbai (India)
+ 
+ Team Size:
+         15 Team members
+         4 Developers
+         4 Devops (1 Devops Lead, 1 Senior, 1 Junior, 1 intern)
+         4 testing
+         3 Managers
+
+SDLC (Software Developement Life Cycle)
+     Agile Methodology
+       Sprint size (2 weeks to 6 weeks)
+       our sprint size 4 weeks
+       Sprint (Iteration)
+           - Development, Testing, Deployment
+     Meetings
+       Daily Scrum call (stand up call)
+           - Dicussions on tickets (JIRA)
+       Sprint Review Meetings
+           Task complete and pendig discussion
+           If all task are completed then we have a prod deployment
+ 
+Branching Stratergy:
+          As shown in images:
+ 
+Roles and Responsibilities:
+       Managing the repositories
+       Creating repositories
+       Access Control (repositories)
+       webhooks
+       managing the cloud resources
+       managing the instances
+       plugin mangement
+       manging the slaves
+       manging the third party tools
+       create the pipeline from the scratch
+       modifying the exsting pipeline
+       managing the multibranch pipeline
+       creating the module
+       modify the exsting module
+       manging the terraform state file in remote location
+       creating the docker file for application
+       manging the docker image in repositories(push pull)
+       running the container from them
+       optimizing the docker file
+       managing the deployments
+       ingress controller
+       monitoring pods
+       monitoring logs of application
+       Deamon sets
+project arch : microservice based
+                                   15 frontend
+                                   15 backend
+
+tech stack
+    frontend angular js
+    backend  spring boot
+    databse mongo db
+
+Domain name
+   Domain CRM ( customer relationship management)
+    Domain nam dyl.com
+    application type crm application
+    location America
+
+    domain airline
+    domainname iarta.org
+    application airline app
+    location Canada
+ 
+    Domain Real Estate
+   Domain name inbestment.com
+    application type Marketing
+    location Germeny
+ 
+    Domain Ecommerce
+   Domain name gp.com
+    application type ecommerce
+    location US
+
+
+Team Size =
+      15 team memb 4 dev / 4 devops(devops lead/sr/jr/internwhich is i am ) 4 testing / 3 managers
+ 
+
+SDLC - Agile methodology
+                 Sprint (Time duration) 2 -6 week [ our 4 week]
+                 Sprint (Iteretion)
+                      Devlopment / testing / deployment
+            Meeting
+                Daily scrum call [standup call ]
+                            Jeera ticketing tool [tracking issus incident modification /workflow tool]   assign task [generate ticket] -help to documentated the things - tracking on jeera status - help to update task - visible to team -
+
+
+   Spritn review meeting - review of work
+           task complete/pending discussion
+           if all task are completed then we have prod deployment
+
+Branching strategy
+  easy t track / conflicts/ multi env /
+    Standard branches - dev = test = main/master = uat
+     Standard environments = dev/test/uat/prod
+
+git add .
+git commit -m "msg"
+git push origin feature
+ 
+
+dev and test are inhouse envs  developer test developer
+uat gives approval for changes  with the help of jeera tickets
+if there is bug then  argently = hotfix beanch
+
+Roles and Resp
+    managing repos / creting access control / managing resources [cloud]
+  plugging management
+  managing slaves
+  managing third part tool
+managing instances create the pipeline from scratch
+modifying existing pipeline
+creating multi branch pipeline
+creating module /modify existing module
+manging terraform statefile on remote location
+creating docker file for application
+manging docker image i repos
+running the container from the
+optimizing docker file push pull ops
+managing deployment k8s
+ingress controller managent
+monitoing pods logs
+
+CombinationFrontendBackendDatabaseSupport based:Tech Stacks:Frontend:Angular Jswebserversapachenginxaws s3 bucketsBackend:SpringBootApplication serverTomactJbosswildflyDatabase:MongoDBProject Architecture:Microservice Based:15 Frontends15 BackendsTech Stacks:Frontend: Angular JSBackend: Spring BootDatabase: MongoDBDomain Names:Domain: CRM Application (Coustomer relationship management)Domain Name: dyl.comApplication type: CRM applicationLocation: AmericaDomain: AirlinesDomain Name: iata.orgApplication: AirlinesLocation: CanadaDomain: RealestateDomain Name: Inbestment.comApplication: MarketingLocation: GermanyDomain: EcommerceDomain Name: igp.comApplication: EcommerceLocation: Mumbai (India)Team Size:15 Team members4 Developers4 Devops (1 Devops Lead, 1 Senior, 1 Junior, 1 intern)4 testing3 ManagersSDLC (Software Developement Life Cycle)Agile MethodologySprint size (2 weeks to 6 weeks)our sprint size 4 weeksSprint (Iteration)- Development, Testing, DeploymentMeetingsDaily Scrum call (stand up call)- Dicussions on tickets (JIRA)Sprint Review MeetingsTask complete and pendig discussionIf all task are completed then we have a prod deploymentBranching Stratergy:As shown in images:Roles and Responsibilities:Managing the repositoriesCreating repositoriesAccess Control (repositories)webhooksmanaging the cloud resourcesmanaging the instancesplugin mangementmanging the slavesmanging the third party toolscreate the pipeline from the scratchmodifying the exsting pipelinemanaging the multibranch pipelinecreating the modulemodify the exsting modulemanging the terraform state file in remote locationcreating the docker file for applicationmanging the docker image in repositories(push pull)running the container from themoptimizing the docker filemanaging the deploymentsingress controllermonitoring podsmonitoring logs of applicationDeamon sets
+ 
+
+
+
+
+
+ 
+whats app Msg
+Name:
+Batchno:
+Requirement: Recording
+ 
+ 
+
+--------------------------------------
+
+if interviewer ask about project then only tell otherwise dont
+
+
+
+documentated the things is very imp in industry
+Proof of concept POC/Triel
+launch instance big size storage 30 gb
+connect inst
+
+
+Questions
+monolithic vs microservice
+
+
+
+---------------------------------------------
+PROJECT ON AWS INFRA ONLY
+
+Steps to deploy Application
+
+Clone this repository
+git clone https://github.com/OmkarMemane09/SkyReserve.git
+
+Install Mysql Server and create database
+apt update -y
+apt install mysql-server -y
+mysql_secure_installation
+mysql -uroot -p
+>> create user linux identified by "Redhat";
+>> grant all privileges on \*.\* to linux;
+>> flush privileges;
+>> create database flightdb;
+>> exit
+
+
+Deploy Backend
+
+cd SkyReserve
+cd FlightReservationSystem
+apt install openjdk-17-jdk -y
+apt install maven -y
+export DATASOURCE_URL="jdbc:mysql://localhost:3306/flightdb"
+export DATASOURCE_USER="linux"
+export DATASOURCE_PASSWORD="Redhat"
+export FRONTEND_URL="http://your instance public ip:80"
+
+mvn clean package     # do this where ur pom.xml present
+
+java -jar target/flight*.jar   #do this after ur frontend get deployed bco after this termina get attaches
+
+Deploy Frontend (open new tab)
+
+cd SkyReserve
+cd frontend
+apt install nodejs npm -y
+export VITE_API_URL=http://instance public ip:8080
+npm install   # do where ur oackage.json present
+npm run build
+apt install apache2 -y
+cp dist/* /var/www/html/
+systemctl start apache2
+
+then do java -jar
