@@ -1,0 +1,634 @@
+Introduction
+
+
+
+
+
+Points to Include
+
+
+Name (optional)
+
+
+Education (Reverse Order)
+
+
+Experience (Reverse Order)
+
+
+Roles and Responsibilities
+
+
+
+
+
+
+
+
+
+
+
+Points to Exclude
+
+
+Hobbies
+
+
+Strength and Weakness
+
+
+Family details
+
+
+Long Term Goals and Short term goals
+
+
+Extra curriculam activities
+
+
+
+
+
+Do's
+
+
+use past tense or present continuous tense
+
+
+Duration of intro min. 5 minutes
+
+
+Focus on roles and responsibilities
+
+
+
+
+
+Dont's
+
+
+Don't use words as I can, I will, etc.
+
+
+Don't explain about technologies
+
+
+Don't use client names
+
+
+Don't devide responsibilities as per technologies
+ 
+ 
+
+
+Title :            Resume / Rajat Zade/ Devops engineer
+ 
+
+
+Name:RAJATZAde
+Email: rajat.zade@outlook.com/in
+Mobile No.8576549649
+Designation: Devops engineer intern
+
+
+
+
+
+Objectives / Goal / Aim / intro (optional):
+
+
+
+
+
+Experience (Reverse Order).
+* Company name: Hisan labs pvt ltd.
+* Designation: DevOps Enginer  intern
+* Duration : July 2025 to Present
+     * Roles and Responsibilities:
+Git ——
+Docker—
+Kubernetes—
+Terraform
+Cloud
+ec2-: linux usr and grp permission nginx http shell pyton mariadb
+s3 iam
+Jenkins
+Datadog
+ 
+
+
+
+
+
+
+
+
+* Company name:XYZ pvt ltd
+* Designation: cloud intern
+* Duration : dec 2023 to aug 2024
+* Roles and Responsibilities:
+
+
+
+
+
+
+Education (Reverse Order)
+* Course Name :
+* Course stream (optional)
+* Course complition year 2024
+
+
+Certifications (If Any)
+* Certificate name aws gcp azure 104
+* Certificate ID
+* Validity
+
+
+
+Key Skills / Skill Set
+
+
+Cloudplatform: aws gcp
+Os: windows linux (ubuntu,centos 89)
+Lang :py,sh
+
+
+
+
+
+Personal Details (Optional)
+* Full Name
+* DoB
+* Gender
+* Permanent Address
+* Marital Status (add if unmarried)
+
+
+Do's
+You can remove the education section if it is totally irrelevant
+
+
+
+Dont's
+Don't use words as I can, I will, etc.
+Don't explain about technologies
+Don't add client names, project names
+Don't use know, learnt, knowledge type of words in Roles and Responsibilities
+Don't use AI
+ 
+
+
+--------------------------------------------
+✅ LINKEDIN PROFILE — COMPLETE REQUIREMENTS DOCUMENT
+ 
+(Modeled same as your Naukri profile optimization rules)
+This document lists what MUST be filled, what MUST NOT be added, and how to structure each part of the LinkedIn profile to rank higher and get DevOps job calls.
+ 
+🔹 1. Profile Completion (Target: 100%)
+ 
+ 
+Your LinkedIn profile must be:
+ 
+✔ Cover photo + professional profile picture
+✔ All fields filled
+✔ No empty sections
+✔ No salary mentioned
+✔ All skill levels marked properly
+✔ Headline optimized with keywords
+ 
+🔹 2. Profile Headline Rules
+ 
+Just like Naukri, the headline must contain exact DevOps keywords.
+Mandatory Format:
+DevOps Engineer | Kubernetes | Terraform | AWS | CI/CD | Docker | Microservices
+Checklist:
+✔ Must include role: DevOps Engineer
+✔ Must include top skills
+✔ No emojis (for ATS reasons)
+✔ Target job location not required here
+ 
+🔹 3. About Section (Mandatory Keywords + Full Character Usage)
+ 
+Your "About" section should be:
+✔ 1500–2600 characters
+✔ Fully filled (no short summary)
+✔ SEO optimized
+✔ Should contain:
+DevOps
+CI/CD
+Microservices
+Kubernetes
+Containerization
+Terraform
+AWS
+Linux
+Git
+Cloud
+Automation
+❌ Do NOT add expected salary
+❌ Do NOT write generic statements like “I am hardworking”
+ 
+🔹 4. Experience Section Rules
+ 
+For Internships:
+✔ Internship should be Full-time only
+✔ Duration should not exceed 9 months
+✔ Must add DevOps tasks with keywords
+✔ Should not leave the description empty
+For Each Experience Entry Add:
+CI/CD pipelines
+Kubernetes deployments
+Docker containerization
+Terraform infrastructure code
+AWS services
+Linux administration
+Monitoring tools
+Microservices
+❌ Do NOT list projects separately
+✔ Add project keywords inside responsibilities
+ 
+🔹 5. Education Section Requirements
+ 
+✔ Must mention:  Computer Science / B.Tech Computer Science
+✔ If your stream was different → mention Computer Science only on LinkedIn and Naukri to increase ranking
+✔ Do NOT leave description empty
+✔ Add basic explanation like "Studied Operating Systems, Linux, Databases, Cloud Fundamentals"
+ 
+🔹 6. Skills Section (Minimum 15–20 Skills Required)
+ 
+Top 5 Skills MUST be these:
+ 
+Kubernetes
+Terraform
+CI/CD
+Microservices
+Containerization
+ 
+Next 10 DevOps Skills:
+ 
+AWS
+Linux
+Git
+Docker
+Jenkins
+GitHub Actions
+Monitoring (Prometheus/Grafana)
+Shell Scripting
+Infrastructure as Code
+Cloud Computing
+📌 All skills should be endorsed by at least 5 people if possible.
+ 
+🔹 7. Projects Section (Rules)
+ 
+❌ Do NOT add full projects
+✔ Only add “keywords”
+✔ Should not reveal confidential environment info
+✔ Add only 3–4 lines summarizing the work with DevOps terms
+Example:
+“Worked on CI/CD pipeline, Kubernetes deployments, containerization, Terraform automation, and AWS cloud architecture.”
+ 
+🔹 8. Certifications Section
+ 
+Add only DevOps relevant certifications:
+✔ AWS Cloud Practitioner
+✔ Kubernetes (any course)
+✔ Terraform Associate
+✔ Docker
+✔ Git & GitHub
+✔ Linux Basics
+❌ Do NOT add irrelevant courses
+ 
+🔹 9. Job Preferences Section
+ 
+✔ Job Role: DevOps Engineer
+✔ Employment Type: Full Time Only
+✔ Preferred shift: Flexible
+✔ Locations: Add all 10 major Indian cities + Pune
+✔ Start date: Immediate / 15 Days
+✔ Open to work ON
+❌ Do not add expected salary
+❌ Avoid "Day Shift Only"
+ 
+🔹 10. Additional Requirements to Boost Ranking
+ 
+✔ Add a custom cover photo with DevOps tools
+✔ Add your resume in the featured section
+✔ Add GitHub, LinkedIn, Portfolio links
+✔ Ask for 3–5 recommendations
+✔ Add achievements like:
+Improved pipeline efficiency
+Automated deployments
+Reduced manual effort by automation
+ 
+🔹 11. Don'ts (Very Important)
+ 
+❌ Don’t leave any section blank
+❌ Don’t write short About section
+❌ Don’t add incorrect experience
+❌ Don’t add non-tech skills on top
+❌ Don’t add salary
+❌ Don’t add unrelated jobs like sales, support
+❌ Don’t add fake certifications
+
+--------------------------------------------------
+Roles and Responsibilities as Linux / System (Admin, Engineer, Support, Consultant, Developer)
+ 
+User and Permission Management
+Manage user accounts, permissions, and access controls.
+Implement security measures to safeguard systems and data.
+Server Security through Discretionary and SELinux policies, implementing firewall, allow and disallow port access.
+ 
+Installation and Package Management
+Install, configure, and maintain Linux operating systems (e.g., CentOS, Ubuntu, Red Hat) - (Network Boot)
+Set up and maintain web servers (e.g., Apache, Nginx) and database servers (e.g., MariaDB, PostgreSQL).
+Perform routine system updates and patches.
+Configure and manage virtualization environments (e.g., VMware, KVM).
+Planned and executed packages and updates installations necessary for optimal system performance.
+ 
+Monitoring
+Monitor system performance and troubleshoot issues proactively.
+Monitoring and resolving high CPU load and memory load related issues.
+Monitor network traffic and identify potential vulnerabilities.
+Monitor server resources and optimize performance.
+ 
+Backup and Schedule
+Scheduling backups and log rotations using cron service.
+Backup and restore critical data and applications.
+Created new backup system for site's database servers, allowing data archives to be stored on remote server.
+Develop scripts (e.g., Bash, Python) to automate routine tasks and system administration processes.
+ 
+Troubleshooting
+Configure and troubleshoot network interfaces and protocols.
+Provide temporary root access to local users
+Configuration of remote access utilities such as SSH with password less authentication
+Remote administration and monitoring of Servers using tools like SSH, FTP, TELNET, SCP & Manage installed services.
+Kernel patching; root password recovery; solving grub issue
+ 
+Manage Services
+Creating and managing partitions and volumes
+Configuration of NAS storage using NFS and samba; Sharing partitions using ISCSI storage and RAID storage.
+Configure LAMP, Wordpress, Cpanel, Tomcat Platforms
+ 
+Other Tools
+Utilize configuration management tools Ansible for automated deployment and configuration management.
+Install and Configure Jenkins Server on client environment
+Created kubernetes cluster using kubeadm
+Collaborate with cross-functional teams to support various IT projects and initiatives.
+Document system configurations, procedures, and troubleshooting steps.
+Provide technical support and guidance to team members and end-users
+
+-------------------------------------------------
+Roles and Responsibilities as AWS / Cloud (Admin, Engineer, Support, Consultant, Developer)
+ 
+Cloud Infrastructure Management
+Design, implement, and maintain scalable and secure cloud infrastructures
+Monitor and manage cloud services to ensure optimal performance and reliability.
+Create infrastructure with best practices using AWS Stack VPC, EC2, RDS, Route53, CloudFront, s3, IAM, and Cloudwatch
+ 
+Deployment and Migration
+Migrate existing applications and data to the cloud while ensuring minimal downtime and high availability.
+Optimize cloud infrastructure for cost-efficiency and performance. Using s3 lifecycle, instance purchasing options, etc.
+ 
+Security and Compliance
+Ensure the security of cloud systems by implementing best practices in identity and access management (IAM), encryption, and network security.
+Maintain compliance with organizational and regulatory requirements like GDPR, HIPAA, etc.
+ 
+Deployment and Automation
+Build and manage CI/CD pipelines for seamless application deployment across cloud environments.
+Automate routine tasks like provisioning, configuration, and scaling using tools like Ansible, Jenkins, or GitLab CI/CD.
+Enable deployment automation for multi-cloud or hybrid cloud setups.
+ 
+Troubleshooting and Problem Resolution
+Identify and resolve issues related to cloud infrastructure, networking, and application deployment.
+Collaborate with development and IT teams to troubleshoot performance bottlenecks or failures.
+ 
+Automation and Scripting
+Develop automation scripts and tools to improve operational efficiency and reduce manual tasks.
+Create CI/CD pipelines for continuous integration and delivery of applications.
+ 
+Collaboration with Teams
+Work closely with DevOps teams to integrate cloud solutions into the software development lifecycle.
+Collaborate with business stakeholders to align cloud strategies with organizational goals.
+ 
+Monitoring and Optimization
+Set up and manage monitoring tools to track usage, performance, and costs
+Regularly review cloud spending and make recommendations to optimize costs.
+ 
+Backup and Disaster Recovery
+Develop and implement backup strategies to ensure data integrity and availability.
+ 
+ 
+Research and Development
+Stay updated on the latest cloud technologies and services.
+Recommend new tools or approaches to improve cloud-based processes and infrastructure.
+ 
+Documentation
+Create and maintain technical documentation, including cloud architecture diagrams, configurations, and standard operating procedures (SOPs).
+-----------------------------------------------
+Roles and Responsibilities as DevOps (Admin, Engineer, Support, Consultant, Developer)
+ 
+CI/CD Pipeline Development
+Design, implement, and maintain Continuous Integration and Continuous Deployment (CI/CD) pipelines.
+Automate build, test, and deployment processes to enhance efficiency.
+ 
+Collaboration Between Teams
+Act as a bridge between development, QA, and IT operations teams.
+Ensure smooth communication and collaboration to align development and operations objectives.
+ 
+Infrastructure Management
+Deploy, configure, and manage servers and cloud infrastructure (AWS, Azure, GCP, etc.).
+Use Infrastructure as Code (IaC) tools like Terraform, Ansible, or CloudFormation for automated provisioning.
+ 
+Monitoring and Logging
+Set up monitoring tools (e.g., Prometheus, Grafana, ELK Stack) to track system performance and application health.
+Analyze logs to identify and troubleshoot issues proactively.
+ 
+Automation and Scripting
+Automate repetitive tasks, including infrastructure setup, application deployment, and scaling.
+Write scripts in languages like Bash, Python, or PowerShell for custom automation needs.
+ 
+Security and Compliance
+Implement security measures such as role-based access control, encryption, and vulnerability assessments.
+Ensure compliance with industry standards like ISO, GDPR, or SOC2.
+ 
+Configuration Management
+Manage application configurations using tool Ansible
+Ensure consistency across development, staging, and production environments.
+ 
+Containerization and Orchestration
+Work with containerization technologies like Docker to package applications.
+Use orchestration tool Kubernetes to manage containerized applications and services.
+ 
+Performance Optimization
+Identify performance bottlenecks and optimize system resources.
+Improve scalability and fault tolerance of applications and infrastructure.
+ 
+Disaster Recovery and Backups
+Create and manage backup strategies for critical systems and data.
+Develop disaster recovery plans to minimize downtime and data loss.
+vcc
+Incident Management
+Act as the first point of contact for incidents related to system performance or availability.
+Document incident resolution steps to prevent recurrence.
+ 
+Process Improvement
+Continuously evaluate and refine DevOps processes for better productivity and agility.
+Research and implement new tools and practices to enhance workflows.
+
+---------------------------
+Job Role
+ 
+(Technical/Network/Linux/System/Cloud/AWS/DevOps) Consultant
+ 
+(Technical/Network/Linux/System/Cloud/AWS/DevOps) Developer
+ 
+ 
+ 
+(Technical/Network/Linux/System/Cloud/AWS/DevOps) Engineer
+ 
+ 
+(Technical/Network/Linux/System/Cloud/AWS/DevOps) Administrator
+ 
+(Technical/Network/Linux/System/Cloud/AWS/DevOps) Support
+Site Reliability Engineer
+Platform Engineer
+Release Engineer
+Research and Development Engineer
+Cloud/DevOps Architect
+
+---------------------------------------
+
+1. Offer Letter
+Details your job role, salary structure, joining date, and employment terms.
+2. Appointment Letter / Joining letter
+A formal agreement issued after you accept the offer, outlining your job responsibilities, salary, and other legal terms.
+3. Employment Contract
+Includes detailed terms of employment, confidentiality clauses, and company policies.
+4. Joining Kit
+A set of forms to be filled out, including personal information, bank details, and tax-related forms.
+5. Company Policy Handbook
+Explains company rules, code of conduct, leave policy, and other HR-related guidelines.
+6. Non-Disclosure Agreement (NDA)
+A legal document ensuring confidentiality of sensitive company information.
+7. Form 16 (For Existing Employees)
+A document for salaried employees, showing taxable income and tax deductions (usually provided annually).
+8. Salary Slip or Compensation Breakdown
+Details of your salary structure, including base pay, allowances, deductions, and bonuses.
+9. ID Card or Access Card
+For physical and digital access to the company’s premises and systems.
+10. PF Documents
+For employee benefits like provident fund (PF) contributions.
+11. Training Material/Induction Plan
+A roadmap for any required training programs or onboarding sessions.
+12. IT Assets and Agreement (if applicable)
+Details of laptops, mobile phones, or other equipment issued by the company, along with terms for their use.
+13. Relieving Letter
+Release date
+14. Experience Letter
+Duration of working in that organization
+15. Resignation Letter
+Mail or written letter for resigining
+16. Bank Statements
+Confedntial, Personal. By law, whether you submit or not, you can decide.
+17. Education qualification Certificates
+All degrees and certifications
+18. F&F Statements (45 days)
+
+--------------------------------------------
+
+✅ Top Free ATS-Friendly Resume Builders
+⭐ 1. FlowCV
+ 
+🔹 100% free
+🔹 ATS proof
+🔹 minimal clean layout
+🔹 simple PDF export
+➡ BEST for freshers
+ 
+⭐ 2. Standard Resume
+ 
+🔹 ATS clean
+🔹 LinkedIn import
+🔹 free export
+🔹 single column layout
+ 
+⭐ 3. Overleaf (LaTeX Resume)
+ 
+🔹 professional
+🔹 fully ATS
+🔹 perfect for engineers
+🔹 free LaTeX templates
+ 
+🔥 Free ATS Resume Templates (Direct Use)
+ 
+Google Docs Templates
+ 
+On Google Docs → Template Gallery → choose:
+✔ Swiss
+✔ Serif
+✔ Coral
+(All ATS friendly)
+ 
+Microsoft Word FREE Resume templates
+ 
+Inside MS Word → go templates search:
+Modern CV
+ 
+Simple Resume
+(All ATS compliant)
+ 
+🧠 Free ATS Keyword Check Tools
+ 
+⭐ Jobscan FREE version
+ 
+🔹 paste resume + JD
+🔹 gets missing keywords
+🔹 ATS score
+ 
+⭐ Resumeworded (free)
+ 
+🔹 resume score
+🔹 ATS suggestions
+ 
+⭐ SkillSyncer
+ 
+🔹 job matching
+🔹 ATS keyword score
+ 
+🚀 For Students — Quick Rule
+Use 1 page + 1 column + no images = ATS approved.
+ 
+🧵 Simple formats to follow
+Font:
+Calibri
+Roboto
+Inter
+Arial
+Sections (Recommended Order):
+Summary
+Skills
+Projects
+Experience
+Education
+Avoid ❌:
+❌ Photo
+❌ Fancy colors
+❌ Tables
+❌ Icons
+ 
+
+
+
+DevOps-focused engineer with hands-on experience in AWS cloud infrastructure, automation, and scalable system design. Skilled in building secure, highly available architectures and optimizing performance through monitoring and cost-efficient practices. Experienced in CI/CD workflows, containerization, and infrastructure management, with a strong focus on reducing manual effort and improving deployment reliability. Continuously learning and applying DevOps best practices to solve real-world problems.
+
+
+OBJECTIVES
+DevOps-focused engineer with hands-on experience in AWS cloud infrastructure, automation, and scalable system design. Skilled in building secure, highly available architectures and optimizing performance through monitoring and cost-efficient practices. Experienced in CI/CD workflows, containerization, and infrastructure management, with a strong focus on reducing manual effort and improving deployment reliability. Continuously learning and applying DevOps best practices to solve real-world problems.
+Hosted and configured a static website using Amazon S3 with optimized object management and versioning
+Implemented secure access control using bucket policies, balancing public access for content delivery with restricted permissions
+Enabled high availability and low-latency global access through S3’s distributed infrastructure
+Managed static assets efficiently with proper folder structure and caching strategies
+
+
+AZURE GCP trivy
