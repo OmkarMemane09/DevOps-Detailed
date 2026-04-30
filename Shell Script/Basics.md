@@ -66,9 +66,13 @@ chsh -s /bin/zsh
 ### 5. Advantages of Shell
 
 **Automates repetitive tasks**
+
 **Saves time and effort**
+
 **Easy to write and execute**
+
 **Direct interaction with OS**
+
 **Useful for DevOps, automation, deployments**
 
 ### 6. What is Shell Script?
