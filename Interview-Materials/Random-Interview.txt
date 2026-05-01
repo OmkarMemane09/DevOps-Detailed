@@ -1,3 +1,19 @@
+Kubernetes (Core + Advanced)
+What is the current Kubernetes version you are working with?
+How do you perform a Kubernetes cluster upgrade?
+How does Kubernetes Ingress route traffic to services and pods?
+How does a pod get created when one replica is in a failed/pending state?
+How do you configure Horizontal Pod Autoscaler (HPA)?
+What is NLB (Network Load Balancer), and when would you use it?
+How do you expose Kubernetes services externally?
+In a Kubernetes Deployment with three replicas, if one pod enters a failed or stuck state (e.g., Pending, CrashLoopBackOff), how does Kubernetes detect and handle this situation? Can you explain the end-to-end flow, including how different components (kubelet, controller manager, scheduler) interact to evict and replace the pod?”
+How ingress is redirecting the traffic to target pods? (follow up: Since pods are ephemeral in nature how traffic is redirected to the target pods)
+Which problem does ingress solve & How? (In my answer I mentioned NLB so I got a follow up)
+If ingress is already there why do you need NLB?
+What are the different types of load balancers in AWS?
+We can use NLB to direct the external traffic as well then why do we need to use ALB ?
+Say I have an EC2 and I have lost my pem key how will I connect to it? (I mentioned Session Manager then a follow up ) How to enable Session manager on an EC2? (Here I made the interviewer clear that I am not sure of this but I have read it and want to make a guess)
+A client provides a GitHub repository and wants the application deployed on an Amazon EKS cluster. What Kubernetes manifests/resources would you create to achieve this deployment?
 1. How does DNS resolution work inside a pod?
 → And what do you check when a service isn’t reachable by name?
 
