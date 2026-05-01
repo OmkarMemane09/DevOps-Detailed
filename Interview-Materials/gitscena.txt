@@ -1,0 +1,20 @@
+1. You committed wrong code. How will you undo it?  
+2. You pushed to wrong branch. What will you do?  
+3. Merge conflict occurred. How will you resolve it?  
+4. You want to temporarily save changes without commit. How?  
+5. Local branch is behind remote. How will you sync?  
+6. You want to delete a commit. Which approach will you use?  
+7. Accidentally deleted a branch. Can you recover it? How?  
+8. You want to revert a pushed commit. What will you do?  
+9. Multiple developers changed same file. How will Git handle it?  
+10. You want to see changes before commit. How?  
+11. Commit history is messy. How will you clean it?  
+12. You want to apply changes from one branch to another. How?  
+13. You want to ignore certain files. What will you use?  
+14. Your code is not reflecting after pull. Why?  
+15. You need to compare two branches. How?  
+16. You want to undo last commit but keep changes. How?  
+17. Repository size is too large. What will you do?  
+18. Credentials exposed in repo. What is your immediate action?  
+19. Git command not working as expected. How will you debug?  
+20. Common Git issues in real projects and how do you handle them?  
