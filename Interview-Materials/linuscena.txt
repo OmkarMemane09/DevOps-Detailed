@@ -1,5 +1,24 @@
 1. A user gets Permission denied while accessing a file. How will you identify and fix it?
-
+1. Server is slow. What will you check first?  
+2. CPU usage is 100%. How will you troubleshoot?  
+3. Disk is full in production. What steps will you take?  
+4. Application is not starting. Where will you check logs?  
+5. A process is stuck. How will you identify and kill it?  
+6. Server is not reachable. What could be the issue?  
+7. Port is not accessible. How will you debug?  
+8. High memory usage. What will you check?  
+9. File permission issue. How will you resolve it?  
+10. Service is not running after reboot. Why?  
+11. Cron job is not executing. What will you verify?  
+12. Logs are growing very fast. How will you handle it?  
+13. Network connectivity issue. How will you troubleshoot?  
+14. SSH login is failing. What could be wrong?  
+15. Server rebooted unexpectedly. How will you investigate?  
+16. Too many processes running. How will you control it?  
+17. Disk I/O is high. What will you check?  
+18. You need to find a large file quickly. How?  
+19. System performance degraded suddenly. What steps will you take?  
+20. Common Linux production issues and how do you handle them?  
 2. Disk space on / is full. How will you find what is consuming space?
 
 3. A Linux server is slow. What are the first checks you will perform?
