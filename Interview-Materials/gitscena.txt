@@ -1,4 +1,24 @@
 1. You committed wrong code. How will you undo it?  
+1. What is Git and why is it used?  
+2. What is version control?  
+3. Difference between Git and GitHub?  
+4. What is a repository in Git?  
+5. What is a commit?  
+6. What is a branch in Git?  
+7. What is the difference between merge and rebase?  
+8. What is a merge conflict?  
+9. How do you resolve merge conflicts?  
+10. What is git stash?  
+11. What is git clone vs git pull?  
+12. What is git fetch?  
+13. What is HEAD in Git?  
+14. What is the difference between local and remote repository?  
+15. What is branching strategy (Git Flow)?  
+16. What is a pull request?  
+17. What is tagging in Git?  
+18. What is git reset vs git revert?  
+19. What are common Git issues in real projects?  
+20. What are best practices in Git?  
 2. You pushed to wrong branch. What will you do?  
 3. Merge conflict occurred. How will you resolve it?  
 4. You want to temporarily save changes without commit. How?  
