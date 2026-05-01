@@ -1,4 +1,25 @@
 Kubernetes (Core + Advanced)
+1. What is the difference between Docker restart and Kubernetes restart?  
+2. Why does a container work locally but fail in production?  
+3. What happens if you delete a Pod in Kubernetes?  
+4. Why is your CI/CD pipeline successful but app still fails?  
+5. What is the difference between scaling and load balancing?  
+6. Why is your service reachable internally but not externally?  
+7. What happens if Terraform state is lost?  
+8. Why is your EC2 running but website not accessible?  
+9. What is the difference between ALB and NLB in real scenarios?  
+10. Why is your deployment causing downtime?  
+11. What is idempotency and why is it important?  
+12. Why do logs matter more than metrics sometimes?  
+13. What happens when a node goes down in Kubernetes?  
+14. Why is your application slow even when CPU is low?  
+15. What is the difference between monitoring and observability?  
+16. Why is your Docker image size affecting deployment speed?  
+17. What happens if secrets are exposed in pipeline?  
+18. Why is your auto scaling not triggering?  
+19. What is the difference between fault tolerance and high availability?  
+20. Why do most deployments fail in real projects?  
+
 What is the current Kubernetes version you are working with?
 How do you perform a Kubernetes cluster upgrade?
 How does Kubernetes Ingress route traffic to services and pods?
