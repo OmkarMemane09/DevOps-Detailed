@@ -1,0 +1,30 @@
+. Dashboard not showing data. What will you check first?  
+2. Panels showing “No Data”. What could be the issue?  
+3. Grafana not connecting to data source. Why?  
+4. Prometheus connected but queries not working. What will you check?  
+5. Dashboard is slow to load. How will you optimize it?  
+6. Metrics delay in panels. What could be the reason?  
+7. Incorrect data shown in dashboard. How will you debug?  
+8. Variables not working properly. What will you verify?  
+9. Alerts not triggering in Grafana. Why?  
+10. Too many alerts (alert noise). How will you reduce it?  
+11. Alert fired but no notification received. What will you check?  
+12. Multiple dashboards showing different values. Why?  
+13. Panel refresh not happening in real-time. What could be wrong?  
+14. High latency in queries. How will you optimize?  
+15. Data source authentication failed. What will you verify?  
+16. Grafana UI not accessible. How will you debug?  
+17. Role-based access control (RBAC) not working. Why?  
+18. Users cannot view specific dashboards. What will you check?  
+19. Logs and metrics mismatch. How will you correlate?  
+20. You want to monitor multiple environments. How will you design dashboards?  
+21. You need dynamic dashboards. How will you use variables?  
+22. Dashboard showing stale data. Why?  
+23. Query working in Prometheus but not in Grafana. Why?  
+24. Alert flapping issue. How will you handle it?  
+25. Data source timeout issue. What will you check?  
+26. You want to optimize dashboard performance. How will you approach?  
+27. You need secure access to dashboards. What will you implement?  
+28. Grafana upgrade caused issues. How will you debug?  
+29. Dashboard versioning issue. How will you manage it?  
+30. What is your step-by-step approach to debug Grafana issues?  
