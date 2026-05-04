@@ -3,6 +3,36 @@ What is the difference between CI and CD?
 How does a CI/CD pipeline work in real projects?
 What happens when a deployment fails?
 How do you troubleshoot a production issue?
+1. Deployment succeeded but application not working. What will you check first?  
+2. Application is slow. How will you identify the bottleneck?  
+3. High CPU usage in production. What steps will you take?  
+4. Memory usage increasing continuously. What could be the issue?  
+5. Disk is full on server. How will you resolve it?  
+6. Service is not reachable. How will you debug?  
+7. Logs are not showing expected errors. What will you do?  
+8. Monitoring shows healthy but users report issues. Why?  
+9. Alerts not triggering during outage. What is wrong?  
+10. Too many alerts (alert storm). How will you handle it?  
+11. CI/CD pipeline failed. How will you debug it?  
+12. Build succeeded but deployment failed. What will you check?  
+13. Pipeline not triggering automatically. Why?  
+14. Secrets exposed in logs. What is your action?  
+15. Infrastructure created partially. How will you fix it?  
+16. Drift detected in infrastructure. What will you do?  
+17. Container running but app not responding. Why?  
+18. Pod crashing repeatedly. How will you troubleshoot?  
+19. Network issue between services. How will you debug?  
+20. Database connection failing. What will you check?  
+21. High latency between services. How will you investigate?  
+22. Application works locally but fails in production. Why?  
+23. Rollback didn’t fix the issue. What next?  
+24. Multiple services failing together. Where will you start?  
+25. Issue occurs intermittently. How will you debug?  
+26. Logs are too noisy. How will you find root cause?  
+27. System worked yesterday but failing today. What will you check?  
+28. Deployment caused downtime. How will you prevent it?  
+29. Monitoring setup missing key metrics. What will you improve?  
+30. What is your step-by-step approach to debug any production issue? 
 What is Docker and why is it used?
 What is the difference between container and VM?
 What is Kubernetes and why is it needed?
