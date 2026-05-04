@@ -1,3 +1,34 @@
+1. Script runs manually but fails in cron. What will you check?  
+2. Script not executing. How will you debug it?  
+3. Permission denied error in script. What will you verify?  
+4. Variables not working inside script. Why?  
+5. Script output is not as expected. How will you debug?  
+6. Script takes too long to execute. How will you optimize it?  
+7. Command works in terminal but not in script. Why?  
+8. Script fails midway. How will you identify the issue?  
+9. You need to pass arguments to script. How will you handle it?  
+10. Script needs to run only if previous command succeeds. How?  
+11. You want to log script output. How will you do it?  
+12. Script running multiple times. How will you control it?  
+13. Script needs to handle errors properly. What will you implement?  
+14. File not found error in script. What will you check?  
+15. Script works locally but fails on server. Why?  
+16. You need to loop through files. How will you design it?  
+17. Script needs to monitor a service. How will you implement it?  
+18. Script should send alert on failure. How will you design it?  
+19. Environment variables not available in script. Why?  
+20. Script needs to run in background. How will you do it?  
+21. You want to schedule script execution. What will you use?  
+22. Script needs to handle large files. How will you optimize?  
+23. Command inside script failing silently. What will you do?  
+24. Script needs retry mechanism. How will you implement?  
+25. Script needs to check disk usage before execution. How?  
+26. Script needs to parse logs. How will you approach it?  
+27. Script fails due to path issues. What is the fix?  
+28. Script should run across multiple servers. How will you manage?  
+29. Script dependency missing. How will you debug?  
+30. What is your step-by-step approach to debug any shell script?  
+
 Q1. What is a shell script?
 A: A shell script is a file containing commands executed by the shell.
 
