@@ -1,0 +1,30 @@
+1. Container starts but application not reachable. What will you check?  
+2. Container exits immediately after start. What could be wrong?  
+3. Restart loop (CrashLoop-like) in container. How will you debug?  
+4. Image build succeeds but app fails at runtime. Why?  
+5. Port mapping configured but not working. What will you verify?  
+6. Logs are empty or missing. Where will you look?  
+7. Volume not persisting data. What will you troubleshoot?  
+8. Container cannot reach another service. Why?  
+9. DNS resolution failing inside container. What will you check?  
+10. Docker build cache causing issues. How will you handle it?  
+11. Image pull failing from registry. What could be the reason?  
+12. Wrong environment variables inside container. How will you verify?  
+13. High CPU/memory usage by container. How will you analyze?  
+14. Docker daemon not responding. What will you do?  
+15. Need to rollback to previous image version. How will you do it?  
+16. Multiple containers need communication. How will you design it?  
+17. Secrets exposed in image or env. How will you secure them?  
+18. Container not starting after host reboot. Why?  
+19. Network issues between containers. How will you debug?  
+20. App slow inside container but fine on host. What will you check?  
+21. File permission issues inside container. How will you fix?  
+22. Docker Compose service not starting. What will you verify?  
+23. Logs growing too large. How will you manage it?  
+24. Image size too big. How will you optimize it?  
+25. Works in dev but fails in production container. Why?  
+26. Container not picking latest code. What could be wrong?  
+27. Missing dependencies inside container. How will you debug?  
+28. Need zero-downtime deployment with Docker. How will you approach?  
+29. Container security concerns in production. What will you improve?  
+30. What is your step-by-step approach to debug Docker issues? 
