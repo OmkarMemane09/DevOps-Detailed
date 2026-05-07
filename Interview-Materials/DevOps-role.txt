@@ -1,4 +1,44 @@
 𝐃𝐞𝐯𝐎𝐩𝐬 𝐅𝐮𝐧𝐝𝐚𝐦𝐞𝐧𝐭𝐚𝐥𝐬 𝐘𝐨𝐮 𝐌𝐮𝐬𝐭 𝐎𝐰𝐧
+Walk me through your day.
+What is a package manager?
+What are the types of package managers?
+What sort of functionalities can we achieve using a package manager?
+Can we upgrade or downgrade a particular tool? If yes, how?
+What is the difference between sudo & su?
+How to provide user sudo-level privileges?
+Once we execute any sudo command, what happens in the background?
+Have you worked on patching servers?
+
+What are the CI/CD tools you have worked with?
+What are the different types of pipelines?
+Write the stages in Jenkins for a pipeline run.
+Advantages of Jenkins
+What are parallel stages?
+What are distributed executions?
+What are the stages in a pipeline?
+If a pipeline is getting slower over time, how will you troubleshoot?
+
+What are taints & tolerations?
+If the scheduler has stopped working, which component of Kubernetes is responsible for bringing it up?
+What if the Kube API server goes down?
+
+
+What are the AWS services you have worked on?
+I have an EC2 deployed, but it’s not reachable. How to troubleshoot?
+My ec2 is in a private subnet and has a public IP. But it's still not able to connect to the internet. Why?
+How can I attach public IP to an ec2 which is deployed in a private subnet?
+What is an EBS volume?
+Your team wants to reduce the size of EBS volume from 300GB to 200GB. How will you do this?
+What are the options available to copy data into the S3 bucket?
+Have you worked on the patching of AMIs?
+What are the properties of load balancers?
+How to add an additional EBS volume to EC2?
+How can we replicate one RDS instance from one region to another region?
+What are storage classes in the S3 bucket?
+
+If 2 people are creating an ec2 instance at the same time using terraform in the same AWS account, what will happen?
+
+I want to create ec2 instances in 2 different AWS accounts using terraform. How can I do this?
 What is the difference between CI and CD?
 How does a CI/CD pipeline work in real projects?
 What happens when a deployment fails?
