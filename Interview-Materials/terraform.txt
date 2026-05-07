@@ -1,3 +1,34 @@
+
+1. terraform apply failed. What will you check first?  
+2. Infrastructure created partially. How will you fix it?  
+3. State file corrupted. What is your approach?  
+4. Changes not reflecting after apply. Why?  
+5. Resource recreated unexpectedly. What could be the reason?  
+6. You want to preview changes before apply. How?  
+7. Remote backend not working. What will you check?  
+8. Multiple users updating same infra. How will you manage state?  
+9. Drift detected between infra and state. What will you do?  
+10. Variables not getting passed correctly. Why?  
+11. Module not working as expected. What will you check?  
+12. Dependency between resources failing. How will you debug?  
+13. Terraform plan shows unexpected changes. Why?  
+14. Credentials not working for provider. What will you verify?  
+15. Resource creation taking too long. How will you optimize?  
+16. You want to manage multiple environments. How will you design it?  
+17. Secret values exposed in code. How will you secure them?  
+18. Backend locking issue. What will you do?  
+19. Apply failed midway. How will you recover?  
+20. Resource deletion happening unexpectedly. Why?  
+21. You want to reuse code across projects. How will you design modules?  
+22. Output values not visible. What could be wrong?  
+23. Terraform version mismatch in team. How will you handle it?  
+24. You want to destroy specific resources. How?  
+25. Plan works locally but fails in pipeline. Why?  
+26. State file too large. How will you manage it?  
+27. Infrastructure not consistent across environments. Why?  
+28. Provider plugin error. How will you debug?  
+29. You want zero downtime changes. How will you approach?  
+30. What is your step-by-step approach to debug Terraform issues? 
 1️⃣ What is Terraform State and why does Terraform need it?
 2️⃣ What happens if Terraform is executed without a state file?
 3️⃣ Difference between local state and remote state?
