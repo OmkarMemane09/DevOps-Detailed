@@ -1,3 +1,33 @@
+ terraform apply succeeded partially and left infrastructure inconsistent. What will you do first?  
+2. Terraform state file corrupted during deployment. What recovery options exist?  
+3. State lock not released after failed pipeline. What could be wrong?  
+4. Manual cloud changes caused Terraform drift. How will you handle it safely?  
+5. Terraform recreated production resources unexpectedly. Why?  
+6. Wrong workspace/environment selected during apply. What risks exist?  
+7. Terraform backend inaccessible during deployment. What happens next?  
+8. Multiple engineers modified same state simultaneously. What issue can occur?  
+9. Resource dependency cycle detected unexpectedly. How will you debug it?  
+10. Module working in staging but failing in production. Why?  
+11. Terraform plan showing massive unexpected changes. What will you verify first?  
+12. Secrets exposed inside Terraform state file. What is your immediate action?  
+13. Provider version mismatch broke infrastructure deployment. What safeguard is missing?  
+14. CI/CD pipeline using outdated Terraform state. Why?  
+15. Terraform destroy removed critical production resources. What process failure occurred?  
+16. Remote backend migration failed midway. What next?  
+17. Cloud resources created successfully but application unreachable. What will you check?  
+18. Autoscaling infrastructure deployed but scaling not working. Why?  
+19. Terraform apply very slow in large environments. How will you optimize it?  
+20. Kubernetes resources managed by Terraform not updating correctly. What could be wrong?  
+21. IAM/network configuration applied but access still failing. What will you debug?  
+22. Infrastructure rollback required after failed deployment. How will Terraform help?  
+23. Monitoring shows healthy infrastructure but users report outages. Why?  
+24. Terraform state size increasing rapidly. What risks can occur?  
+25. Terraform working locally but failing in automation pipeline. Why?  
+26. Need reusable modules across teams/environments. How will you design them?  
+27. Security/compliance team requesting infrastructure traceability. How will Terraform help?  
+28. Disaster recovery needed for Terraform-managed infrastructure. How will you approach it?  
+29. Production outage caused by incorrect Terraform variable. What validation process should exist?  
+30. What is your structured approach to debug Terraform production incidents end-to-end?  
 Just Terraform.
 It’s easy to feel confident with Terraform… until you're asked questions that go beyond basic .tf files and dive into real-world usage.
 Here are some questions that truly test your depth:
