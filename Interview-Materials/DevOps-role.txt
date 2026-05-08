@@ -8,6 +8,56 @@ What is the difference between sudo & su?
 How to provide user sudo-level privileges?
 Once we execute any sudo command, what happens in the background?
 Have you worked on patching servers?
+Server is slow. What will you check first?  
+2. CPU high but app healthy. Why?  
+3. Memory leak suspected. How will you confirm?  
+4. Disk full suddenly. What could cause it?  
+5. Logs missing during outage. Why?  
+6. SSH access failed. What will you verify?  
+7. Port open but app unreachable. Why?  
+8. DNS issue affecting application. How will you debug?  
+9. Monitoring healthy but users facing issues. Why?  
+10. Alerts not triggered during outage. What happened?  
+11. CI/CD pipeline stuck. What will you check?  
+12. Deployment succeeded but app broken. Why?  
+13. Rollback failed. What next?  
+14. Wrong version deployed to production. How?  
+15. Docker container running but app not responding. Why?  
+16. Kubernetes pod crashing repeatedly. What will you debug?  
+17. Pod running but service unreachable. Why?  
+18. Ingress configured but traffic blocked. What could be wrong?  
+19. Terraform apply failed midway. What next?  
+20. State drift detected in Terraform. How will you handle it?  
+21. Ansible playbook succeeded but config unchanged. Why?  
+22. Jenkins agent offline unexpectedly. What will you check?  
+23. Git merge conflict delaying deployment. How will you resolve?  
+24. GitHub Actions workflow not triggered. Why?  
+25. Kafka consumer lag increasing. What could be wrong?  
+26. Redis cache misses suddenly high. Why?  
+27. Nginx returning 502 errors. What will you investigate?  
+28. Elasticsearch cluster red. What does it indicate?  
+29. Grafana dashboard showing “No Data”. Why?  
+30. Prometheus target DOWN. What will you verify?  
+31. Datadog alerts delayed. What could be wrong?  
+32. CloudWatch logs missing. What will you check?  
+33. SSL certificate expired. Immediate action?  
+34. IAM permissions denied unexpectedly. Why?  
+35. S3 bucket exposed publicly. What is your response?  
+36. Kubernetes secrets leaked accidentally. What next?  
+37. High cloud bill detected overnight. What will you investigate?  
+38. Auto Scaling not triggering. Why?  
+39. Load balancer healthy but users cannot connect. Why?  
+40. Database latency high after release. What changed?  
+41. CronJob not executing. What will you debug?  
+42. Backup exists but restore failed. Why?  
+43. Security scan failed in pipeline. What next?  
+44. Multiple alerts triggered together. How will you prioritize?  
+45. Root cause unknown after incident resolved. What now?  
+46. Incident recurring repeatedly. What process is missing?  
+47. One microservice failure affecting all systems. Why?  
+48. Application works locally but fails in production. Why?  
+49. Monitoring not aligned with customer experience. What will you improve?  
+50. What is your structured approach for any production issue?  
 
 What are the CI/CD tools you have worked with?
 What are the different types of pipelines?
