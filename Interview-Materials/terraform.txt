@@ -1,4 +1,30 @@
-
+Just Terraform.
+It’s easy to feel confident with Terraform… until you're asked questions that go beyond basic .tf files and dive into real-world usage.
+Here are some questions that truly test your depth:
+What is the difference between 𝐭𝐞𝐫𝐫𝐚𝐟𝐨𝐫𝐦 𝐢𝐦𝐩𝐨𝐫𝐭 and 𝐭𝐞𝐫𝐫𝐚𝐟𝐨𝐫𝐦 𝐭𝐚𝐢𝐧𝐭?
+How do you manage secrets in Terraform without hardcoding them?
+What’s the difference between 𝐜𝐨𝐮𝐧𝐭 and 𝐟𝐨𝐫_𝐞𝐚𝐜𝐡? Give a real-world use case.
+How do you handle drift detection in Terraform?
+What is a Terraform remote backend, and why is it important?
+How do you manage multiple environments (dev, staging, prod) in Terraform?
+Difference between 𝐥𝐨𝐜𝐚𝐥-𝐞𝐱𝐞𝐜 and 𝐫𝐞𝐦𝐨𝐭𝐞-𝐞𝐱𝐞𝐜 provisioners.
+How do you safely roll back infrastructure changes after a failed deployment?
+Explain 𝐭𝐞𝐫𝐫𝐚𝐟𝐨𝐫𝐦 𝐫𝐞𝐟𝐫𝐞𝐬𝐡 vs 𝐭𝐞𝐫𝐫𝐚𝐟𝐨𝐫𝐦 𝐩𝐥𝐚𝐧.
+How do you write reusable Terraform modules?
+💡 Truth is…
+Most DevOps engineers underestimate 𝐓𝐞𝐫𝐫𝐚𝐟𝐨𝐫𝐦 𝐟𝐮𝐧𝐝𝐚𝐦𝐞𝐧𝐭𝐚𝐥𝐬.
+They focus on writing simple configs but struggle with:
+• 𝐬𝐭𝐚𝐭𝐞 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭
+• 𝐦𝐨𝐝𝐮𝐥𝐞𝐬
+• 𝐞𝐧𝐯𝐢𝐫𝐨𝐧𝐦𝐞𝐧𝐭 𝐬𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐞𝐬
+• 𝐫𝐞𝐚𝐥-𝐰𝐨𝐫𝐥𝐝 𝐜𝐨𝐦𝐩𝐥𝐞𝐱𝐢𝐭𝐢𝐞𝐬
+And interviewers know it.
+That’s why strong Terraform knowledge often becomes the deciding factor — even when someone is solid in Kubernetes or AWS.
+🔥 Takeaway:
+Don’t stop at basics.
+Go deep into Terraform internals — state files, backends, modules, and best practices.
+Because in high-paying DevOps roles…
+these are the real differentiators.
 1. terraform apply failed. What will you check first?  
 2. Infrastructure created partially. How will you fix it?  
 3. State file corrupted. What is your approach?  
