@@ -1,3 +1,44 @@
+ What is Docker?  
+2. Difference between Docker and Virtual Machine?  
+3. What is a Docker image?  
+4. What is a Docker container?  
+5. Difference between image and container?  
+6. What is Dockerfile?  
+7. What is Docker Hub?  
+8. What is Docker Compose?  
+9. What is Docker Swarm?  
+10. What is containerization?  
+11. Difference between CMD and ENTRYPOINT?  
+12. What is the use of EXPOSE in Dockerfile?  
+13. Difference between COPY and ADD?  
+14. What is multi-stage build?  
+15. What is Docker volume?  
+16. Difference between bind mount and volume?  
+17. What is Docker networking?  
+18. Difference between bridge and host network?  
+19. How to check running containers?  
+20. How to check container logs?  
+21. How to enter inside a running container?  
+22. What is docker exec command?  
+23. How to stop/remove a container?  
+24. Difference between stop and kill?  
+25. What is docker ps command?  
+26. How to build Docker image?  
+27. How to tag Docker image?  
+28. How to push image to Docker Hub?  
+29. What is dangling image?  
+30. How to clean unused Docker resources?  
+31. What is container restart policy?  
+32. Difference between detached and interactive mode?  
+33. How to pass environment variables in Docker?  
+34. What is .dockerignore file?  
+35. How to optimize Docker image size?  
+36. What is healthcheck in Docker?  
+37. How to troubleshoot Docker container issues?  
+38. Difference between Docker Compose and Kubernetes?  
+39. What happens if Docker daemon stops?  
+40. What are best practices for Docker security?  
+
 1. Container starts but application not reachable. What will you check?  
 2. Container exits immediately after start. What could be wrong?  
 3. Restart loop (CrashLoop-like) in container. How will you debug?  
