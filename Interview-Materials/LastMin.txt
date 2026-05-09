@@ -1,3 +1,36 @@
+1️⃣ Cloud Fundamentals
+
+Explain IaaS vs PaaS vs SaaS through real trade-offs, not definitions. When would you recommend public vs private vs hybrid cloud and why? Show your reasoning, not just vocabulary.
+
+2️⃣ AWS Core Services
+
+Know EC2, S3, RDS, Lambda, VPC - but more importantly, explain how they connect to solve problems. Can you trace a request flowing from user through VPC, hitting EC2 or Lambda, reading from RDS, and serving from S3?
+
+3️⃣ Cloud Architecture & Design
+
+Don't just mention the Well-Architected Framework - apply it. When discussing high availability or disaster recovery, explain your reasoning: What's your RTO and RPO? How does auto-scaling interact with load balancing? The WHY matters more than the WHAT.
+
+4️⃣ Security & Compliance
+
+Show you understand defense in depth: Security Groups vs NACLs? Encryption at rest and in transit? How CloudTrail fits into auditing? AWS Shield vs WAF? Explain IAM least privilege clearly - it's table stakes.
+
+5️⃣ DevOps & Automation
+
+Explain how you'd deploy infrastructure repeatedly with IaC (CloudFormation/Terraform), CI/CD pipelines, and containers (ECS/EKS). Discuss trade-offs: ECS vs EKS? Lambda vs containers? Your decisions reveal how you think.
+
+6️⃣ Cost Optimization & Troubleshooting
+
+Prove you can operate in the real world. Anyone can architect a solution that works - can you make it affordable? Discuss Reserved Instances vs Savings Plans, right-sizing, CloudWatch alarms, and real constraints you've navigated.
+
+7️⃣ Behavioral Questions
+
+Use STAR method but lead with business impact, not technology. "I reduced deployment failures by 60% through automated testing" beats "I worked with CodePipeline."
+
+Technical knowledge starts the conversation. Judgment and reasoning get you the offer.
+
+Pick your weakest area and practice explaining why you'd choose solutions over alternatives.
+
+What area do you find most challenging?
 1. Explain how CI/CD works end-to-end in a production environment.
 2. Difference between Blue-Green and Canary deployments - when do you use each?
 3. How does Kubernetes schedule a Pod? Walk me through the control-plane process.
