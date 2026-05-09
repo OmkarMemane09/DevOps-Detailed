@@ -1,0 +1,43 @@
+What is Microsoft Azure?  
+🔹 What is cloud computing in Azure?  
+🔹 What is Azure region?  
+🔹 What is availability zone in Azure?  
+🔹 What is Azure Resource Group?  
+🔹 What is Azure Virtual Network (VNet)?  
+🔹 What is subnet in Azure?  
+🔹 What is NSG (Network Security Group)?  
+🔹 What is Azure Load Balancer?  
+🔹 What is Azure Application Gateway?  
+
+🔹 What is Azure VM?  
+🔹 What is Azure Scale Set?  
+🔹 What is Azure App Service?  
+🔹 What is Azure Storage Account?  
+🔹 What is Blob Storage?  
+🔹 What is Azure Disk Storage?  
+🔹 What is Azure File Share?  
+🔹 What is Azure SQL Database?  
+🔹 What is Cosmos DB?  
+🔹 What is Azure Kubernetes Service (AKS)?  
+
+🔹 What is Azure Container Registry (ACR)?  
+🔹 What is Azure DevOps?  
+🔹 What is Azure Pipeline?  
+🔹 What is Azure Monitor?  
+🔹 What is Log Analytics Workspace?  
+🔹 What is Azure Active Directory (Azure AD)?  
+🔹 What is Managed Identity?  
+🔹 What is Azure Key Vault?  
+🔹 What is RBAC in Azure?  
+🔹 What is Azure Policy?  
+
+🔹 What is Azure Functions?  
+🔹 What is serverless computing in Azure?  
+🔹 What is Azure Traffic Manager?  
+🔹 What is Azure Front Door?  
+🔹 What is Azure Bastion?  
+🔹 What is Azure Backup?  
+🔹 What is Site Recovery in Azure?  
+🔹 What is Infrastructure as Code in Azure?  
+🔹 What is Terraform integration with Azure?  
+🔹 What is importance of Azure in DevOps? 
