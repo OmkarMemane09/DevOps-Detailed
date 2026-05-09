@@ -1,0 +1,43 @@
+ What is Helm?  
+🔹 What is Helm Chart?  
+🔹 What is package manager in Kubernetes?  
+🔹 What is values.yaml file?  
+🔹 What is Chart.yaml?  
+🔹 What is Helm repository?  
+🔹 What is helm install command?  
+🔹 What is helm upgrade command?  
+🔹 What is helm rollback command?  
+🔹 What is helm uninstall command?  
+
+🔹 What is helm lint?  
+🔹 What is helm template?  
+🔹 What is release in Helm?  
+🔹 What is revision in Helm?  
+🔹 What is dependency chart?  
+🔹 What is reusable Helm chart?  
+🔹 What is helper template in Helm?  
+🔹 What is _helpers.tpl file?  
+🔹 What is Go templating in Helm?  
+🔹 What is conditional logic in Helm templates?  
+
+🔹 What is values override in Helm?  
+🔹 What is environment-specific configuration in Helm?  
+🔹 What is Helm hooks?  
+🔹 What is pre-install hook?  
+🔹 What is post-upgrade hook?  
+🔹 What is ConfigMap management in Helm?  
+🔹 What is Secret management in Helm?  
+🔹 What is Helm rollback strategy?  
+🔹 What is chart versioning?  
+🔹 What is semantic versioning in Helm?  
+
+🔹 What is difference between kubectl and Helm?  
+🔹 What is Helm integration with ArgoCD?  
+🔹 What is OCI registry in Helm?  
+🔹 What is chart testing?  
+🔹 What is umbrella chart?  
+🔹 What is subchart in Helm?  
+🔹 What is best practice for Helm chart structure?  
+🔹 What is troubleshooting approach for failed Helm releases?  
+🔹 What is Helm deployment lifecycle?  
+🔹 What is importance of Helm in Kubernetes deployments?  
