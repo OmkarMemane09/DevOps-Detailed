@@ -1,0 +1,40 @@
+ What is Jenkins?  
+2. Why is Jenkins used in DevOps?  
+3. What is CI/CD?  
+4. Difference between Continuous Integration and Continuous Deployment?  
+5. What is Jenkins Pipeline?  
+6. Difference between Declarative and Scripted Pipeline?  
+7. What is Jenkinsfile?  
+8. What are Jenkins agents/nodes?  
+9. Difference between master and agent?  
+10. What is a Jenkins job?  
+11. What are Jenkins stages?  
+12. What is Blue Ocean in Jenkins?  
+13. What are Jenkins plugins?  
+14. How to trigger Jenkins jobs automatically?  
+15. What is webhook in Jenkins?  
+16. How to connect GitHub with Jenkins?  
+17. What is polling in Jenkins?  
+18. How to pass parameters in Jenkins job?  
+19. What is Jenkins shared library?  
+20. How to store secrets in Jenkins?  
+21. What is credentials management in Jenkins?  
+22. How to check Jenkins logs?  
+23. What is Jenkins workspace?  
+24. Difference between freestyle and pipeline jobs?  
+25. How to integrate Docker with Jenkins?  
+26. How to deploy to Kubernetes using Jenkins?  
+27. What is rollback in CI/CD pipeline?  
+28. How to troubleshoot failed Jenkins builds?  
+29. What is artifact in Jenkins?  
+30. What is the use of Nexus with Jenkins?  
+31. What is the use of SonarQube with Jenkins?  
+32. How to optimize Jenkins pipelines?  
+33. What happens if Jenkins server goes down?  
+34. How to backup Jenkins?  
+35. What is parallel execution in Jenkins?  
+36. How to schedule Jenkins jobs?  
+37. What are best practices for Jenkins security?  
+38. How to reduce Jenkins build time?  
+39. How to handle multiple environment deployments in Jenkins?  
+40. What are common Jenkins production issues?  
