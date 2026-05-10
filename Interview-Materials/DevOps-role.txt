@@ -1,4 +1,21 @@
 𝐃𝐞𝐯𝐎𝐩𝐬 𝐅𝐮𝐧𝐝𝐚𝐦𝐞𝐧𝐭𝐚𝐥𝐬 𝐘𝐨𝐮 𝐌𝐮𝐬𝐭 𝐎𝐰𝐧
+Day to Day activities as a Devops Engineer?
+C/CD  Implementation Work flow on Jenkins?
+What you to do if EC2 instances fail ?Where you check?
+Flow of Terraform in your project?
+Which tool you use for ticketing purpose?
+What use as back-end for Aws?
+What command you use to write the file?
+How do you check the logs if pipeline fails?
+Explain IAM Roles and what policies attached?
+What is pod? How it is used?
+Monitoring Tool in Jira ?
+What is groovy ? How it is used?
+Modules in Terraform? Explain in details how you use in project?
+Explain your project Flow how you build pipelines?
+What are the monitoring tools ? How it can be used?
+Write Terraform code for EC2, VPC,S3?
+What is statefile in terraform?
 Walk me through your day.
 What is a package manager?
 What are the types of package managers?
