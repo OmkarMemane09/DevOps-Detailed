@@ -5,6 +5,50 @@ What you to do if EC2 instances fail ?Where you check?
 Flow of Terraform in your project?
 Which tool you use for ticketing purpose?
 What use as back-end for Aws?
+ What is SRE?  
+🔹 What is reliability engineering?  
+🔹 What is SLA?  
+🔹 What is SLO?  
+🔹 What is SLI?  
+🔹 What is error budget?  
+🔹 What is incident management?  
+🔹 What is RCA (Root Cause Analysis)?  
+🔹 What is postmortem?  
+🔹 What is alert fatigue?  
+
+🔹 What is observability?  
+🔹 What is monitoring?  
+🔹 What is logging?  
+🔹 What is tracing?  
+🔹 What is centralized logging?  
+🔹 What is high availability?  
+🔹 What is fault tolerance?  
+🔹 What is disaster recovery?  
+🔹 What is failover?  
+🔹 What is redundancy?  
+
+🔹 What is load balancing?  
+🔹 What is autoscaling?  
+🔹 What is capacity planning?  
+🔹 What is uptime?  
+🔹 What is MTTR?  
+🔹 What is MTBF?  
+🔹 What is blue-green deployment?  
+🔹 What is canary deployment?  
+🔹 What is chaos engineering?  
+🔹 What is health check?  
+
+🔹 What is liveness probe?  
+🔹 What is readiness probe?  
+🔹 What is golden signal in monitoring?  
+🔹 What is toil in SRE?  
+🔹 What is on-call support?  
+🔹 What is escalation policy?  
+🔹 What is production outage?  
+🔹 What is service degradation?  
+🔹 What is proactive monitoring?  
+🔹 What is importance of SRE in production systems?  
+
 What command you use to write the file?
 How do you check the logs if pipeline fails?
 Explain IAM Roles and what policies attached?
