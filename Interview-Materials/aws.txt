@@ -3,6 +3,36 @@ What are the core services of AWS?
 What is EC2 and when do you use it?
 What is S3 and what is it used for?
 What is IAM in AWS?
+EC2 instances healthy but application unavailable globally. What will you check first?  
+2. Auto Scaling launched new instances but traffic still failing. Why?  
+3. ALB healthy but users facing intermittent downtime. What could be wrong?  
+4. Route53 DNS propagated partially causing outage. How will you investigate?  
+5. Security Group configured correctly but connectivity still blocked. Why?  
+6. NAT Gateway failure affecting private subnet applications. What happens next?  
+7. RDS healthy but application latency extremely high. What will you analyze?  
+8. CloudWatch alarms delayed during critical outage. What monitoring gap exists?  
+9. S3 bucket publicly exposed accidentally. What is your immediate action?  
+10. IAM role attached correctly but permissions denied. Why?  
+11. Lambda function working in staging but timing out in production. Why?  
+12. EKS cluster healthy but workloads crashing unexpectedly. What will you debug?  
+13. ECS tasks restarting repeatedly during peak traffic. What could cause it?  
+14. AWS costs suddenly doubled overnight. What resources will you investigate first?  
+15. Multi-AZ setup failed during actual failover. What process issue exists?  
+16. Terraform deployment into AWS partially failed. What recovery approach will you take?  
+17. CloudFront serving outdated content after deployment. Why?  
+18. SSL certificate valid but HTTPS traffic failing. What will you verify?  
+19. Backup available in AWS but restore unsuccessful. What next?  
+20. CloudTrail logs missing during security investigation. What risk does this create?  
+21. Kubernetes ingress on AWS working internally but not externally. Why?  
+22. VPC peering configured but communication still failing. What will you investigate?  
+23. AWS Secrets Manager updated but application still using old secrets. Why?  
+24. EBS volumes attached but performance degraded heavily. What could be wrong?  
+25. Monitoring healthy but customer transactions failing. Why?  
+26. Disaster recovery plan tested unsuccessfully. What improvements are needed?  
+27. CI/CD pipeline deployed infrastructure into wrong AWS account. What safeguard is missing?  
+28. One AWS region healthy while another failing. How will you coordinate response?  
+29. Security incident detected involving AWS resources. What should happen immediately?  
+30. What is your structured approach to debug AWS production incidents end-to-end?  
 What is VPC and why is it important?
 What is RDS in AWS?
 What is Auto Scaling in AWS?
