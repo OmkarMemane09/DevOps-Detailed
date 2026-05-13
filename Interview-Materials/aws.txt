@@ -1,4 +1,24 @@
- Can you introduce yourself and about the day to day activities ?
+What will you check first if EC2 instance suddenly becomes unreachable?
+🔹 What will you investigate if Linux server CPU usage reaches 100%?
+🔹 What will you verify if application latency suddenly increases in AWS?
+🔹 What will you check if disk space becomes full overnight?
+🔹 What will you investigate if Route 53 DNS resolution fails intermittently?
+🔹 What will you verify if SSH access suddenly stops working?
+🔹 What will you check if Auto Scaling launches instances continuously?
+🔹 What will you investigate if swap memory usage becomes abnormally high?
+🔹 What will you verify if CloudWatch alarms fail to trigger?
+🔹 What will you check if filesystem becomes read-only unexpectedly?
+
+🔹 What will you investigate if Load Balancer marks healthy instances unhealthy?
+🔹 What will you verify if NFS mount disconnects frequently?
+🔹 What will you check if IAM permissions suddenly stop working?
+🔹 What will you investigate if DNS works locally but fails externally?
+🔹 What will you verify if EBS volume performance becomes slow?
+🔹 What will you check if firewall blocks application traffic?
+🔹 What will you investigate if backup restoration fails during outage?
+🔹 What will you verify if production works in staging but fails in production?
+🔹 What will you check if incidents repeat after temporary fixes?
+🔹 What will you investigate during critical AWS and Linux production outages? Can you introduce yourself and about the day to day activities ?
  2. Can you give me 5 linux commands which your using on a day to day basis ?
  3. Lets say a Java based application is running on 8089 port, you want to deploy an application on the same port, how do check which app is using which port in linux ?
  4. what are inodes in linux ?
