@@ -1,4 +1,24 @@
 𝐃𝐞𝐯𝐎𝐩𝐬 𝐅𝐮𝐧𝐝𝐚𝐦𝐞𝐧𝐭𝐚𝐥𝐬 𝐘𝐨𝐮 𝐌𝐮𝐬𝐭 𝐎𝐰𝐧
+What is CI/CD?
+2. Explain Docker.
+3. What is Kubernetes?
+4. Explain Jenkins pipeline.
+5. Difference between Git and GitHub?
+6. Explain infrastructure as code.
+7. What is Ansible?
+8. Explain containerization.
+9. What is cloud computing?
+10. Explain Linux commands you use daily.
+11. What is Terraform?
+12. Explain monitoring tools.
+13. Difference between virtualization and containers?
+14. What is version control?
+15. Explain deployment strategies.
+16. What is load balancing?
+17. Explain AWS basics.
+18. What is automation testing?
+19. Explain rollback strategy.
+20. Why DevOps is important?
 1. How do you separate environments (like Dev, Staging, Prod) within Kubernetes or across clusters?
  2. What is the purpose of a **ServicePort** in Kubernetes?
  3. What is a **Deployment** in K8s, and how does it manage pods?
