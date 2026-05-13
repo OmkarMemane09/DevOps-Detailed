@@ -3,7 +3,25 @@
 • How do you change file permissions in Linux?
 • How do you search for a file by name in Linux?
 • What is an inode and how does it relate to files?
-
+2. Suppose I want to migrate infrastructure from on-premises to AWS. What are the steps that need to be followed?
+3. In your resume, you mentioned that you implemented infrastructure automation and reduced project effort, human effort, and cost. Can you elaborate more on the project you worked on?
+4. What is the purpose of VPC peering? While configuring peering, what areas should we consider?
+5. What are the purposes of ALB and NLB? Which one is faster, and why?
+6. You mentioned cost optimization in your resume. Can you explain more about the projects where you implemented it?
+7. Have you performed any AWS troubleshooting? If yes, can you provide five examples?
+8. A customer reported that an application is running very slowly intermittently. How would you improve the performance?
+9. Assume an Auto Scaling Group is not working properly. How would you troubleshoot it?
+10. What is the purpose of DNS? What types of DNS records are commonly used, and how does DNS work?
+11. You mentioned Transit Gateway. How is it different from DNS?
+12. In Terraform, can we use multiple cloud providers?
+13. What is the purpose of the terraform init command, and how does Terraform integrate with cloud providers?
+14. In Terraform, what is the difference between a provider and a provisioner?
+15. What is the purpose of Terraform modules? How many Terraform modules have you worked with?
+16. I want to configure management tools to access Terraform provisioners for infrastructure configuration management. According to your knowledge, which provisioner is best?
+17. In your previous answer, you mentioned a database reverse proxy. Please explain why we use it.
+18. Why is Ansible called idempotent?
+19. Do you have any experience with Azure?
+20. How is TLS/SSL certificate termination implemented in a load balancer?
 ☸️ Kubernetes
 • How do you ensure zero-downtime deployments?
 • Explain rolling updates and rollbacks.
