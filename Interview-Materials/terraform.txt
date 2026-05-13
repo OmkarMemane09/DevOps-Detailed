@@ -1,4 +1,25 @@
-  How does Terraform work in real-time projects?
+
+🔹 What will you check first if pod stays in Pending state?
+🔹 What will you investigate if CrashLoopBackOff happens repeatedly?
+🔹 What will you verify if ImagePullBackOff occurs after deployment?
+🔹 What will you check if application is unreachable though pods are running?
+🔹 What will you investigate if service is not routing traffic correctly?
+🔹 What will you verify if ingress becomes inaccessible suddenly?
+🔹 What will you check if DNS resolution fails inside cluster?
+🔹 What will you investigate if node becomes NotReady intermittently?
+🔹 What will you verify if pods restart continuously in production?
+🔹 What will you check if readiness probe fails unexpectedly?
+
+🔹 What will you investigate if liveness probe restarts healthy pods?
+🔹 What will you verify if ConfigMap changes are not reflected?
+🔹 What will you check if Secret values are inaccessible inside pods?
+🔹 What will you investigate if PVC remains stuck in Pending state?
+🔹 What will you verify if HPA is not scaling workloads?
+🔹 What will you check if cluster autoscaler is not adding nodes?
+🔹 What will you investigate if network policies block communication?
+🔹 What will you verify if kubectl commands suddenly become slow?
+🔹 What will you check if deployment rollout gets stuck midway?
+🔹 What will you investigate during critical Kubernetes production outages?  How does Terraform work in real-time projects?
 ✅ How do you manage Terraform state files in production?
 ✅ Difference between local state and remote state?
 ✅ How do you use S3 + DynamoDB in Terraform?
