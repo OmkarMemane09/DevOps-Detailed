@@ -1,3 +1,36 @@
+What are the hidden causes of unexpected AWS billing spikes?
+🔹 What are the common networking failures inside AWS VPCs?
+🔹 What are the hidden risks of weak IAM permission management?
+🔹 What are the common Load Balancer issues during high traffic?
+🔹 What are the hidden causes of intermittent EC2 instability?
+🔹 What are the common Route 53 DNS troubleshooting challenges?
+🔹 What are the hidden storage bottlenecks in AWS environments?
+🔹 What are the common deployment failures in cloud-native applications?
+🔹 What are the hidden causes of Auto Scaling inefficiencies?
+🔹 What are the common monitoring gaps in AWS production systems?
+
+🔹 What are the hidden risks during multi-region failover?
+🔹 What are the common security gaps in AWS environments?
+🔹 What are the hidden causes of cloud migration failures?
+🔹 What are the common mistakes during disaster recovery planning?
+🔹 What are the hidden infrastructure weaknesses during traffic spikes?
+🔹 What are the common challenges in EKS production environments?
+🔹 What are the hidden reasons behind unstable deployments?
+🔹 What are the common cloud automation mistakes engineers make?
+🔹 What are the hidden causes of delayed outage detection?
+🔹 What are the common troubleshooting blind spots in AWS?
+
+🔹 What are the most valuable AWS troubleshooting skills today?
+🔹 What are the hidden interview traps in cloud engineering rounds?
+🔹 What are the best ways to gain real AWS production experience?
+🔹 What are the hidden lessons learned from cloud outages?
+🔹 What are the common mistakes fresh cloud engineers make?
+🔹 What are the most important cloud reliability skills?
+🔹 What are the hidden scalability challenges in cloud systems?
+🔹 What are the qualities of strong cloud engineers?
+🔹 What are your long-term cloud engineering goals?
+🔹 What is your cloud-first production mindset?
+
 What is AWS and why is it used?
 What are the core services of AWS?
 What is EC2 and when do you use it?
