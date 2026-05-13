@@ -9,6 +9,27 @@ What are the hidden causes of unexpected AWS billing spikes?
 🔹 What are the hidden causes of Auto Scaling inefficiencies?
 🔹 What are the common monitoring gaps in AWS production systems?
 What will you check first if EC2 instance becomes unreachable?
+🔹 What will you check first if EC2 instance becomes unreachable?
+🔹 What will you investigate if application latency suddenly increases in AWS?
+🔹 What will you verify if Load Balancer health checks fail?
+🔹 What will you check if Auto Scaling is not launching instances?
+🔹 What will you investigate if Route 53 DNS resolution fails intermittently?
+🔹 What will you verify if S3 bucket access gets denied unexpectedly?
+🔹 What will you check if CloudWatch alarms are not triggering?
+🔹 What will you investigate if EBS volume performance becomes slow?
+🔹 What will you verify if IAM role permissions stop working?
+🔹 What will you check if Lambda function times out frequently?
+
+🔹 What will you investigate if ECS tasks restart continuously?
+🔹 What will you verify if EKS pods fail after deployment?
+🔹 What will you check if NAT Gateway blocks internet access?
+🔹 What will you investigate if VPC peering communication fails?
+🔹 What will you verify if SSL certificate renewal fails?
+🔹 What will you check if CloudFormation stack creation fails?
+🔹 What will you investigate if AWS billing increases unexpectedly?
+🔹 What will you verify if backup restoration fails in AWS?
+🔹 What will you check if production works in staging but fails in AWS production?
+🔹 What will you investigate during critical AWS production outages?
 
 🔹 What will you investigate if application latency suddenly increases in AWS?
 
