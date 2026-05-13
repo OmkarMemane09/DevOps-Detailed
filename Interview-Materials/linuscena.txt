@@ -1,3 +1,24 @@
+What will you check first if Linux server suddenly becomes unresponsive?
+🔹 What will you investigate if CPU usage reaches 100% unexpectedly?
+🔹 What will you verify if memory usage continuously increases?
+🔹 What will you check if disk space becomes full overnight?
+🔹 What will you investigate if inode usage reaches 100%?
+🔹 What will you verify if SSH access suddenly stops working?
+🔹 What will you check if application process consumes excessive resources?
+🔹 What will you investigate if systemd service fails after reboot?
+🔹 What will you verify if cron jobs are not running properly?
+🔹 What will you check if logs suddenly stop generating?
+
+🔹 What will you investigate if DNS resolution fails intermittently?
+🔹 What will you verify if network connectivity drops randomly?
+🔹 What will you check if swap usage becomes abnormally high?
+🔹 What will you investigate if filesystem turns read-only unexpectedly?
+🔹 What will you verify if NFS mount disconnects frequently?
+🔹 What will you check if kernel panic occurs in production?
+🔹 What will you investigate if zombie processes continuously increase?
+🔹 What will you verify if firewall blocks application traffic?
+🔹 What will you check if application works locally but fails remotely?
+🔹 What will you investigate during critical Linux production outages?
 1. A user gets Permission denied while accessing a file. How will you identify and fix it?
 1. Server is slow. What will you check first?  
 2. CPU usage is 100%. How will you troubleshoot?  
