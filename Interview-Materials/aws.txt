@@ -1,4 +1,24 @@
 What are the hidden causes of unexpected AWS billing spikes?
+✅ How does AWS CloudFormation work in real-time projects?
+✅ What is Infrastructure as Code (IaC) in CloudFormation?
+✅ Difference between CloudFormation and Terraform?
+✅ What are stacks in CloudFormation?
+✅ How do you manage nested stacks in AWS?
+✅ What are CloudFormation templates?
+✅ Difference between JSON and YAML templates?
+✅ How do you handle stack update failures?
+✅ What are Change Sets in CloudFormation?
+✅ How do you manage parameters and outputs in templates?
+✅ How do you secure sensitive data in CloudFormation?
+✅ How do you automate infrastructure deployment using CloudFormation?
+✅ How do you integrate CloudFormation with CI/CD pipelines?
+✅ What are rollback triggers in CloudFormation?
+✅ How do you troubleshoot failed stack deployments?
+✅ How do you manage multi-environment infrastructure in AWS?
+✅ What are drift detection and stack policies?
+✅ How do you optimize CloudFormation templates for large projects?
+✅ What are common CloudFormation production issues and fixes?
+✅ What are best practices for CloudFormation in enterprise projects?
 🔹 What are the common networking failures inside AWS VPCs?
 🔹 What are the hidden risks of weak IAM permission management?
 🔹 What are the common Load Balancer issues during high traffic?
