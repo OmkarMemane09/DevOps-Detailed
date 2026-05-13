@@ -1,4 +1,45 @@
- What is Docker?  
+🔹 What is Docker and how does it work?
+🔹 What is the difference between Docker image and container?
+🔹 What is a Dockerfile and how do you create one?
+🔹 What are Docker volumes and bind mounts?
+🔹 What is Docker networking and its types?
+🔹 What is the difference between CMD and ENTRYPOINT?
+🔹 How do you optimize Docker image size?
+🔹 What are multi-stage Docker builds
+🔹 How do you manage Docker container logs?
+🔹 How do you debug failed Docker containers?
+🔹 What is Docker Compose and how does it work?
+🔹 How do you secure Docker containers?
+🔹 What is the difference between Docker Compose and Kubernetes?
+🔹 How do you manage secrets in Docker?
+🔹 How do you deploy applications using Docker?
+🔹 How do you monitor Docker containers?
+🔹 How do you integrate Docker with CI/CD pipelines?
+🔹 What are Docker registries and how do they work?
+🔹 What are common Docker production issues and fixes?
+🔹 What are best practices for Docker in production?
+Your Docker image size is too large. How will you reduce it?
+A container is crashing repeatedly. How will you troubleshoot it?
+You need to run multiple services (app + DB). How will you manage it?
+You need persistent data even after container deletion. What will you do?
+How will you secure sensitive data inside containers?
+Your container is not accessible from the browser. What could be the issue?
+How will you pass configuration dynamically to containers?
+You need to deploy the same container across dev, staging, and prod. How will you handle it?
+How will you monitor running containers in production?
+You need zero downtime deployment using Docker. How will you approach it?
+🔵 Advanced
+ What is the difference between Docker and Virtual Machines?
+ What are namespaces and cgroups in Docker?
+ What is Docker Swarm?
+ What is image layering in Docker?
+ How does Docker caching work?
+ What is the difference between EXPOSE and -p?
+What is a health check in Docker?
+How do you secure Docker daemon?
+What are best practices for writing Dockerfiles?
+How does Docker integrate with CI/CD pipelines?
+What is Docker?  
 Your Docker image size is too large. How will you reduce it?
 A container is crashing repeatedly. How will you troubleshoot it?
 You need to run multiple services (app + DB). How will you manage it?
