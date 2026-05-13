@@ -1,3 +1,24 @@
+ az login – Login to Azure account
+🔹 az account show – Show current Azure account
+🔹 az group create – Create a resource group
+🔹 az vm create – Create Azure virtual machine
+🔹 az vm start – Start Azure VM
+🔹 az vm stop – Stop Azure VM
+🔹 az aks create – Create AKS cluster
+🔹 az aks get-credentials – Connect to AKS cluster
+🔹 kubectl get pods – List Kubernetes pods
+🔹 kubectl get nodes – Show cluster nodes
+🔹 kubectl apply -f file.yaml – Deploy Kubernetes resources
+🔹 kubectl describe pod <pod-name> – Show pod details
+🔹 kubectl logs <pod-name> – View pod logs
+🔹 docker build -t image-name . – Build Docker image
+🔹 docker ps – List running containers
+🔹 terraform init – Initialize Terraform
+🔹 terraform plan – Preview infrastructure changes
+🔹 terraform apply – Create infrastructure
+🔹 az acr login – Login to Azure Container Registry
+🔹 helm install – Deploy applications using Helm
+
 What is Microsoft Azure?  
 🔹 What is cloud computing in Azure?  
 🔹 What is Azure region?  
