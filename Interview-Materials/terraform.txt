@@ -1,4 +1,24 @@
- terraform apply succeeded partially and left infrastructure inconsistent. What will you do first?  
+  How does Terraform work in real-time projects?
+✅ How do you manage Terraform state files in production?
+✅ Difference between local state and remote state?
+✅ How do you use S3 + DynamoDB in Terraform?
+✅ What are Terraform modules and why are they important?
+✅ How do you manage multiple environments in Terraform?
+✅ Difference between terraform plan and terraform apply?
+✅ How do you handle secrets securely in Terraform?
+✅ How do you debug Terraform deployment failures?
+✅ How do you integrate Terraform with AWS?
+✅ How do you integrate Terraform with Azure or GCP?
+✅ What is Terraform drift and how do you fix it?
+✅ How do you destroy specific resources in Terraform?
+✅ What are lifecycle rules in Terraform?
+✅ How do you manage dependencies between resources?
+✅ How do you use variables and output values in Terraform?
+✅ How do you automate Terraform using CI/CD pipelines?
+✅ What are common Terraform issues in production?
+✅ How do you optimize Terraform code for large projects?
+✅ What are Terraform best practices used in companies?
+terraform apply succeeded partially and left infrastructure inconsistent. What will you do first?  
 2. Terraform state file corrupted during deployment. What recovery options exist?  
 3. State lock not released after failed pipeline. What could be wrong?  
 4. Manual cloud changes caused Terraform drift. How will you handle it safely?  
