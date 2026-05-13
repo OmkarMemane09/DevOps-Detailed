@@ -1,4 +1,42 @@
 𝐃𝐞𝐯𝐎𝐩𝐬 𝐅𝐮𝐧𝐝𝐚𝐦𝐞𝐧𝐭𝐚𝐥𝐬 𝐘𝐨𝐮 𝐌𝐮𝐬𝐭 𝐎𝐰𝐧
+🐧 Linux
+• How do you change file permissions in Linux?
+• How do you search for a file by name in Linux?
+• What is an inode and how does it relate to files?
+
+☸️ Kubernetes
+• How do you ensure zero-downtime deployments?
+• Explain rolling updates and rollbacks.
+• Pod stuck in CrashLoopBackOff — step-by-step troubleshooting.
+• What is the current Kubernetes version you are using?
+• Last production issue you faced and how did you resolve it?
+• Difference between Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet.
+• Difference between ClusterIP, NodePort, LoadBalancer.
+• What are Taints and Tolerations?
+
+⚙️ CI/CD (Jenkins)
+• How do you pass secrets securely in pipelines?
+• What types of pipeline failures have you encountered during build or deployment stages?
+• How do you troubleshoot CI/CD pipeline failures?
+• Jenkins job not triggering after Git commit — how do you fix it?
+
+🐳 Docker
+• Difference between CMD and ENTRYPOINT.
+• COPY vs ADD in Dockerfile — which is preferred and why?
+• What is ImagePullBackOff and how do you fix it?
+• What command is used to build a Docker image from a Dockerfile?
+• How do you clean unused Docker images and containers safely?
+• A container keeps restarting — how do you debug it?
+• What is the purpose of the docker tag command?
+
+☁️ AWS
+• What is AWS Lambda?
+• What is the difference between a public subnet and private subnet?
+• What is a NAT Gateway and Internet Gateway?
+
+🧱 Terraform
+• What is Terraform state and why is it important?
+• What is remote backend and state locking?
 What is CI/CD?
 2. Explain Docker.
 3. What is Kubernetes?
