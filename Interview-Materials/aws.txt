@@ -1,3 +1,23 @@
+ Can you introduce yourself and about the day to day activities ?
+ 2. Can you give me 5 linux commands which your using on a day to day basis ?
+ 3. Lets say a Java based application is running on 8089 port, you want to deploy an application on the same port, how do check which app is using which port in linux ?
+ 4. what are inodes in linux ?
+ 5. what are iptables ?
+ 6. Explain cron jobs and why it is used ? and explain grep and sed commands with an example?
+ 7. Explain the flow of execution when I hit any kubectl commands ? Which all components gets involved ?
+ 8. How many types of services are there in k8s ? and when to use which one ?
+ 9. and what does ingress do ?
+ 10. How to stop pod to pod communication within the namespace ?
+ 11. If you were given a task to deploy a cockroach tv database in k8s, how will you do it ?
+ 12. In cloud do you know what is peering and transit gateway ? If i paired A to B and B to C, can a traffic flow to A to C ?
+ 13. Difference between NACL's and Security groups ?
+ 14. You denied a public ip of a resigned employee in your organization and add it with a priority 101 and the whitelist happened for the priority 95, so what will happen ? will the allow work or deny work ? 
+ 15. Explain the types of load balancers in the cloud ?
+ 16. Lets say we are on a zoom app, we are in a chit-chatting, which load balancer is being used right now ?
+ 17. Out of these load balancers which one acknowledges that they received the packets at the receiver end ?
+ 18. How can you create and deploy the CICD pipeline in different env's ? Tell me how many stages you use to build, deploy and also keep the security in mind ?
+ 19. Do you know how to monitor memory in Ec2 instances ? If yes how ?
+  20. Do you have any experience in python ? If yes why and where have you used it ?
 What are the hidden causes of unexpected AWS billing spikes?
 ✅ How does AWS CloudFormation work in real-time projects?
 ✅ What is Infrastructure as Code (IaC) in CloudFormation?
