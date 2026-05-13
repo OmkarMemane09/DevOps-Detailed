@@ -1,1 +1,22 @@
 
+🔹 What will you check first if Kubernetes pods restart continuously?
+🔹 What will you investigate if Docker containers exit immediately after deployment?
+🔹 What will you verify if application is unreachable though pods are running?
+🔹 What will you check if ingress suddenly stops routing traffic?
+🔹 What will you investigate if ImagePullBackOff occurs in production?
+🔹 What will you verify if readiness probe fails unexpectedly?
+🔹 What will you check if Docker networking fails between containers?
+🔹 What will you investigate if node becomes NotReady intermittently?
+🔹 What will you verify if PVC remains stuck in Pending state?
+🔹 What will you check if HPA is not scaling during traffic spikes?
+
+🔹 What will you investigate if Docker image works locally but fails in Kubernetes?
+🔹 What will you verify if rolling deployment causes temporary downtime?
+🔹 What will you check if ConfigMap changes are not reflected inside pods?
+🔹 What will you investigate if CoreDNS fails intermittently?
+🔹 What will you verify if overlay network causes communication issues?
+🔹 What will you check if one namespace consumes most cluster resources?
+🔹 What will you investigate if deployment rollout gets stuck midway?
+🔹 What will you verify if service works internally but fails externally?
+🔹 What will you check if rollback deployment still does not restore stability?
+🔹 What will you investigate during critical Kubernetes and Docker outages?
