@@ -1,4 +1,23 @@
-
+How would you troubleshoot a failed Pod in Kubernetes?
+How would you handle high CPU or memory usage in a cluster?
+How would you manage zero-downtime deployments in Kubernetes?
+How would you troubleshoot CrashLoopBackOff issues?
+How would you handle node failure in production?
+How would you scale applications during high traffic?
+How would you secure Kubernetes clusters in production?
+How would you manage secrets securely in Kubernetes?
+How would you troubleshoot networking issues between Pods?
+How would you handle persistent storage failures?
+How would you monitor Kubernetes clusters effectively?
+How would you implement disaster recovery in Kubernetes?
+How would you troubleshoot failed rolling updates?
+How would you optimize Kubernetes resource utilization?
+How would you manage multi-environment deployments in Kubernetes?
+How would you handle image pull errors in production?
+How would you implement blue-green deployment in Kubernetes?
+How would you troubleshoot ingress controller issues?
+How would you manage RBAC permissions in Kubernetes?
+How would you reduce downtime during cluster upgrades?
 🔹 What will you check first if Kubernetes pods restart continuously?
 🔹 What will you investigate if Docker containers exit immediately after deployment?
 🔹 What will you verify if application is unreachable though pods are running?
