@@ -8,7 +8,28 @@ What will you check first if Linux server suddenly becomes unresponsive?
 🔹 What will you investigate if systemd service fails after reboot?
 🔹 What will you verify if cron jobs are not running properly?
 🔹 What will you check if logs suddenly stop generating?
+What will you check first if Linux server suddenly becomes unresponsive?
+🔹 What will you investigate if Docker containers restart continuously?
+🔹 What will you verify if disk space becomes full because of Docker artifacts?
+🔹 What will you check if CPU usage suddenly spikes in production?
+🔹 What will you investigate if memory usage continuously increases?
+🔹 What will you verify if application works locally but fails inside container?
+🔹 What will you check if Docker networking suddenly breaks?
+🔹 What will you investigate if logs stop generating in Linux server?
+🔹 What will you verify if Docker daemon becomes unstable unexpectedly?
+🔹 What will you check if swap usage increases abnormally?
 
+🔹 What is the difference between Docker image and container?
+🔹 What is the difference between CMD and ENTRYPOINT?
+🔹 What is the difference between bind mount and volume?
+🔹 What is the difference between process and thread?
+🔹 What is the difference between soft link and hard link?
+
+🔹 What are the biggest Linux troubleshooting blind spots?
+🔹 What are the hidden risks in containerized production systems?
+🔹 What are the most important production support skills for DevOps engineers?
+🔹 What are the common causes of repeated Docker failures?
+🔹 What is your Linux and container troubleshooting mindset?
 🔹 What will you investigate if DNS resolution fails intermittently?
 🔹 What will you verify if network connectivity drops randomly?
 🔹 What will you check if swap usage becomes abnormally high?
