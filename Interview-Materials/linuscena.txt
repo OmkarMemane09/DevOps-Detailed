@@ -118,3 +118,23 @@ What will you check first if Linux server suddenly becomes unresponsive?
 29 You need to copy files securely between two Linux servers. What method will you choose?
 
 30. System memory is almost full. How will you analyze and fix it?
+How do you troubleshoot a kernel panic?  
+What steps would you take if a system is running out of inodes?  
+How do you recover a corrupted GRUB bootloader?  
+Explain how you would trace a process consuming high CPU using strace or perf.  
+How do you debug a system with high I/O wait?  
+What’s your approach to diagnosing memory leaks in Linux?  
+How do you secure SSH access on production servers?  
+What steps would you take if DNS resolution suddenly fails?  
+How do you configure bonding/teaming for NIC redundancy?  
+How would you extend a live filesystem without downtime?  
+How do you investigate a system that is frequently hanging?  
+What’s your method for auditing user activity with auditd?  
+How do you handle SELinux policy violations?  
+What’s your approach to patching critical vulnerabilities on Linux servers?  
+How do you configure and troubleshoot NFS performance issues?  
+Explain how you would migrate a system from ext4 to XFS.  
+How do you analyze and tune TCP parameters for high-throughput applications?  
+What steps would you take if a cron job is not executing?  
+How do you investigate zombie processes on a server?  
+What’s your approach to troubleshooting slow boot times?
