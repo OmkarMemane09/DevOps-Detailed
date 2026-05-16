@@ -433,7 +433,43 @@ What are best practices in DevOps?
 19. How do you recover corrupted EBS volumes from snapshots? 
 20. How do you monitor EC2 disk I/O performance?
 ⸻
+How you troubleshoot issues
+How you make production decisions
+Your debugging approach
+RCA and recovery thinking
+Real-world experience handling failures
+They expect practical judgment, not just tool knowledge.
 
+Here are some questions I faced during the interview 👇
+AWS / Infrastructure Questions ☁️
+If two EC2 instances need patching and they are under an Auto Scaling Group, how would you patch them without downtime?
+How do you define Target Groups in AWS Load Balancer?
+Explain AWS Lambda concurrency limits.
+Difference between reserved concurrency and provisioned concurrency in Lambda.
+How do you identify which AWS services/resources are public and which are private?
+Explain gp2 and gp3 EBS volume types.
+How do you perform disk separation in EC2 for application and monitoring workloads?
+Which AWS tools/services do you use for disk management and monitoring?
+Explain disaster recovery strategy in AWS.
+How do you perform rollback during failures?
+Kubernetes / EKS Questions ☸️
+How do you upgrade AWS EKS clusters?
+What precautions do you take before EKS upgrades?
+If one pod is stuck in Pending state, how do you debug and fix it?
+Users are noticing random 500 errors from the application — how do you troubleshoot?
+How do you debug CrashLoopBackOff issues?
+Difference between Deployment, StatefulSet, and DaemonSet.
+How do you monitor Kubernetes clusters?
+How do you troubleshoot high memory/CPU usage in pods?
+How do you manage secrets in Kubernetes?
+How does Kubernetes service discovery work?
+Terraform Questions 🌍
+Explain Terraform locals.
+What are Terraform plugins/providers?
+Difference between variables, locals, and outputs.
+How do you manage Terraform remote state?
+How do you handle Terraform drift?
+What happens internally during terraform init?
 💡 Tip:
 Most questions were fundamental but scenario-based follow-ups were deep. Make sure your basics are strong + you can explain real-time use cases.
 
@@ -482,7 +518,28 @@ Your Terraform state file is getting too large. How do you manage it?
 A team needs to provision infra in 10 AWS regions simultaneously. How do you structure it?
 You want faster Terraform runs in large projects. What optimizations would you apply?
 A production deployment failed halfway, leaving some resources created and others not. How do you recover?
+ What will you check first if production suddenly goes down after deployment?
+🔹 What will you investigate if monitoring dashboards show healthy systems but users complain?
+🔹 What will you verify if rollback succeeds but issue still exists?
+🔹 What will you check if Kubernetes pods are healthy but traffic fails?
+🔹 What will you investigate if Jenkins pipeline succeeds but release fails?
+🔹 What will you verify if Auto Scaling launches new servers but latency remains high?
+🔹 What will you check if Route 53 intermittently fails during traffic spikes?
+🔹 What will you investigate if Docker containers restart continuously?
+🔹 What will you verify if Terraform changes unexpectedly impact infrastructure?
+🔹 What will you check if incidents repeat after RCA completion?
 
+🔹 What is the difference between monitoring and observability?
+🔹 What is the difference between Docker and Kubernetes?
+🔹 What is the difference between blue-green and canary deployment?
+🔹 What is the difference between ECS and EKS?
+🔹 What is the difference between scaling and high availability?
+
+🔹 What are the biggest troubleshooting blind spots?
+🔹 What are the hidden risks in production systems?
+🔹 What are the most important production support skills?
+🔹 What are the common causes of repeated outages?
+🔹 What is your production-first engineering mindset?
 🔹 Prometheus & Grafana
 How do you implement Kubernetes cluster-level monitoring using Prometheus?
 How can you integrate Prometheus with Alertmanager and Slack for real-time notifications?
