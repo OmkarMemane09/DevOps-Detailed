@@ -239,7 +239,22 @@ Server is slow. What will you check first?
 48. Application works locally but fails in production. Why?  
 49. Monitoring not aligned with customer experience. What will you improve?  
 50. What is your structured approach for any production issue?  
-
+1. Tell me about yourself
+2. What are policies in Auto Scaling?
+3. How do path-based routing and host-based routing work in ALB, and which has priority?
+4. How can you give SSH access to an EC2 instance without sharing the PEM key?
+5. What is Terraform lifecycle?
+6. Difference between count and for_each in Terraform?
+7. What is a data block and how is it different from a dynamic block?
+8. What are provisioners in Terraform?
+9. What are the parameters of SonarQube and how do you test an application?
+10. If production keys are exposed, how do you troubleshoot and resolve the issue?
+11. How do you upgrade a Kubernetes cluster without downtime?
+12. which Kubernetes version you have used?
+13. What are liveness and readiness probes?
+14. What are static pods and how do you handle them?
+15. Explain niginx pod structure 
+16. Explain Kubernetes deployment YAML file
 What are the CI/CD tools you have worked with?
 What are the different types of pipelines?
 Write the stages in Jenkins for a pipeline run.
@@ -382,7 +397,43 @@ What are best practices in DevOps?
  8. What is remote-exec in Terraform?
  9. What is null_resource in Terraform?
 
-⸻
+⸻How would you handle downtime in a production AWS application?
+How would you secure AWS infrastructure in production?
+How would you manage multi-region deployments in AWS?
+How would you troubleshoot failed deployments in AWS?
+How would you implement auto scaling during high traffic?
+How would you configure load balancing for high availability?
+How would you manage secrets securely in AWS?
+How would you monitor production infrastructure using CloudWatch?
+How would you troubleshoot networking issues in a VPC?
+How would you optimize AWS cloud costs in production?
+How would you automate infrastructure using Terraform in AWS?
+How would you handle disaster recovery in AWS?
+How would you troubleshoot S3 access issues?
+How would you manage IAM permissions securely?
+How would you implement blue-green deployment in AWS?
+How would you manage Kubernetes workloads in Amazon EKS?
+How would you reduce downtime during deployments?
+How would you troubleshoot RDS database performance issues?
+How would you design a highly available AWS architecture?
+How would you troubleshoot Auto Scaling group failures in AWS?
+How would you manage centralized logging in AWS production environments?
+How would you secure S3 buckets from public access?
+How would you migrate on-premises applications to AWS cloud?
+How would you handle SSL certificate and HTTPS configuration in AWS?
+ Kubernetes pods are healthy but users still face downtime — what will you check first?
+
+🔹 Jenkins deployment succeeded but production release failed — where will you investigate?
+
+🔹 Auto Scaling launched more instances but response time still remains high — why?
+
+🔹 Monitoring dashboards show healthy metrics but customer complaints continue — what could be missing?
+
+🔹 Rollback succeeded but the issue still exists — what would be your next action?
+
+🔹 Route 53 intermittently fails during traffic spikes — where will you start?
+
+🔹 Docker containers restart continuously after deployment — what will you verify first?
 
 ☸️ Kubernetes
  10. Worker Node keeps restarting – how to resolve?
