@@ -1,0 +1,19 @@
+ Your application suddenly starts consuming 95% memory after deployment — what will you check first?
+
+2️⃣ Git merge completed successfully but production started failing — where would you investigate?
+
+3️⃣ Jenkins build succeeds but artifact is not getting deployed — what could be wrong?
+
+4️⃣ Kubernetes pod status shows Running but application returns 502/503 — what will you verify?
+
+5️⃣ One microservice is down and suddenly multiple services start failing — why can this happen?
+
+6️⃣ Users report slowness but CPU and memory utilization are normal — what would you investigate?
+
+7️⃣ Database latency suddenly increases during peak traffic — what metrics/logs will you check?
+
+8️⃣ One EC2 instance becomes unhealthy repeatedly after replacement — what could be causing it?
+
+9️⃣ A Terraform apply unexpectedly modifies resources you didn't touch — what will you review?
+
+🔟 Log files suddenly stop generating in production — where do you start?
