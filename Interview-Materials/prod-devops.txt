@@ -3,6 +3,64 @@
 2️⃣ Git merge completed successfully but production started failing — where would you investigate?
 
 3️⃣ Jenkins build succeeds but artifact is not getting deployed — what could be wrong?
+Kubernetes
+
+2. Kubernetes Architecture & Concepts
+2.1 Define pod lifecycle.
+3. Describe Kubernetes architecture.
+4. Difference between Deployment and StatefulSet.
+5. Difference between Persistent Volume (PV) and Persistent Volume Claim (PVC).
+6. Which is static and which is dynamic in PV & PVC?
+7. Difference between Ingress Controller and Load Balancer.
+
+---
+
+Git & Version Control
+
+8. Difference between git pull and git fetch.
+9. When do we use Snapshot version and Release version?
+
+---
+
+Terraform
+
+10. What is Terraform?
+11. What is a state file in Terraform?
+12. How to recover a corrupted state file in Terraform?
+13. Difference between for_each and count in Terraform.
+14. Types of modules in Terraform.
+15. What is a state file and how do you lock it?
+
+---
+
+Docker
+
+16. What is Docker?
+16.1. Write a Dockerfile for a Java application.
+17. Types of networking in Docker.
+18. Difference between COPY and ADD in Dockerfile.
+
+
+---
+
+AWS & Cloud
+
+19. what is AWS
+19.1. What is IAM? Define various IAM roles.
+20. Types of Load Balancers in AWS.
+21. What is the maximum size of an S3 object?
+
+---
+
+Jenkins & CI/CD
+22. What are the various pipeline stages in Jenkins files?
+---
+
+8. Troubleshooting & Real-Time Scenarios
+
+23. Scenario: The application is up and running but not accessible from the public internet. How do you troubleshoot?
+
+24. Scenario: You deployed an EC2 instance with all necessary dependencies but are not able to access it. How do you troubleshoot?
 
 4️⃣ Kubernetes pod status shows Running but application returns 502/503 — what will you verify?
 
