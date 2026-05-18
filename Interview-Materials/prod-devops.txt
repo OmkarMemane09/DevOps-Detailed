@@ -1,4 +1,63 @@
  Your application suddenly starts consuming 95% memory after deployment — what will you check first?
+How will you troubleshoot a pod stuck in Pending state?
+
+2. How will you troubleshoot CrashLoopBackOff in Kubernetes?
+
+3. How will you troubleshoot a Jenkins build failure?
+
+4. How will you troubleshoot a Docker container exiting immediately?
+
+5. How will you troubleshoot an application returning 502 errors?
+
+6. How will you troubleshoot high CPU usage in Linux?
+
+7. How will you troubleshoot continuous memory growth?
+
+8. How will you troubleshoot disk utilization reaching 100%?
+
+9. How will you troubleshoot missing application logs?
+
+10. How will you troubleshoot slow API responses?
+
+11. How will you troubleshoot EC2 status check failures?
+
+12. How will you troubleshoot Route53 DNS failures?
+
+13. How will you troubleshoot Auto Scaling not launching instances?
+
+14. How will you troubleshoot ALB health check failures?
+
+15. How will you troubleshoot intermittent AWS outages?
+
+16. How will you troubleshoot pod-to-pod communication failures?
+
+17. How will you troubleshoot worker nodes becoming NotReady?
+
+18. How will you troubleshoot ingress routing failures?
+
+19. How will you troubleshoot HPA not scaling pods?
+
+20. How will you troubleshoot Kubernetes API latency?
+
+21. How will you troubleshoot Terraform modifying unexpected resources?
+
+22. How will you troubleshoot failed Helm releases?
+
+23. How will you troubleshoot Git merge conflicts in deployment?
+
+24. How will you troubleshoot SSL certificate failures?
+
+25. How will you troubleshoot database connection timeouts?
+
+26. How will you troubleshoot service discovery failures?
+
+27. How will you troubleshoot microservice communication delays?
+
+28. How will you troubleshoot monitoring dashboards showing no data?
+
+29. How will you troubleshoot production-only issues?
+
+30. How will you troubleshoot recurring incidents?
 
 2️⃣ Git merge completed successfully but production started failing — where would you investigate?
 
