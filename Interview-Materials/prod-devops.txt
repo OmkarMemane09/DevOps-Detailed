@@ -80,7 +80,25 @@ Git & Version Control
 9. When do we use Snapshot version and Release version?
 
 ---
+ Git pull works on your system but fails in Jenkins — what would you check?
 
+2️⃣ Application suddenly starts generating duplicate logs in production — what could be happening?
+
+3️⃣ Kubernetes service exists but pods cannot communicate — where would you investigate?
+
+4️⃣ CI/CD pipeline deployed successfully but users still see application errors — what would you verify?
+
+5️⃣ Website becomes slow only during office hours — what possibilities would you check?
+
+6️⃣ EC2 instance is running but application port is not reachable — what checks come first?
+
+7️⃣ One microservice starts consuming excessive memory — what metrics would you verify?
+
+8️⃣ Docker image builds successfully but container exits immediately after starting — why?
+
+9️⃣ Database connection suddenly reaches maximum limits — what would you investigate?
+
+🔟 Users report login failures but infrastructure dashboards look healthy — where would you start?
 Terraform
 
 10. What is Terraform?
