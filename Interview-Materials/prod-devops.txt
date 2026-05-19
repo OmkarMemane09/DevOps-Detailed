@@ -1,5 +1,25 @@
  Your application suddenly starts consuming 95% memory after deployment — what will you check first?
 How will you troubleshoot a pod stuck in Pending state?
+Describe your approach when a CI/CD pipeline suddenly fails in production.
+Explain steps to handle deployment rollback during application failure.
+Share your strategy for zero-downtime deployment in production.
+Describe troubleshooting steps for failed Jenkins pipelines.
+Explain handling of secrets and credentials in CI/CD pipelines.
+Describe fixing Docker image build failures in pipelines.
+Explain Kubernetes deployment failure troubleshooting in CI/CD.
+Share your approach to reducing CI/CD pipeline execution time.
+Describe handling of failed automated test cases in pipelines.
+Explain artifact management in enterprise CI/CD workflows.
+Describe monitoring and alerting setup for deployment failures.
+Explain handling of production approval workflows in CI/CD.
+Describe branch strategy implementation in CI/CD environments.
+Explain infrastructure deployment automation using Terraform pipelines.
+Describe handling of configuration drift in deployments.
+Explain security scanning implementation in CI/CD workflows.
+Describe troubleshooting of Git merge conflicts in pipelines.
+Explain blue-green deployment strategy in production.
+Describe canary deployment implementation in CI/CD systems.
+Explain disaster recovery strategy for CI/CD environments.
 
 2. How will you troubleshoot CrashLoopBackOff in Kubernetes?
 
