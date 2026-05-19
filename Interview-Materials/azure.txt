@@ -1,4 +1,25 @@
- az login – Login to Azure account
+✅ How does Azure Resource Manager work in real-time projects?
+ ✅ What is the role of ARM templates in Azure?
+ ✅ Difference between ARM templates and Terraform?
+ ✅ How do you deploy infrastructure using ARM templates?
+ ✅ How do you manage multiple environments using ARM?
+ ✅ How do you secure Azure resources using ARM?
+ ✅ How do you handle parameters and variables in ARM templates?
+ ✅ What are nested templates in Azure Resource Manager?
+ ✅ How do you implement reusable ARM templates?
+ ✅ How do you troubleshoot ARM deployment failures?
+ ✅ How do you integrate ARM with CI/CD pipelines?
+ ✅ How do you manage dependencies between Azure resources?
+ ✅ How do you use ARM templates with Azure DevOps?
+ ✅ How do you automate infrastructure provisioning in Azure?
+ ✅ How do you manage secrets securely in ARM templates?
+ ✅ How do you implement networking using ARM templates?
+ ✅ How do you monitor Azure infrastructure deployments?
+ ✅ What are common ARM production issues and fixes?
+ ✅ How do you optimize ARM templates for large projects?
+ ✅ What are best practices for Azure Resource Manager in production?
+
+az login – Login to Azure account
 🔹 az account show – Show current Azure account
 🔹 az group create – Create a resource group
 🔹 az vm create – Create Azure virtual machine
