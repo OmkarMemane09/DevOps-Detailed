@@ -1,5 +1,40 @@
 . Shell script runs manually but fails in cron. What will you check first?  
 2. Script working in dev but failing in production server. Why?  
+ What is the use of "#!/bin/bash" in shell script?
+🔹 What is the use of "$0" variable?
+🔹 What is the use of "$1", "$2", "$3" parameters?
+🔹 What is the use of "$#" variable?
+🔹 What is the use of "$?" variable?
+
+🔹 What is the use of "if" statement?
+🔹 What is the use of "elif" statement?
+🔹 What is the use of "case" statement?
+🔹 What is the use of "for" loop?
+🔹 What is the use of "while" loop?
+
+🔹 What is the use of "break" statement?
+🔹 What is the use of "continue" statement?
+🔹 What is the use of functions in shell scripting?
+🔹 What is the use of "read" command?
+🔹 What is the use of "echo" command?
+
+🔹 What is the use of "expr" command?
+🔹 What is the use of "cut" command?
+🔹 What is the use of "sort" command?
+🔹 What is the use of "uniq" command?
+🔹 What is the use of "wc" command?
+
+🔹 What is the use of "head" command?
+🔹 What is the use of "tail" command?
+🔹 What is the use of "tee" command?
+🔹 What is the use of "xargs" command?
+🔹 What is the use of "export" command?
+
+🔹 What is the use of input/output redirection?
+🔹 What is the use of pipes ("|") in Linux?
+🔹 What is the use of environment variables?
+🔹 What is the use of command substitution?
+🔹 What is the use of shell scripting in DevOps?
 3. Variables not getting passed correctly in script. What could be wrong?  
 4. Infinite loop causing high CPU usage. How will you debug it?  
 5. Script execution taking too long. How will you optimize it?  
