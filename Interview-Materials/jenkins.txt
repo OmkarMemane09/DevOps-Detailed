@@ -1,4 +1,40 @@
  What is Jenkins?  
+What is the use of "Build Now" in Jenkins?
+🔹 What is the use of "Configure" option in Jenkins?
+🔹 What is the use of "Console Output"?
+🔹 What is the use of "Build History"?
+🔹 What is the use of "Pipeline" in Jenkins?
+
+🔹 What is the use of "Freestyle Project"?
+🔹 What is the use of "Pipeline Script"?
+🔹 What is the use of "Jenkinsfile"?
+🔹 What is the use of "agent any" in Jenkinsfile?
+🔹 What is the use of "stages" block?
+
+🔹 What is the use of "stage" block?
+🔹 What is the use of "steps" block?
+🔹 What is the use of "post" block?
+🔹 What is the use of "environment" block?
+🔹 What is the use of "tools" block?
+
+🔹 What is the use of "input" step?
+🔹 What is the use of "parallel" stage?
+🔹 What is the use of "archiveArtifacts"?
+🔹 What is the use of "withCredentials"?
+🔹 What is the use of "timestamps()"?
+
+🔹 What is the use of "checkout scm"?
+🔹 What is the use of "sh" step?
+🔹 What is the use of "bat" step?
+🔹 What is the use of "retry()"?
+🔹 What is the use of "timeout()"?
+
+🔹 What is the use of Jenkins agents?
+🔹 What is the use of webhooks?
+🔹 What is the use of plugins in Jenkins?
+🔹 What is the use of Blue Ocean?
+🔹 What is the use of CI/CD pipeline in Jenkins?
+
 2. Why is Jenkins used in DevOps?  
 3. What is CI/CD?  
 4. Difference between Continuous Integration and Continuous Deployment?  
