@@ -8,7 +8,27 @@ What will you check first if EC2 instance suddenly becomes unreachable?
 🔹 What will you investigate if swap memory usage becomes abnormally high?
 🔹 What will you verify if CloudWatch alarms fail to trigger?
 🔹 What will you check if filesystem becomes read-only unexpectedly?
-
+What is Amazon Web Services and how does it work?
+ • What are the core AWS services used in DevOps?
+ • What is the difference between EC2 and Lambda?
+ • How does IAM work in AWS?
+ • What are Security Groups and NACLs?
+ • What is Auto Scaling?
+ • How does Elastic Load Balancer work?
+ • What is Amazon VPC and its components?
+ • How do you deploy applications in AWS?
+ • What is the difference between S3, EBS, and EFS?
+ • How do you secure AWS resources?
+ • What is CloudWatch and how is it used?
+ • How do you monitor AWS infrastructure?
+ • What is Infrastructure as Code in AWS?
+ • How do you use Terraform with AWS?
+ • How do you implement CI/CD pipelines in AWS?
+ • What is the role of CodePipeline and CodeBuild?
+ • How do you manage secrets securely?
+ • What are common AWS production issues and fixes?
+ • What are AWS production best practices?
+#AWS #AmazonWebServices #DevOps #CloudCo
 🔹 What will you investigate if Load Balancer marks healthy instances unhealthy?
 🔹 What will you verify if NFS mount disconnects frequently?
 🔹 What will you check if IAM permissions suddenly stop working?
