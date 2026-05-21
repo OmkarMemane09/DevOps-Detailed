@@ -1,5 +1,29 @@
 What will you check first if Linux server suddenly becomes unresponsive?
 🔹 What will you investigate if CPU usage reaches 100% unexpectedly?
+What are 10 Linux commands you use daily?
+
+2. Can you restore a lost PEM file? If not, how can you still access the EC2 instance?
+
+3. /var is almost 90% full — what are your next steps?
+
+4. Linux server is slow due to high CPU utilization. How will you fix it?
+
+5. Application deployed on NGINX returns "Connection Refused". How will you fix it?
+
+6. SSH to an instance suddenly stopped working. How will you troubleshoot?
+
+7. How do you find and list log files older than 7 days in /var/log?
+
+8. Your app generates large logs in /var/log/myapp/ with no log rotation. What do you do?
+
+9. How do you monitor multiple services like nginx, sshd, and docker?
+
+10. How do you find and delete files larger than 100MB from a directory?
+
+11. How do you get the list of users who logged in today?
+
+13. How do you remove the first and last line of a file using sed?
+
 🔹 What will you verify if memory usage continuously increases?
 🔹 What will you check if disk space becomes full overnight?
 🔹 What will you investigate if inode usage reaches 100%?
