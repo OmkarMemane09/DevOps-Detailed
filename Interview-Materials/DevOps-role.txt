@@ -228,6 +228,24 @@ Server is slow. What will you check first?
 37. High cloud bill detected overnight. What will you investigate?  
 38. Auto Scaling not triggering. Why?  
 39. Load balancer healthy but users cannot connect. Why?  
+ Your Terraform state file got corrupted mid-apply. How do you recover without losing infra?
+
+2. A pod is stuck in CrashLoopBackOff. tell me how you will debugging this ?
+
+3. You need the same infra across Dev, QA & Prod. How do you structure your Terraform code?
+
+4. Deployment shows 0 available pods but 3 desired. What could be wrong? How do you find out?
+
+5.  A teammate manually deleted a resource managed by Terraform. What happens on the next apply? How do you handle it?
+
+6.  A bad release went to production. How do you rollback in Kubernetes with zero downtime?
+
+7.  You're migrating existing AWS resources to Terraform. How do you import them without recreating?
+
+8.  Your service is not reachable from outside the cluster. How do you troubleshoot it end to end?
+
+9.  terraform plan shows a resource will be destroyed & recreated.
+How do you avoid downtime?
 40. Database latency high after release. What changed?  
 41. CronJob not executing. What will you debug?  
 42. Backup exists but restore failed. Why?  
