@@ -8,6 +8,75 @@ Explain handling of secrets and credentials in CI/CD pipelines.
 Describe fixing Docker image build failures in pipelines.
 Explain Kubernetes deployment failure troubleshooting in CI/CD.
 Share your approach to reducing CI/CD pipeline execution time.
+How will you identify application bottlenecks?
+🔹 How will you identify pod resource issues?
+🔹 How will you identify node-level failures?
+🔹 How will you identify deployment problems?
+🔹 How will you identify service communication failures?
+
+🔹 How will you identify CPU spikes?
+🔹 How will you identify memory leaks?
+🔹 How will you identify disk bottlenecks?
+🔹 How will you identify application latency?
+🔹 How will you identify server overload?
+
+🔹 How will you identify Jenkins pipeline failures?
+🔹 How will you identify Git workflow issues?
+🔹 How will you identify release failures?
+🔹 How will you identify rollback problems?
+🔹 How will you identify CI/CD bottlenecks?
+🔹 How will you perform root cause analysis for pod failures?
+🔹 How will you perform root cause analysis for node issues?
+🔹 How will you perform root cause analysis for deployment failures?
+🔹 How will you perform root cause analysis for service failures?
+🔹 How will you perform root cause analysis for application crashes?
+
+🔹 How will you perform root cause analysis for CPU spikes?
+🔹 How will you perform root cause analysis for memory leaks?
+🔹 How will you perform root cause analysis for disk failures?
+🔹 How will you perform root cause analysis for latency issues?
+🔹 How will you perform root cause analysis for server crashes?
+
+🔹 How will you perform root cause analysis for Jenkins failures?
+🔹 How will you perform root cause analysis for CI/CD issues?
+🔹 How will you perform root cause analysis for Git problems?
+🔹 How will you perform root cause analysis for rollback failures?
+🔹 How will you perform root cause analysis for release failures?
+
+🔹 How will you perform root cause analysis for DNS issues?
+🔹 How will you perform root cause analysis for Load Balancer failures?
+🔹 How will you perform root cause analysis for API failures?
+🔹 How will you perform root cause analysis for SSL issues?
+🔹 How will you perform root cause analysis for network failures?
+
+🔹 How will you perform root cause analysis for missing logs?
+🔹 How will you perform root cause analysis for monitoring gaps?
+🔹 How will you perform root cause analysis for database issues?
+🔹 How will you perform root cause analysis for production incidents?
+🔹 How will you perform root cause analysis for user-impacting failures?
+
+🔹 How will you perform root cause analysis for traffic spikes?
+🔹 How will you perform root cause analysis for recurring incidents?
+🔹 How will you perform root cause analysis for scaling issues?
+🔹 How will you perform root cause analysis for infrastructure failures?
+🔹 How will you perform root cause analysis for complete production outages?
+🔹 How will you identify Load Balancer issues?
+🔹 How will you identify DNS failures?
+🔹 How will you identify API problems?
+🔹 How will you identify SSL issues?
+🔹 How will you identify routing failures?
+
+🔹 How will you identify logging gaps?
+🔹 How will you identify monitoring blind spots?
+🔹 How will you identify database issues?
+🔹 How will you identify production incidents?
+🔹 How will you identify user-impacting problems?
+
+🔹 How will you identify traffic anomalies?
+🔹 How will you identify scaling issues?
+🔹 How will you identify recurring incidents?
+🔹 How will you identify infrastructure risks?
+🔹 How will you identify complete production failures?
 Describe handling of failed automated test cases in pipelines.
 Explain artifact management in enterprise CI/CD workflows.
 Describe monitoring and alerting setup for deployment failures.
