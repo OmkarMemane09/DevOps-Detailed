@@ -1,4 +1,38 @@
+ How does infrastructure provisioning work?
+🔹 How does Infrastructure as Code work?
+🔹 How does resource lifecycle management work?
+🔹 How does state management work?
+🔹 How does environment provisioning work?
 
+🔹 How will you troubleshoot failed provisioning?
+🔹 How will you troubleshoot state conflicts?
+🔹 How will you troubleshoot dependency failures?
+🔹 How will you troubleshoot environment mismatches?
+🔹 How will you troubleshoot infrastructure drift?
+
+🔹 How will you decide module structures?
+🔹 How will you decide reusable templates?
+🔹 How will you decide environment separation?
+🔹 How will you decide backend strategies?
+🔹 How will you decide provisioning approaches?
+
+🔹 How will you secure provisioning workflows?
+🔹 How will you secure infrastructure credentials?
+🔹 How will you secure state files?
+🔹 How will you secure resource access?
+🔹 How will you secure production environments?
+
+🔹 How will you monitor infrastructure changes?
+🔹 How will you monitor provisioning status?
+🔹 How will you monitor resource utilization?
+🔹 How will you monitor deployment accuracy?
+🔹 How will you monitor production environments?
+
+🔹 How will you recover failed provisioning?
+🔹 How will you recover state corruption?
+🔹 How will you recover infrastructure failures?
+🔹 How will you recover deployment issues?
+🔹 How will you recover complete infrastructure environments?
 🔹 What will you check first if pod stays in Pending state?
 🔹 What will you investigate if CrashLoopBackOff happens repeatedly?
 🔹 What will you verify if ImagePullBackOff occurs after deployment?
