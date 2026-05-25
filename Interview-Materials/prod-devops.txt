@@ -6,6 +6,41 @@ Share your strategy for zero-downtime deployment in production.
 Describe troubleshooting steps for failed Jenkins pipelines.
 Explain handling of secrets and credentials in CI/CD pipelines.
 Describe fixing Docker image build failures in pipelines.
+What will you do if Kubernetes API requests suddenly become slow?
+🔹 What will you do if pods fail after node restart?
+🔹 What will you do if worker nodes remain NotReady?
+🔹 What will you do if services suddenly stop exposing traffic?
+🔹 What will you do if deployments stay stuck in rollout?
+
+🔹 What will you do if CPU usage spikes without traffic increase?
+🔹 What will you do if memory usage suddenly doubles?
+🔹 What will you do if disk I/O becomes very high?
+🔹 What will you do if application response time suddenly increases?
+🔹 What will you do if system load rises unexpectedly?
+
+🔹 What will you do if Jenkins pipelines randomly fail?
+🔹 What will you do if Jenkins agents fail after restart?
+🔹 What will you do if Git webhooks suddenly stop?
+🔹 What will you do if rollback creates additional issues?
+🔹 What will you do if deployments succeed but users still fail?
+
+🔹 What will you do if Route53 resolution suddenly slows down?
+🔹 What will you do if ALB health checks become unstable?
+🔹 What will you do if APIs suddenly return 504 errors?
+🔹 What will you do if SSL renewal fails?
+🔹 What will you do if DNS requests randomly timeout?
+
+🔹 What will you do if monitoring dashboards stop refreshing?
+🔹 What will you do if logs stop reaching ELK?
+🔹 What will you do if database latency suddenly increases?
+🔹 What will you do if users report intermittent issues?
+🔹 What will you do if dashboards still show healthy metrics?
+
+🔹 What will you do if traffic suddenly increases 100x?
+🔹 What will you do if one availability zone becomes unavailable?
+🔹 What will you do if incidents repeat after deployments?
+🔹 What will you do if issue appears only during heavy load?
+🔹 What will you do if production suddenly goes down?
 Explain Kubernetes deployment failure troubleshooting in CI/CD.
 Share your approach to reducing CI/CD pipeline execution time.
 How will you identify application bottlenecks?
