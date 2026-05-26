@@ -11,7 +11,26 @@ What will you do if Kubernetes API requests suddenly become slow?
 🔹 What will you do if worker nodes remain NotReady?
 🔹 What will you do if services suddenly stop exposing traffic?
 🔹 What will you do if deployments stay stuck in rollout?
-
+1. How do you design a zero-downtime Kubernetes cluster upgrade in production?
+2. A service is healthy but intermittently returns 503 errors - how would you debug this?
+3. How would you design a multi-region deployment architecture with failover?
+4. How do you handle stateful applications (like DBs) in Kubernetes?
+5. How would you design a secure and scalable secrets management system across teams?
+6. Your CI/CD pipeline takes 20 minutes for every commit - how would you optimize it to under 5 minutes?
+7. How do you implement GitOps at scale for multiple teams and environments?
+8. How would you design role-based access control (RBAC) across Kubernetes and cloud services? 
+9. A Terraform apply failed midway in production - how do you recover without breaking infra?
+10. How do you split and manage large Terraform state files across teams?
+11. How do you implement runtime security for containers beyond image scanning?
+12. How would you detect and prevent privilege escalation in Kubernetes clusters?
+13. How do you design SLO-based alerting to avoid alert fatigue?
+14. How do you correlate logs, metrics, and traces during a production incident?
+15. How would you design a self-healing system for critical services?
+16. How do you handle cascading failures in microservices architecture?
+17. How would you design a high-throughput CI system handling hundreds of builds per hour?
+18. How do you ensure data consistency and reliability in distributed systems?
+19. Your infrastructure cost increased by 50% in a week - how do you investigate and fix it?
+20. A system is working fine but latency suddenly spikes under specific conditions - how do you approach debugging?
 🔹 What will you do if CPU usage spikes without traffic increase?
 🔹 What will you do if memory usage suddenly doubles?
 🔹 What will you do if disk I/O becomes very high?
