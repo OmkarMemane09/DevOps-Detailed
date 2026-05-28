@@ -15,6 +15,45 @@ Kubernetes (Core + Advanced)
 14. Why is your application slow even when CPU is low?  
 15. What is the difference between monitoring and observability?  
 16. Why is your Docker image size affecting deployment speed?  
+Terraform apply failed – how do you troubleshoot?
+
+What is a Terraform state lock error?
+
+How do you fix a corrupted Terraform state?
+
+What is terraform force-unlock?
+
+What causes CIDR overlap errors?
+
+How do you handle “resource already exists” errors?
+
+What causes provider version conflicts?
+
+How do you create multiple identical EC2 instances in Terraform?
+
+Difference between count and for_each?
+
+When should you use count?
+
+When should you use for_each?
+
+How do you create EC2 instances with different sizes?
+
+How do you create 5 identical EC2 instances?
+
+How do you tag EC2 instances dynamically?
+
+Why is Auto Scaling preferred over multiple EC2 instances?
+
+How do you integrate AWS with Jenkins?
+
+Why is IAM role better than access keys?
+
+What permissions are required for Jenkins to create EC2/VPC?
+
+How do you test AWS access from Jenkins?
+
+How does Jenkins deploy infrastructure using Terraform?
 17. What happens if secrets are exposed in pipeline?  
 18. Why is your auto scaling not triggering?  
 19. What is the difference between fault tolerance and high availability?  
