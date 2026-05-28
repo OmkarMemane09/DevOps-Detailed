@@ -4,6 +4,22 @@ What will you check first if EC2 instance suddenly becomes unreachable?
 🔹 What will you check if disk space becomes full overnight?
 🔹 What will you investigate if Route 53 DNS resolution fails intermittently?
 🔹 What will you verify if SSH access suddenly stops working?
+ As you mentioned, that you have an experience in optimizing the CICD for micro-services based architecture, So can you explain me the high level of what your CICD pipeline looks like ?
+ 3. What is the trigger point of the pipeline ?
+ 4. How do you deploy the application on to the EKS ?
+ 5. Lets say the every tests has passed, but the pod is crash looping...Is there a step for an alert based on that ?
+ 6. What versions of EKS are your using currently ?
+ 7. How can you upgrade all the production EKS from 1.33 version to 1.34 ? What are all the steps you take and how you carry forward it ?
+ 8. How can you update the cloud native tools like nginx ingress-controller is not compatible, what and how will you do it ? 
+ 9. Can you tell me the difference between terraform taint and terraform destroy ?
+ 10. How do you handle sensitive information in terraform ?
+ 11. Lets say your application has a DNS called abc.com which is publicly hosted, the backend of the application is hosted in EKS cluster...What happens the user clicks abc.com til it reaches the pod from k8s point io view ?
+ 12. What all alert rules you follow/different metrics you will use to monitor your Kubernetes cluster, leave the CPU, memory disk.
+ 13. How do you make your Kubernetes cluster secure, which is already deployed ?
+ 14. You mentioned about the security constraints in yaml, what do you call those constraints in Kubernetes ?
+ 15. What all the measures you used to optimize the cost in your organization ?
+ 16. Lets take a scenario, where you are the only person available in DevOps team, and your manager is on leave...on a Saturday night one of your client, comes to you and say that "we are facing an issue and within 20 to 25 mins our servers goes down and asks you to deploy the new container version from v1.5 to v1.6 as soon as possible, What do you do ?
+ 17. Can you explain me how you are using GitHub principles in your organization ?
 🔹 What will you check if Auto Scaling launches instances continuously?
 🔹 What will you investigate if swap memory usage becomes abnormally high?
 🔹 What will you verify if CloudWatch alarms fail to trigger?
