@@ -1,3 +1,33 @@
+1. What happens when a Linux server boots?
+2. What is GRUB?
+3. What is systemd?
+4. What is a Process?
+5. What is a Thread?
+
+6. What is PID?
+7. What is a Zombie Process?
+8. What is an Orphan Process?
+9. What is a Daemon Process?
+10. What is Load Average?
+
+11. What is Swap Memory?
+12. What is an Inode?
+13. What happens if Inodes become full?
+14. What happens if Disk becomes 100% full?
+15. What is the /proc directory?
+
+16. What is the /etc directory?
+17. What is the /var directory?
+18. What is the /tmp directory?
+19. What is the difference between Soft Link and Hard Link?
+20. What is SSH?
+
+21. What is chmod?
+22. What is chown?
+23. What is sudo?
+24. What is Crontab?
+25. What are your first checks when a Linux server becomes slow?
+
 What will you check first if Linux server suddenly becomes unresponsive?
 🔹 What will you investigate if CPU usage reaches 100% unexpectedly?
 What are 10 Linux commands you use daily?
