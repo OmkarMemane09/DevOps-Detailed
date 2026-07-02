@@ -1,4 +1,3 @@
-# DevOps Interview Handbook - Part 3C (Git Interview Scenarios)
 
 # 18. Have You Ever Used Git Tags? If Yes, Why?
 
