@@ -3,7 +3,55 @@
 🔹 How does resource lifecycle management work?
 🔹 How does state management work?
 🔹 How does environment provisioning work?
+ Terraform state file becomes corrupted. How would you investigate?
 
+2) State locking fails during deployment. What would you check?
+
+3) Resources exist in AWS but not in Terraform state. How would you troubleshoot?
+
+4) Multiple engineers modify the same state file. How would you investigate?
+
+5) Terraform plans unexpected resource deletions. What would you analyze?
+
+6) Backend migration causes deployment failures. How would you troubleshoot?
+
+7) Remote state access fails. What would you investigate?
+
+8) State drift is detected after production changes. How would you analyze it?
+
+9) Monitoring shows healthy infrastructure but deployments fail. What would you check?
+
+10) State file version mismatch causes errors. How would you troubleshoot?
+
+11) A rollback requires state recovery. How would you investigate?
+
+12) Terraform imports fail unexpectedly. What would you analyze?
+
+13) Infrastructure changes occur outside Terraform. How would you respond?
+
+14) Pipeline execution fails because of state conflicts. How would you troubleshoot?
+
+15) One incorrect apply impacts multiple environments. How would you investigate?
+
+16) A Terraform state issue causes a Sev-1 outage. What evidence would you collect?
+
+17) Which Terraform logs are most useful?
+
+18) What commands would you execute first?
+
+19) How would you validate state before production?
+
+20) What controls reduce IaC risks?
+
+21) How would you improve Terraform reliability?
+
+22) What testing should occur before backend changes?
+
+23) What should be documented in a Terraform RCA?
+
+24) How would you improve infrastructure governance?
+
+25) What preventive actions would reduce future incident
 🔹 How will you troubleshoot failed provisioning?
 🔹 How will you troubleshoot state conflicts?
 🔹 How will you troubleshoot dependency failures?
