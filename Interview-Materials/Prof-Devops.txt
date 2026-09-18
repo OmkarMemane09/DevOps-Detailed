@@ -1,0 +1,25 @@
+𝗧𝗲𝗿𝗿𝗮𝗳𝗼𝗿𝗺
+1. You have made changes in Terraform, but the plan is showing unexpected resources to be created or destroyed. How would you investigate?
+2. Two Engineers are working with the same Terraform state at the same time. How would you prevent state conflicts?
+3. Terraform apply failed halfway through the deployment. What would you check before running terraform apply again?
+4. You need to create the same infrastructure for multiple environments, such as Dev, UAT, and Prod. How would you structure your Terraform code?
+
+𝗔𝗪𝗦/EKS
+5. Your application is running successfully in an EKS Pod, but users are unable to access it. How would you troubleshoot the issue?
+6. A pod is running on one of the EKS nodes, but suddenly the node goes down. What happens to the application?
+7. Your application running in EKS cannot connect to an RDS database. What AWS/Kubernetes components would you check?
+8. CPU usage suddenly increases across multiple Pods in production. How would you investigate the issue?
+
+𝗗𝗼𝗰𝗸𝗲𝗿
+9. A Docker container starts and then immediately exits. How would you find the root cause?
+10. Your Docker image is around 2 GB, and the deployment team wants to reduce it significantly. What would you do?
+11. The application works on your local machine but fails after running inside a container. How would you troubleshoot it?
+
+𝗚𝗶𝘁 & 𝗖𝗜/𝗖𝗗
+12. A developer accidentally pushed incorrect code to a shared branch. How would you handle the situation?
+13. You have conflicts between your feature branch and the main branch. What steps would you follow?
+14. Your team has multiple developers working on the same repository. What Git branching strategy would you follow?
+15. A Jenkins pipeline that was working yesterday suddenly starts failing today. How would you troubleshoot it?
+16. Your Jenkins pipeline successfully builds the Docker image but fails while pushing it to ECR. What would you check?
+17. The CI pipeline is successful, but the deployment to Kubernetes fails. How would you identify where the problem is?
+18. How would you design a pipeline from Git → Jenkins → Docker → ECR → EKS?
